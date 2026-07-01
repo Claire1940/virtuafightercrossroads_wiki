@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Virtua Fighter Crossroads - Release, Story & Combat",
+      "description": "Guide to Virtua Fighter Crossroads release info, trailers, characters, story, Vilasapara, combat, modes, and official updates for new and returning players.",
+      "keywords": "virtua fighter crossroads, release date, characters, story, combat, trailers",
+      "ogTitle": "Virtua Fighter Crossroads - Release, Story & Combat",
+      "ogDescription": "Guide to Virtua Fighter Crossroads release info, trailers, characters, story, Vilasapara, combat, modes, and official updates for new and returning players.",
+      "twitterTitle": "Virtua Fighter Crossroads - Release, Story & Combat",
+      "twitterDescription": "Explore the 2027 Virtua Fighter revival: release window, story, characters, combat, trailers, and Vilasapara city lore."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Narrative 3D Fighting Adventure",
+    "title": "Virtua Fighter Crossroads Wiki",
+    "description": "Explore the 2027 Virtua Fighter revival with branching single-player story, Vilasapara city lore, Cielo updates, trailers, and classic 3D head-to-head combat.",
+    "getFreeCodesCTA": "Watch Trailer",
+    "playOnSteamCTA": "View Official Site",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2027",
+        "label": "Release Window"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "4",
+        "label": "New Protagonists"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Vilasapara",
+        "label": "Main City"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Bakunawa Killer",
+        "label": "Latest Fighter"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Dive into Virtua Fighter Crossroads?",
+    "description": "Join the official Virtua Fighter Crossroads community on Discord for story updates, character reveals, trailers, and discussion.",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "View Official Site"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Virtua Fighter Crossroads Wiki",
+    "description": "Your complete resource hub for Virtua Fighter Crossroads release info, story, characters, combat, trailers, and Vilasapara city lore.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "YouTube",
+    "steamStore": "Instagram",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Virtua Fighter Crossroads Wiki. Not affiliated with SEGA or RGG Studio.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

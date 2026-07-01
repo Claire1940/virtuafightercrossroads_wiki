@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://virtuafightercrossroads.wiki'
   const path = '/about'
 
   return {
-    title: 'About Lucid Blocks Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Lucid Blocks Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Lucid Blocks Steam game.',
+    title: 'About Virtua Fighter Crossroads Wiki - 2027 Fighting Adventure Resource',
+    description: 'Learn about Virtua Fighter Crossroads Wiki, a community-driven resource hub providing release info, story guides, character details, combat breakdowns, and trailer coverage for the 2027 SEGA fighting adventure.',
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'About Lucid Blocks Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources and guides.',
+      siteName: 'Virtua Fighter Crossroads Wiki',
+      title: 'About Virtua Fighter Crossroads Wiki',
+      description: 'Learn about our mission to provide the best Virtua Fighter Crossroads game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: 'Lucid Blocks Wiki',
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1280,
+          height: 720,
+          alt: 'Virtua Fighter Crossroads Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About Lucid Blocks Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      title: 'About Virtua Fighter Crossroads Wiki',
+      description: 'Learn about our mission to provide the best Virtua Fighter Crossroads resources.',
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -59,10 +59,10 @@ export default function About() {
       <section className="relative py-20 px-4 border-b border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About Lucid Blocks Wiki
+            About Virtua Fighter Crossroads Wiki
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Your community-driven resource center for Lucid Blocks
+            Your community-driven resource center for Virtua Fighter Crossroads
           </p>
         </div>
       </section>
@@ -71,15 +71,15 @@ export default function About() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Welcome to Lucid Blocks Wiki</h2>
+            <h2>Welcome to Virtua Fighter Crossroads Wiki</h2>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "Lucid Blocks". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              Virtua Fighter Crossroads Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
+              follow the 2027 SEGA / RGG Studio fighting adventure &ldquo;Virtua Fighter Crossroads&rdquo;. We are a community-driven platform that provides release tracking, story and character guides,
+              combat breakdowns, trailer coverage, and Vilasapara city lore to keep you ready for launch.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
-              Lucid Blocks Wiki is here to support you every step of the way.
+              Whether you&apos;re a longtime Virtua Fighter fan returning to the series or a newcomer drawn in by the new narrative direction,
+              Virtua Fighter Crossroads Wiki is here to support you every step of the way.
             </p>
           </div>
         </div>
@@ -91,21 +91,21 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Our Mission</h2>
             <p>
-              Our mission is simple: <strong>to empower Lucid Blocks players with accurate, up-to-date information
-              and powerful tools</strong> that help them succeed in the game. We strive to:
+              Our mission is simple: <strong>to empower Virtua Fighter Crossroads players with accurate, up-to-date information
+              and useful resources</strong> that help them understand the game before and after release. We strive to:
             </p>
             <ul>
-              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
-              <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
+              <li><strong>Provide reliable information:</strong> Track official reveals, trailers, and announcements and keep our content updated as SEGA shares more</li>
+              <li><strong>Explain the game:</strong> Break down the branching story, four protagonists, combat system, and Vilasapara setting in clear guides</li>
+              <li><strong>Foster community:</strong> Create a welcoming space where fans can discuss, theorize, and share their excitement</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
 
             <h2>Our Vision</h2>
             <p>
-              We envision Lucid Blocks Wiki as the <strong>go-to destination</strong> for every Lucid Blocks player seeking
-              to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              We envision Virtua Fighter Crossroads Wiki as the <strong>go-to destination</strong> for every player seeking
+              to understand the 2027 revival. We want to be the resource that players trust and rely on, whether they need
+              release and platform updates, want to explore the story and characters, or are looking for deep combat analysis.
             </p>
           </div>
         </div>
@@ -118,51 +118,51 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">📅</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Release &amp; Platforms</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Clear tracking of the 2027 release window, official platform announcements, and pre-order availability
+                as SEGA confirms them. No rumors stated as fact.
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">📖</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Story &amp; Characters</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Guides on the four protagonists, branching narrative, and key events like the Bakunawa Killer storyline
+                unfolding across the city of Vilasapara.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">⚔️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Combat System</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Breakdowns of the traditional 3D head-to-head combat, multi-enemy battles, boss fights, and the
+                strategy depth the Virtua Fighter series is known for.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">🎬</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Trailers &amp; Showcase</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Organized coverage of official trailers &mdash; Reveal, Showcase, Cielo Story, and Bakunawa Killer &mdash;
+                with the key details players actually care about.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">🌆</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Vilasapara Lore</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                World-building content on the fictional Southeast Asian city of Vilasapara, its districts, and the
+                Vila Fight Fest event at the heart of the story.
               </p>
             </div>
 
@@ -171,8 +171,8 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, Japanese, Spanish, and more,
+                reflecting the game&apos;s global official pages.
               </p>
             </div>
           </div>
@@ -185,18 +185,18 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Community-Driven</h2>
             <p>
-              Lucid Blocks Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
-              feedback, and suggestions from players of all skill levels. Our content is constantly evolving based on:
+              Virtua Fighter Crossroads Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
+              feedback, and suggestions from fans of all kinds. Our content is constantly evolving based on:
             </p>
             <ul>
               <li><strong>Player feedback:</strong> Your suggestions help us improve and expand our resources</li>
-              <li><strong>Community discoveries:</strong> New strategies, hidden mechanics, and pro tips shared by players</li>
-              <li><strong>Game updates:</strong> We monitor official updates and adjust our content accordingly</li>
-              <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
+              <li><strong>Community discoveries:</strong> Lore details, theories, and observations shared by fans</li>
+              <li><strong>Official updates:</strong> We track SEGA and RGG Studio announcements and adjust our content accordingly</li>
+              <li><strong>Reveal cycles:</strong> As new trailers and character reveals drop, we update guides to match</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
-              or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
+              <strong>Want to contribute?</strong> Whether you&apos;ve spotted a lore detail, have a theory on the story,
+              or have suggestions for new guides, we&apos;d love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
         </div>
@@ -208,21 +208,21 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>About the Team</h2>
             <p>
-              Lucid Blocks Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              Lucid Blocks as much as you do. We're players first, constantly testing strategies, exploring game
-              mechanics, and staying updated with the latest discoveries.
+              Virtua Fighter Crossroads Wiki is maintained by a dedicated team of passionate fighting-game fans and developers
+              who love the Virtua Fighter series as much as you do. We&apos;re players first, constantly following official news,
+              dissecting trailers, and staying updated with the latest reveals.
             </p>
             <p>
               Our team combines expertise in:
             </p>
             <ul>
-              <li><strong>Game analysis:</strong> Deep understanding of Lucid Blocks mechanics and strategies</li>
+              <li><strong>Game analysis:</strong> Deep understanding of fighting game mechanics and the Virtua Fighter legacy</li>
               <li><strong>Web development:</strong> Building fast, user-friendly tools and interfaces</li>
-              <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
-              <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
+              <li><strong>Content creation:</strong> Writing clear, helpful guides and lore breakdowns</li>
+              <li><strong>Community management:</strong> Listening to fan feedback and fostering a positive environment</li>
             </ul>
             <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
+              Project Codename: &ldquo;Crossroads&rdquo; &ndash; Charting every path through Vilasapara.
             </p>
           </div>
         </div>
@@ -234,15 +234,15 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
-              <strong>Lucid Blocks Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Lucid Blocks or any official entities.
+              <strong>Virtua Fighter Crossroads Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
+              endorsed by, or associated with SEGA, RGG Studio, or the developers of Virtua Fighter Crossroads.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
               We use game-related content under fair use principles for informational and educational purposes only.
             </p>
             <p>
-              Lucid Blocks Wiki is a non-profit, community resource created by fans, for fans.
+              Virtua Fighter Crossroads Wiki is a non-profit, community resource created by fans, for fans.
             </p>
           </div>
         </div>
@@ -254,31 +254,31 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Get in Touch</h2>
             <p>
-              We'd love to hear from you! Whether you have questions, suggestions, found a bug, or just want to say hi:
+              We&apos;d love to hear from you! Whether you have questions, suggestions, found an error, or just want to say hi:
             </p>
             <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">General Inquiries</h3>
-                <a href="mailto:contact@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contact@lucidblocks.wiki
+                <a href="mailto:contact@virtuafightercrossroads.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contact@virtuafightercrossroads.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Bug Reports</h3>
-                <a href="mailto:support@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  support@lucidblocks.wiki
+                <a href="mailto:support@virtuafightercrossroads.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  support@virtuafightercrossroads.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Content Submissions</h3>
-                <a href="mailto:contribute@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contribute@lucidblocks.wiki
+                <a href="mailto:contribute@virtuafightercrossroads.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contribute@virtuafightercrossroads.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Partnerships</h3>
-                <a href="mailto:partnerships@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  partnerships@lucidblocks.wiki
+                <a href="mailto:partnerships@virtuafightercrossroads.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  partnerships@virtuafightercrossroads.wiki
                 </a>
               </div>
             </div>
@@ -294,7 +294,7 @@ export default function About() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
           <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-            Stay updated with the latest guides, tips, and Lucid Blocks news.
+            Stay updated with the latest release news, story breakdowns, and Virtua Fighter Crossroads reveals.
             Bookmark this site and check back regularly for new content!
           </p>
           <Link
@@ -310,7 +310,7 @@ export default function About() {
       <section className="py-8 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <Link href="/" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-            ← Back to Home
+            &larr; Back to Home
           </Link>
         </div>
       </section>
