@@ -387,171 +387,437 @@
     },
     "vfCrossroadsCombat": {
       "title": "Virtua Fighter Crossroads Combat Mechanics",
-      "intro": "Virtua Fighter Crossroads keeps the series' direct punch, kick, and guard philosophy while rebuilding parts of the system for more realistic close-range fighting and stronger strategic depth.",
+      "intro": "Virtua Fighter Crossroads keeps the series focused on close-range reads while rebuilding the battle system around new momentum tools, cinematic defensive options, and a more realistic hit presentation. This section separates battle rules from individual mechanics so players can quickly see what each system does in actual fights.",
       "mechanics": [
-        {
-          "icon": "Hand",
-          "name": "Punch, Kick, Guard Foundation",
-          "type": "Core Controls",
-          "description": "The classic three-input foundation stays at the center of every fight, keeping Virtua Fighter accessible for new players."
-        },
-        {
-          "icon": "Crosshair",
-          "name": "Realistic Close-Range Fighting",
-          "type": "Combat Design",
-          "description": "Developer materials describe a more realistic close-range fighting feel than past entries in the series."
-        },
-        {
-          "icon": "Activity",
-          "name": "Stronger Strategic Depth",
-          "type": "Combat Design",
-          "description": "The team is rebuilding parts of the system for stronger strategy and decision-making, not just flashier animations."
-        },
         {
           "icon": "Shield",
           "name": "Standard Rules",
-          "type": "Match Rules",
-          "description": "The default competitive rule set built around the classic one-on-one format."
+          "category": "Battle Rule",
+          "howItWorks": "Victory is determined by depleting the opponent's health or causing a ring out. By default, matches are won by taking three rounds.",
+          "playerImpact": "This is the traditional Virtua Fighter-style rule option for players who want health management, stage control, and ring-out pressure.",
+          "trackedDetails": [
+            "Round settings",
+            "Ring-out behavior",
+            "Match option controls"
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Uprising Rules",
+          "category": "Battle Rule",
+          "howItWorks": "A new rule option built around dynamic momentum-shifting opportunities, designed as a separate concept from Standard rules.",
+          "playerImpact": "Uprising is the key ruleset to watch for players who want a more dramatic match flow than classic round-based combat.",
+          "trackedDetails": [
+            "Full rule flow",
+            "Scoring conditions",
+            "Competitive settings"
+          ]
+        },
+        {
+          "icon": "Hammer",
+          "name": "Break and Rush",
+          "category": "Offensive System",
+          "howItWorks": "Repeated hits to specific body regions build damage. Once enough damage accumulates, the attacker can land a break attack, and the broken status carries over across rounds.",
+          "playerImpact": "Players can plan attacks around body-part pressure instead of only chasing immediate damage, creating longer-term strategy across a match.",
+          "trackedDetails": [
+            "Breakable regions",
+            "Break attack triggers",
+            "Carryover behavior"
+          ]
         },
         {
           "icon": "Zap",
-          "name": "Uprising Rules",
-          "type": "Match Rules",
-          "description": "An alternate rule set that changes how rounds and pressure play out."
+          "name": "Stunner",
+          "category": "Strike Technique",
+          "howItWorks": "A new strike technique that opens opponents to additional damage and connects into the new Stun Combo flow.",
+          "playerImpact": "Stunner gives players a clear way to create combo opportunities without relying only on older launch-and-juggle patterns.",
+          "trackedDetails": [
+            "Stunner inputs",
+            "Hit conditions",
+            "Follow-up windows"
+          ]
         },
         {
-          "icon": "Rocket",
-          "name": "Break and Rush",
-          "type": "Offense System",
-          "description": "Tools for breaking pressure and rushing opponents, expanding offensive options."
+          "icon": "Activity",
+          "name": "Stun Combo",
+          "category": "Combo System",
+          "howItWorks": "A new combo mechanic focused on fluidity and realism, built so players can access stronger combo routes without complex inputs.",
+          "playerImpact": "New players get a clearer path into damaging follow-ups, while experienced players can study how stun states reshape pressure.",
+          "trackedDetails": [
+            "Combo starters",
+            "Damage scaling",
+            "Character-specific routes"
+          ]
         },
         {
-          "icon": "Flame",
-          "name": "Stunner and Stun Combo",
-          "type": "Combo System",
-          "description": "Stun states open up combo opportunities and reward precise timing."
-        },
-        {
-          "icon": "Target",
+          "icon": "Wind",
           "name": "Flow Guard",
-          "type": "Defensive System",
-          "description": "A flow-based guard mechanic that shapes how players defend and counter."
+          "category": "Defensive System",
+          "howItWorks": "A stylish defensive mechanic emphasizing fluid motion and visual flair. It works alongside Break and Rush to shift offense and defense during combat.",
+          "playerImpact": "Defense becomes more active and readable, giving players another layer beyond simply blocking or evading.",
+          "trackedDetails": [
+            "Guard timing",
+            "Break and Rush interaction",
+            "Counterplay options"
+          ]
+        },
+        {
+          "icon": "Hand",
+          "name": "Close-Range Virtua Fighter Core",
+          "category": "Series Foundation",
+          "howItWorks": "Virtua Fighter combat is built around close-range fighting with striking, throwing, and guarding as the central pillars.",
+          "playerImpact": "Crossroads still asks players to read the opponent directly: strikes beat throw attempts, guard shuts down strikes, and throws punish passive guarding.",
+          "trackedDetails": [
+            "Strike-throw-guard logic",
+            "Spacing rules",
+            "Movement options"
+          ]
+        },
+        {
+          "icon": "Clapperboard",
+          "name": "Cinematic Hit Presentation",
+          "category": "Presentation System",
+          "howItWorks": "Crossroads uses an action movie-inspired combat presentation with dramatic camera work and heavier close-up hit reactions.",
+          "playerImpact": "The game keeps Virtua Fighter's technical identity while making decisive attacks easier to read and more visually expressive.",
+          "trackedDetails": [
+            "Camera behavior",
+            "Final-hit presentation",
+            "Readability in versus play"
+          ]
+        },
+        {
+          "icon": "Gamepad2",
+          "name": "Rebuilt Intuitive Controls",
+          "category": "Control Philosophy",
+          "howItWorks": "The development team is preserving Virtua Fighter's simple, immediate feel while reorganizing older complex elements and adding new systems.",
+          "playerImpact": "Crossroads is being positioned as simple to understand at first contact, with depth coming from timing, reads, defense, and system mastery.",
+          "trackedDetails": [
+            "Punch, Kick, Guard flow",
+            "Legacy system changes",
+            "Input accessibility"
+          ]
         }
       ]
     },
     "vfCrossroadsBeginner": {
       "title": "Virtua Fighter Crossroads Beginner Guide",
-      "intro": "The fundamentals new players need before Virtua Fighter Crossroads launches. Crossroads-specific frame data and move lists will arrive after release, but the core philosophy is already clear.",
+      "intro": "Virtua Fighter is not about fireballs or long-range zoning. It is about close-range decisions: when to strike, when to guard, when to throw, and how to react after each exchange. This guide gives new players a clean training path before Crossroads launches.",
       "steps": [
         {
-          "title": "Learn the Three Buttons",
-          "description": "Virtua Fighter is built on punch, kick, and guard. Master how these three inputs chain together before adding anything fancy."
+          "icon": "Crosshair",
+          "focus": "Core Combat",
+          "title": "Learn the strike, throw, and guard triangle",
+          "whatToLearn": "Striking beats opponents who try to throw, guarding nullifies strikes, and throws open up opponents who keep guarding.",
+          "practiceActions": [
+            "Play short rounds focused only on blocking, throwing, and basic attacks.",
+            "After every exchange, name what beat what before starting the next round."
+          ],
+          "crossroadsCarryover": "Crossroads keeps the close-range Virtua Fighter identity and adds new systems on top of that foundation."
         },
         {
-          "title": "Understand Strike, Throw, and Guard",
-          "description": "Strikes beat throws, throws beat guards, and guards beat strikes. This rock-paper-scissors loop is the heart of every Virtua Fighter match."
+          "icon": "Keyboard",
+          "focus": "Controls",
+          "title": "Build comfort with Punch, Kick, and Guard",
+          "whatToLearn": "Virtua Fighter notation uses simple button logic: PK means Punch then Kick, while P+K means pressing Punch and Kick at the same time.",
+          "practiceActions": [
+            "Repeat basic Punch, Kick, Guard, PK, and P+K inputs until the timing feels natural.",
+            "Read move-list arrows from Player 1's facing direction, then reverse them when practicing on the opposite side."
+          ],
+          "crossroadsCarryover": "Crossroads is being designed around an intuitive control feel where basic actions remain easy to understand."
         },
         {
-          "title": "Control Close-Range Spacing",
-          "description": "Crossroads emphasizes realistic close-range fighting, so learn to manage the small gaps where most damage happens."
+          "icon": "ClipboardCheck",
+          "focus": "First Practice Session",
+          "title": "Use Tutorial Mode before chasing advanced defense",
+          "whatToLearn": "Official beginner guidance recommends learning controls, movement, guarding, and fundamentals before advanced defensive and offensive lessons.",
+          "practiceActions": [
+            "Run the basic tutorial first.",
+            "Ignore advanced systems during the first session and repeat movement plus guard drills."
+          ],
+          "crossroadsCarryover": "The same order works for Crossroads: learn the core controls first, then study Break and Rush, Flow Guard, Stunner, and Stun Combo."
         },
         {
-          "title": "Practice Movement and Positioning",
-          "description": "Movement decides who attacks first. Drill stepping in, stepping out, and turning your opponent."
+          "icon": "Shield",
+          "focus": "Defense",
+          "title": "Separate Standing Guard from Crouching Guard",
+          "whatToLearn": "Standing Guard blocks high and mid attacks but loses to lows and throws. Crouching Guard blocks lows and avoids highs and throws, but loses to mids.",
+          "practiceActions": [
+            "Start with Standing Guard to reduce damage from strong mid attacks.",
+            "Add Crouching Guard once you can recognize low attacks and throw attempts."
+          ],
+          "crossroadsCarryover": "Flow Guard adds a new defensive layer, but basic high, mid, low, and throw awareness still comes first."
         },
         {
-          "title": "Train in Practice Mode",
-          "description": "Build muscle memory for key strings and punishes in practice mode before taking them into online matches."
+          "icon": "Target",
+          "focus": "Turn Taking",
+          "title": "Attack after a successful guard",
+          "whatToLearn": "After a successful block, the blocking player often gets to move first. That is the moment to strike back instead of staying frozen.",
+          "practiceActions": [
+            "Block a basic attack and immediately answer with a fast mid attack.",
+            "Practice one safe follow-up for your training character before adding more options."
+          ],
+          "crossroadsCarryover": "Flow Guard and cinematic combat presentation make defensive moments a major part of the Crossroads learning path, but the habit still starts with basic guard discipline."
+        },
+        {
+          "icon": "Hand",
+          "focus": "Throws",
+          "title": "Do not hide behind guard forever",
+          "whatToLearn": "Guarding too much invites throws. Strike when you expect a throw, and practice throw escapes with the opponent's throw direction plus P+G or by pressing P while guarding.",
+          "practiceActions": [
+            "Let an opponent throw you several times so you can see the pattern.",
+            "Alternate between guard, strike, and throw escape drills."
+          ],
+          "crossroadsCarryover": "The same strike-throw-guard reading game remains the fastest way to understand one-on-one Crossroads battles."
+        },
+        {
+          "icon": "Rocket",
+          "focus": "Combos",
+          "title": "Start with recommended combos, not long routes",
+          "whatToLearn": "After landing an attack, follow up with a simple combo first. Longer combo routes can raise damage, but they should come after the starter routes feel automatic.",
+          "practiceActions": [
+            "Pick one launcher or starter and one short follow-up.",
+            "Repeat the same combo from both sides before adding a second route."
+          ],
+          "crossroadsCarryover": "Stunner and Stun Combo give Crossroads new combo paths, so clean starter habits will matter more than memorizing old routes without context."
+        },
+        {
+          "icon": "Footprints",
+          "focus": "Practice Flow",
+          "title": "Go Tutorial Mode, Arcade Mode, then online matches",
+          "whatToLearn": "Official beginner guidance recommends Tutorial Mode for controls, Arcade Mode for roster familiarity, and online matches once confidence builds.",
+          "practiceActions": [
+            "Use Tutorial Mode for inputs.",
+            "Use Arcade Mode to see many characters.",
+            "Use online matches only after you can guard, punish, and perform one short combo reliably."
+          ],
+          "crossroadsCarryover": "Battle Mode includes one-on-one fights online and offline, so this practice flow maps cleanly into direct versus play."
+        },
+        {
+          "icon": "Users",
+          "focus": "Training Characters",
+          "title": "Use beginner-friendly Virtua Fighter practice picks",
+          "whatToLearn": "Official current Virtua Fighter guidance highlights Jacky, Pai, and Jean as beginner-friendly choices for learning fundamentals in the existing game environment.",
+          "practiceActions": [
+            "Use Jacky to learn simple strikes and throws.",
+            "Use Pai to learn stance and reversal awareness.",
+            "Use Jean to learn basic techniques and charge attacks."
+          ],
+          "crossroadsCarryover": "Use these as current Virtua Fighter practice picks; Crossroads character selection should be based on the final Crossroads roster resources."
+        },
+        {
+          "icon": "Compass",
+          "focus": "Crossroads Transition",
+          "title": "Carry single-player lessons into versus play",
+          "whatToLearn": "Crossroads is designed so what players learn in single-player can carry into competitive matches. The four protagonists are also planned as playable versus characters.",
+          "practiceActions": [
+            "Use Story Mode to learn character identity and battle habits.",
+            "Take the same character into Battle Mode to test those habits in one-on-one fights."
+          ],
+          "crossroadsCarryover": "Cielo is a striking-focused MMA fighter rooted in boxing, making him a natural first character to watch for modern close-range pressure."
         }
       ],
       "quickTips": [
-        "Virtua Fighter Crossroads keeps the classic punch, kick, guard foundation while rebuilding parts of the system.",
-        "Strike-throw-guard logic stays the core mental model for new players.",
-        "Watch the official showcase to see how close-range fighting has evolved.",
-        "Crossroads-specific frame data and move lists will arrive after launch."
+        "Virtua Fighter Crossroads keeps the close-range punch, kick, and guard identity while adding Break and Rush, Flow Guard, Stunner, and Stun Combo.",
+        "Strike-throw-guard logic remains the fastest mental model for understanding one-on-one Crossroads battles.",
+        "Progress in order: Tutorial Mode for inputs, Arcade Mode for the roster, then online matches once you can guard, punish, and run one short combo.",
+        "Jacky, Pai, and Jean are beginner-friendly current Virtua Fighter picks for building fundamentals before the Crossroads roster is finalized."
       ]
     },
     "vfCrossroadsBattleMode": {
       "title": "Virtua Fighter Crossroads Battle Mode and Online Play",
-      "intro": "Virtua Fighter Crossroads splits combat into a narrative Story Mode and a direct Battle Mode. Competitive ranking, netcode, and tournament details will be confirmed as SEGA reveals more.",
+      "intro": "Crossroads is built around two connected play styles: a narrative-heavy single-player adventure in Vilasapara and direct one-on-one battles through Battle Mode. Story battles teach the world, characters, and new systems, while Battle Mode gives players the classic head-to-head format.",
       "modes": [
         {
+          "icon": "BookOpen",
+          "name": "Story Mode / Fighting Adventure",
+          "format": "Single-player narrative adventure",
+          "playerExperience": "Explore Vilasapara, follow the intertwined stories of four protagonists, and make choices where actions, victories, and defeats shape the story.",
+          "confirmedFeatures": [
+            "Narrative-driven gameplay",
+            "Four-protagonist story structure",
+            "Branching paths",
+            "Side stories and quests tied to Vilasapara"
+          ],
+          "bestFor": "Players who want story, exploration, character arcs, and battle encounters in one mode."
+        },
+        {
+          "icon": "Users",
+          "name": "Multi-Opponent Brawls",
+          "format": "Story Mode combat encounter",
+          "playerExperience": "Fight dramatic multi-opponent battles woven into the narrative instead of only traditional one-on-one duels.",
+          "confirmedFeatures": [
+            "Multi-opponent showdowns",
+            "Action-adventure combat context",
+            "Narrative integration"
+          ],
+          "bestFor": "Players coming from RGG-style action games who want broader combat encounters inside a Virtua Fighter framework."
+        },
+        {
           "icon": "Crown",
-          "name": "Story Mode Battles",
-          "type": "Single Player",
-          "description": "Dramatic showdowns, multi-opponent brawls, and boss battles woven into the four-protagonist narrative."
+          "name": "Boss Battles",
+          "format": "Story Mode set-piece fight",
+          "playerExperience": "Face intense boss fights that punctuate major story moments and test the player's grasp of the new battle system.",
+          "confirmedFeatures": [
+            "Boss battles in Story Mode",
+            "Dramatic set-piece presentation",
+            "Narrative-driven fight placement"
+          ],
+          "bestFor": "Players who want climactic single-player fights with stronger presentation than standard match play."
         },
         {
           "icon": "Swords",
-          "name": "Battle Mode 1v1",
-          "type": "Versus",
-          "description": "Direct one-on-one matches built on Virtua Fighter's classic competitive format."
+          "name": "Battle Mode",
+          "format": "One-on-one versus",
+          "playerExperience": "Jump directly into one-on-one matches without going through the story adventure flow.",
+          "confirmedFeatures": [
+            "Offline one-on-one matches",
+            "Online one-on-one matches",
+            "Traditional head-to-head battle format"
+          ],
+          "bestFor": "Players who want direct Virtua Fighter matches, local play, online play, or focused system practice."
         },
         {
           "icon": "Wifi",
           "name": "Online Battle Mode",
-          "type": "Multiplayer",
-          "description": "Battle Mode supports one-on-one matches online, with competitive details still to be confirmed."
+          "format": "Online one-on-one play",
+          "playerExperience": "Play head-to-head matches online through Battle Mode.",
+          "confirmedFeatures": [
+            "Online Battle Mode",
+            "One-on-one match structure"
+          ],
+          "bestFor": "Players who want to test Crossroads characters and systems against other players."
         },
         {
           "icon": "Monitor",
           "name": "Offline Battle Mode",
-          "type": "Multiplayer",
-          "description": "Local one-on-one play for practice, casual matches, and offline events."
+          "format": "Local or offline one-on-one play",
+          "playerExperience": "Use Battle Mode for offline head-to-head fights, practice sets, and local match sessions.",
+          "confirmedFeatures": [
+            "Offline Battle Mode",
+            "One-on-one match structure"
+          ],
+          "bestFor": "Players who want local versus, lab sessions, or event setups without online matchmaking."
         },
         {
-          "icon": "Users",
-          "name": "Multi-Opponent and Boss Battles",
-          "type": "Story Combat",
-          "description": "Story Mode includes fights against multiple enemies at once and powerful bosses."
+          "icon": "BadgeCheck",
+          "name": "Rulesets",
+          "format": "Standard and Uprising",
+          "playerExperience": "Standard keeps health depletion and ring-out victory conditions, while Uprising introduces a new momentum-shifting battle concept.",
+          "confirmedFeatures": [
+            "Standard rules",
+            "Uprising rules",
+            "Break and Rush",
+            "Flow Guard",
+            "Stunner",
+            "Stun Combo"
+          ],
+          "bestFor": "Players comparing classic Virtua Fighter match logic with the new Crossroads battle direction."
+        },
+        {
+          "icon": "GitBranch",
+          "name": "Story-to-Versus Character Carryover",
+          "format": "Playable protagonists across modes",
+          "playerExperience": "Meet the four protagonists through the story, then take them into versus play.",
+          "confirmedFeatures": [
+            "Four protagonists are planned as playable characters",
+            "Single-player learning is designed to carry into competitive matches",
+            "Cielo uses a striking-focused MMA style rooted in boxing"
+          ],
+          "bestFor": "Players who want to choose a main through story familiarity before entering Battle Mode."
         }
       ]
     },
     "vfCrossroadsOfficialLinks": {
       "title": "Virtua Fighter Crossroads Official Links and Updates",
-      "intro": "The official hub for Virtua Fighter Crossroads. Follow these channels for release news, trailer drops, character reveals, and direct updates from SEGA and RGG Studio.",
+      "intro": "This hub keeps official Crossroads resources in one place: announcement pages, news feeds, social channels, video archives, community links, and creator rules for streaming or co-streaming official material.",
       "links": [
         {
           "icon": "Globe",
-          "name": "Official Website",
-          "platform": "crossroads.virtua-fighter.com",
-          "url": "https://crossroads.virtua-fighter.com/en"
+          "name": "VIRTUA FIGHTER CROSSROADS Official Site",
+          "category": "Official Website",
+          "url": "https://crossroads.virtua-fighter.com/en",
+          "description": "Main landing page for the 2027 title, core pitch, official media, and social links.",
+          "bestFor": "Release window, story pitch, key visuals, official media"
         },
         {
           "icon": "Building2",
-          "name": "SEGA Product Page",
-          "platform": "sega.jp",
-          "url": "https://sega.jp/game/detail/virtuafighter-CROSSROADS/"
+          "name": "Virtua Fighter Official Web Portal",
+          "category": "Official Portal",
+          "url": "https://virtua-fighter.com/en",
+          "description": "Series hub for Virtua Fighter news, beginner resources, current game updates, merchandise, and community links.",
+          "bestFor": "Series news, official beginner guide, Discord access"
         },
         {
-          "icon": "MessageCircle",
-          "name": "Official Discord",
-          "platform": "discord.gg/virtuafighter-official",
-          "url": "https://discord.gg/virtuafighter-official"
+          "icon": "Newspaper",
+          "name": "Virtua Fighter News",
+          "category": "News",
+          "url": "https://virtua-fighter.com/en/news",
+          "description": "Official news index covering Crossroads notices and current Virtua Fighter updates.",
+          "bestFor": "Latest notices, update posts, event information"
+        },
+        {
+          "icon": "Sparkles",
+          "name": "Crossroads Reveal and Combat Details",
+          "category": "News",
+          "url": "https://ryu-ga-gotoku.com/asia_en/info/detail/004309.html",
+          "description": "Official RGG Studio news post covering the 2027 launch window, Vilasapara, story setup, Story Mode, Battle Mode, and official social channels.",
+          "bestFor": "Core Crossroads announcement details"
         },
         {
           "icon": "Send",
-          "name": "X (English)",
-          "platform": "x.com/VFCROSSROADS",
-          "url": "https://x.com/VFCROSSROADS"
-        },
-        {
-          "icon": "Video",
-          "name": "YouTube",
-          "platform": "youtube.com/@virtuafighter_official_jp",
-          "url": "https://www.youtube.com/@virtuafighter_official_jp"
+          "name": "VIRTUA FIGHTER CROSSROADS on X",
+          "category": "Social",
+          "url": "https://x.com/VFCROSSROADS",
+          "description": "Official Crossroads X account for short-form announcements and update posts.",
+          "bestFor": "Fast news checks and social updates"
         },
         {
           "icon": "Camera",
-          "name": "Instagram",
-          "platform": "instagram.com/vfcrossroads",
-          "url": "https://www.instagram.com/vfcrossroads"
+          "name": "VIRTUA FIGHTER CROSSROADS on Instagram",
+          "category": "Social",
+          "url": "https://www.instagram.com/vfcrossroads",
+          "description": "Official Instagram account for visual updates, clips, and promotional posts.",
+          "bestFor": "Screens, clips, and campaign posts"
         },
         {
           "icon": "Music",
-          "name": "TikTok",
-          "platform": "tiktok.com/@vfcrossroads",
-          "url": "https://www.tiktok.com/@vfcrossroads"
+          "name": "VIRTUA FIGHTER CROSSROADS on TikTok",
+          "category": "Social",
+          "url": "https://www.tiktok.com/@vfcrossroads",
+          "description": "Official TikTok account for short video updates and promotional clips.",
+          "bestFor": "Short videos and social clips"
+        },
+        {
+          "icon": "Video",
+          "name": "Virtua Fighter Official YouTube",
+          "category": "Video",
+          "url": "https://www.youtube.com/@virtuafighter_official_jp",
+          "description": "Official YouTube channel for reveal trailers, showcase archives, story trailers, and character or guide videos.",
+          "bestFor": "Trailers, showcases, official video archives"
+        },
+        {
+          "icon": "MessageCircle",
+          "name": "Official Virtua Fighter Discord",
+          "category": "Community",
+          "url": "https://discord.gg/virtuafighter-official",
+          "description": "Official community server linked from Virtua Fighter and Crossroads official pages.",
+          "bestFor": "Community discussion and official Discord announcements"
+        },
+        {
+          "icon": "Clapperboard",
+          "name": "Crossroads Co-Streaming Guidelines",
+          "category": "Creator Rules",
+          "url": "https://virtua-fighter.com/en/news/891",
+          "description": "Official rules for co-streaming the Crossroads Showcase and posting review videos, including permitted platforms, required credit, and prohibited uploads.",
+          "bestFor": "Showcase co-streams and review videos"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "name": "SEGA Streaming Guideline",
+          "category": "Creator Rules",
+          "url": "https://www.sega.co.jp/en/streaming_guideline/",
+          "description": "General SEGA policy for gameplay videos, monetization limits, unofficial content, unreleased products, and prohibited content.",
+          "bestFor": "Video creators, streamers, and site operators"
         }
       ]
     }

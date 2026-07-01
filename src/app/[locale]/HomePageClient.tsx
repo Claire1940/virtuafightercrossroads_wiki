@@ -510,23 +510,38 @@ export default function HomePageClient({
             {t.modules.vfCrossroadsCombat.mechanics.map((m: any, index: number) => (
               <div
                 key={index}
-                className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
-                <div className="flex items-center gap-3 mb-3">
+                <div className="flex items-center justify-between gap-3 mb-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
                     <DynamicIcon
                       name={m.icon}
                       className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
                     />
                   </div>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-                    {m.type}
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                    {m.category}
                   </span>
                 </div>
-                <h3 className="font-bold mb-2 text-[hsl(var(--nav-theme-light))]">
+                <h3 className="font-bold mb-3 text-[hsl(var(--nav-theme-light))]">
                   {m.name}
                 </h3>
-                <p className="text-sm text-muted-foreground">{m.description}</p>
+                <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">
+                  How it works
+                </p>
+                <p className="text-sm text-muted-foreground mb-3">{m.howItWorks}</p>
+                <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">
+                  Player impact
+                </p>
+                <p className="text-sm text-muted-foreground mb-3">{m.playerImpact}</p>
+                <ul className="mt-auto space-y-1.5 border-t border-border pt-3">
+                  {m.trackedDetails.map((detail: string, di: number) => (
+                    <li key={di} className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <span className="text-xs text-muted-foreground">{detail}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -559,19 +574,44 @@ export default function HomePageClient({
             {t.modules.vfCrossroadsBeginner.steps.map((step: any, index: number) => (
               <div
                 key={index}
-                className="flex gap-3 md:gap-4 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                className="flex gap-3 md:gap-5 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
-                <div className="flex h-10 w-10 md:h-12 md:w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
-                  <span className="text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
-                    {index + 1}
-                  </span>
+                <div className="flex flex-col items-center gap-2 flex-shrink-0">
+                  <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
+                    <span className="text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
+                      {index + 1}
+                    </span>
+                  </div>
+                  <DynamicIcon
+                    name={step.icon}
+                    className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                  />
                 </div>
-                <div>
-                  <h3 className="text-lg md:text-xl font-bold mb-1.5 md:mb-2">
+                <div className="flex-1 min-w-0">
+                  <span className="text-xs uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+                    {step.focus}
+                  </span>
+                  <h3 className="text-lg md:text-xl font-bold mb-2 mt-1">
                     {step.title}
                   </h3>
-                  <p className="text-sm md:text-base text-muted-foreground">
-                    {step.description}
+                  <p className="text-sm md:text-base text-muted-foreground mb-3">
+                    {step.whatToLearn}
+                  </p>
+                  <ul className="space-y-1.5 mb-3">
+                    {step.practiceActions.map((action: string, ai: number) => (
+                      <li key={ai} className="flex items-start gap-2">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <span className="text-sm text-muted-foreground">{action}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-sm rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] px-3 py-2">
+                    <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                      Crossroads:{" "}
+                    </span>
+                    <span className="text-muted-foreground">
+                      {step.crossroadsCarryover}
+                    </span>
                   </p>
                 </div>
               </div>
@@ -612,19 +652,37 @@ export default function HomePageClient({
             {t.modules.vfCrossroadsBattleMode.modes.map((mode: any, index: number) => (
               <div
                 key={index}
-                className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
-                <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] mb-3">
-                  <DynamicIcon
-                    name={mode.icon}
-                    className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
-                  />
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                    <DynamicIcon
+                      name={mode.icon}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                    {mode.format}
+                  </span>
                 </div>
-                <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
-                  {mode.type}
-                </span>
-                <h3 className="font-bold text-base md:text-lg mt-2 mb-2">{mode.name}</h3>
-                <p className="text-sm text-muted-foreground">{mode.description}</p>
+                <h3 className="font-bold text-base md:text-lg mb-2">{mode.name}</h3>
+                <p className="text-sm text-muted-foreground mb-3">
+                  {mode.playerExperience}
+                </p>
+                <ul className="space-y-1.5 mb-3 mt-auto">
+                  {mode.confirmedFeatures.map((feature: string, fi: number) => (
+                    <li key={fi} className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <span className="text-xs text-muted-foreground">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-xs rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] px-3 py-2">
+                  <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                    Best for:{" "}
+                  </span>
+                  <span className="text-muted-foreground">{mode.bestFor}</span>
+                </p>
               </div>
             ))}
           </div>
@@ -650,7 +708,7 @@ export default function HomePageClient({
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors block"
+                className="group flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors block"
               >
                 <div className="flex items-center gap-3 mb-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
@@ -659,12 +717,21 @@ export default function HomePageClient({
                       className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
                     />
                   </div>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                    {link.category}
+                  </span>
                   <ExternalLink className="w-4 h-4 text-muted-foreground ml-auto group-hover:text-[hsl(var(--nav-theme-light))] transition-colors" />
                 </div>
-                <h3 className="font-bold text-base md:text-lg mb-1 group-hover:text-[hsl(var(--nav-theme-light))] transition-colors">
+                <h3 className="font-bold text-base md:text-lg mb-2 group-hover:text-[hsl(var(--nav-theme-light))] transition-colors">
                   {link.name}
                 </h3>
-                <p className="text-xs text-muted-foreground">{link.platform}</p>
+                <p className="text-sm text-muted-foreground mb-3">{link.description}</p>
+                <p className="text-xs mt-auto">
+                  <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                    Best for:{" "}
+                  </span>
+                  <span className="text-muted-foreground">{link.bestFor}</span>
+                </p>
               </a>
             ))}
           </div>
