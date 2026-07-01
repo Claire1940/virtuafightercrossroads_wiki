@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Virtua Fighter Crossroads Wiki - Release, Story & Combat",
+  "short_name": "VF Crossroads",
+  "description": "Virtua Fighter Crossroads Wiki covers release info, trailers, characters, story, Vilasapara city lore, combat, and modes for SEGA & RGG Studio's 2027 narrative 3D fighting adventure.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#c04d2a",
+  "background_color": "#0f1215",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
