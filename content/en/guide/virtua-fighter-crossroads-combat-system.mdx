@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "virtua fighter crossroads combat system: Step-by-Step Mechanics Guide",
+  description: "Master the virtua fighter crossroads combat system with our guide on Uprising rules, Break & Rush mechanics, Flow Guard, and character-specific styles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Combat+System+Guide",
+  date: "2026-07-01",
+  author: "virtua fighter crossroads Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Combat Core**: The **virtua fighter crossroads combat system** retains the classic Strike-Throw-Guard triangle while adding cinematic depth.
+- **New Rulesets**: Players can choose between **Standard Rules** (traditional) and the new **Uprising Rules** (momentum-based).
+- **Key Mechanic**: **Break & Rush** allows for regional body damage that carries over between rounds.
+- **Defensive Layer**: **Flow Guard** provides a stylish, active way to mitigate pressure and shift momentum.
+- **Protagonist Focus**: New characters like **Cielo** introduce MMA and boxing-rooted styles to the 3D arena.
+</Callout>
+
+<Section icon={Map} title="Evolution of the virtua fighter crossroads combat system">
+
+The **virtua fighter crossroads combat system** represents a bold evolution for the legendary 3D fighting series. Developed by RGG Studio and scheduled for a 2027 release, this project bridges the gap between technical martial arts simulation and a cinematic, story-driven adventure. The combat is designed to be intuitive for newcomers who are exploring the city of **Vilasapara**, yet deep enough to satisfy long-term competitive veterans. 
+
+By integrating the narrative-heavy approach of a "Fighting Adventure," the developers have ensured that every strike feels weighted and every victory impacts the branching story paths. The system emphasizes close-range reads, realistic hit reactions, and a revamped control scheme that makes high-level play more accessible without sacrificing the series' signature depth.
+
+**Video Highlights:**
+- **Official Reveal**: Confirms the transition to the **virtua fighter crossroads** title and the 2027 launch window.
+- **Cinematic Integration**: Shows how story scenes transition seamlessly into 1v1 and multi-opponent battles.
+- **Vilasapara Setting**: Highlights how the fictional Southeast Asian city influences the fighting culture and arena designs.
+
+<YouTubeEmbed videoId="HSn13RsfP3A" title="VIRTUA FIGHTER CROSSROADS | Official Reveal Trailer" />
+
+<Callout type="tip" title="Strategic Insight">
+Victory in the story mode isn't just about depleting health; your performance and specific combat choices can alter the narrative trajectory across the four main protagonists' lives.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Battle Rules: Standard vs. Uprising">
+
+One of the most significant additions to the **virtua fighter crossroads combat system** is the introduction of dual rulesets. While traditionalists will appreciate the return of classic match structures, the new **Uprising Rules** offer a more dynamic flow that aligns with modern action-adventure pacing. 
+
+These rulesets dictate how a match is won and how momentum is tracked throughout the fight. In the single-player adventure, these rules may shift depending on the story context, such as underground brawls or official **Vila Fight Fest** matches.
+
+| Ruleset | Primary Goal | Victory Condition | Best For |
+| :--- | :--- | :--- | :--- |
+| **Standard** | Health Management | Deplete HP or Ring Out | Competitive 1v1, Legacy players |
+| **Uprising** | Momentum Control | Dynamic scoring/Momentum shift | Dramatic story battles, Aggressive play |
+
+<Callout type="info" title="Rule Availability">
+Standard rules typically default to a "Best of 5" (three rounds to win) format, whereas Uprising rules focus on shifting the "tide of battle" through successful offensive chains.
+</Callout>
+
+### Core Rules Comparison
+The following table breaks down the specific technical differences between the two primary ways to engage in combat within the 2026 build of the game.
+
+| Feature | Standard Rules | Uprising Rules |
+| :--- | :--- | :--- |
+| **Round Structure** | Fixed rounds (default 60s) | Continuous momentum flow |
+| **Ring Outs** | Immediate round loss | Penalty to momentum/Positioning |
+| **Damage Scaling** | Consistent per hit | Increases with momentum level |
+| **Victory Trigger** | 3 Round wins | Score threshold or Knockout |
+
+</Section>
+
+<Section icon={Target} title="Offensive Systems: Break, Rush, and Stunners">
+
+Offense in the **virtua fighter crossroads combat system** has been rebuilt to feel more visceral. The introduction of **Break & Rush** changes the long-term strategy of a match, moving away from purely chasing immediate damage to focusing on specific body regions.
+
+When a player focuses their attacks on an opponent's arms or legs, they accumulate "Break" damage. Once a threshold is met, a **Break Attack** can be triggered, inflicting a debuff that persists across rounds. This makes every exchange in the early game relevant to the final outcome of the match.
+
+<CardGrid cols={3}>
+  <Card title="Break & Rush">
+    - **Regional Damage**: Target specific limbs to weaken opponents.
+    - **Persistence**: Break status carries over between rounds.
+    - **Strategic Depth**: Forces opponents to change their defensive stance.
+  </Card>
+  <Card title="Stunner Mechanics">
+    - **Combo Opener**: New strike technique to initiate pressure.
+    - **Hit Confirmation**: Easier to read follow-up windows.
+    - **Versatility**: Works against most standing guards.
+  </Card>
+  <Card title="Stun Combo">
+    - **Fluidity**: Replaces complex legacy juggle patterns.
+    - **Realism**: Animations reflect the weight of the impacts.
+    - **Accessibility**: Lower execution barrier for high damage.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Pro Tip: Break Strategy">
+Use **Cielo's** boxing-rooted strikes to target the opponent's torso and arms early. A "Broken" status on the opponent's lead arm will significantly reduce their striking speed in later rounds.
+</Callout>
+
+### Offensive Mechanic Breakdown
+To master the offensive flow, players must understand how these systems interact during a high-speed exchange in Vilasapara.
+
+| System | Input Type | Primary Effect | Player Impact |
+| :--- | :--- | :--- | :--- |
+| **Stunner** | Directional + Strike | Forces a brief stagger | Opens a Stun Combo window |
+| **Rush** | Sequential Inputs | Rapid-fire pressure | Prevents opponent from resetting neutral |
+| **Break Attack** | Charged/Heavy Strike | Inflicts permanent limb debuff | Reduces opponent's mobility or power |
+
+</Section>
+
+<Section icon={Shield} title="Defensive Layers and the Combat Triangle">
+
+Defending in **virtua fighter crossroads** requires more than just holding a button. The **Flow Guard** system introduces an active defensive layer that rewards timing and positioning. Unlike a standard block, Flow Guard allows a player to move fluidly while mitigating damage, setting up immediate counter-attack opportunities.
+
+Despite these new additions, the core of the game remains the "Strike-Throw-Guard" triangle. This fundamental logic ensures that every action has a direct counter, maintaining the series' reputation for being a "fighting chess match."
+
+<Steps>
+  <Step num="1" title="Master the Triangle">
+    Understand that **Strikes** beat throw attempts, **Guards** nullify strikes, and **Throws** punish passive guarding. This is the foundation of every 1v1 encounter.
+  </Step>
+  <Step num="2" title="Implement Flow Guard">
+    Practice activating Flow Guard during opponent pressure to maintain mobility. This is essential for navigating multi-opponent brawls in story mode.
+  </Step>
+  <Step num="3" title="Recognize Stance Shifts">
+    High, Mid, and Low attacks require different guard heights. Standing Guard blocks High/Mid but loses to Lows and Throws.
+  </Step>
+  <Step num="4" title="Execute Throw Escapes">
+    When grabbed, inputting the correct direction plus the Punch+Guard button will break the throw, resetting the neutral game.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Defense Warning">
+Over-reliance on Standing Guard makes you a prime target for the **Bakunawa Killer's** unique command throws. Mix up your defensive options to keep the opponent guessing.
+</Callout>
+
+### Defensive Stats and Interactions
+The interaction between different defensive postures is critical for survival in the higher difficulty tiers of the Vilasapara campaign.
+
+| Defensive Action | Blocks | Weak Against | Momentum Gain |
+| :--- | :--- | :--- | :--- |
+| **Standing Guard** | High, Mid Strikes | Low Strikes, Throws | Low |
+| **Crouching Guard** | Low Strikes | Mid Strikes | Moderate |
+| **Flow Guard** | All (Timed) | Precise Timing errors | High |
+| **Throw Escape** | Throws | Strikes, Continued pressure | Very High |
+
+</Section>
+
+<Section icon={Trophy} title="Character Roster and Fighting Styles">
+
+The **virtua fighter crossroads combat system** features a diverse roster that blends four new protagonists with legendary series icons. Each character is designed to represent a specific martial arts philosophy, further enhanced by the passage of time within the game's universe.
+
+For example, **Pai Chan** returns with a more mature design and a refined Chinese martial arts style that emphasizes reversals and fluidity. Meanwhile, the new lead, **Cielo**, brings a modern MMA approach that is highly effective for the new **Break & Rush** system.
+
+| Character | Category | Fighting Style | Combat Role |
+| :--- | :--- | :--- | :--- |
+| **Cielo** | New Protagonist | MMA / Boxing | Aggressive Pressure, Break specialist |
+| **Akira Yuki** | Legacy Legend | Bajiquan | High-damage technical strikes |
+| **Pai Chan** | Legacy Legend | Mizongyi | Counter-striking and Reversals |
+| **Bakunawa Killer** | Story Rival | Unknown / Tactical | High-mobility, Command throws |
+| **Wolf Hawkfield** | Legacy Legend | Pro Wrestling | Grappling and Power-based defense |
+
+<Callout type="tip" title="Starter Character">
+If you are new to the **virtua fighter crossroads combat system**, start with **Cielo**. His striking-focused kit is the most intuitive way to learn the new Stunner and Stun Combo mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Combat Mastery Checklist">
+
+To fully prepare for the 2027 launch, players should aim to master the following combat milestones during their time in the demo or early access phases of the Vilasapara adventure.
+
+<Checklist
+  id="combat-mastery"
+  title="Combat Excellence Goals:"
+  items={[
+    "Successfully execute a 5-hit Stun Combo in Battle Mode",
+    "Trigger a Limb Break against a Boss-tier opponent",
+    "Win an Uprising Rules match by momentum threshold",
+    "Perfect the timing of a Flow Guard counter-attack",
+    "Complete the Cielo-specific combat tutorial in Vilasapara"
+  ]}
+/>
+
+<Callout type="success" title="Final Note">
+The **virtua fighter crossroads combat system** is built to grow with the player. Whether you are engaging in 1v1 Battle Mode or exploring the branching paths of the story, these mechanics provide the tools for a truly personalized fighting experience.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do Uprising Rules differ from Standard Rules?",
+    answer: "Standard Rules follow the traditional Virtua Fighter format of health depletion and ring outs over fixed rounds. Uprising Rules focus on a dynamic momentum system where the flow of battle and scoring determines the winner, making for more cinematic exchanges."
+  },
+  {
+    question: "What is the Break & Rush system?",
+    answer: "Break & Rush is a new mechanic where repeated hits to specific body regions (like arms or legs) cause lasting damage. Once a part is 'broken,' the debuff carries over into subsequent rounds, affecting the opponent's speed or power."
+  },
+  {
+    question: "Is the classic Strike-Throw-Guard triangle still relevant?",
+    answer: "Yes, the triangle remains the core foundation of the virtua fighter crossroads combat system. Strikes beat throws, guards beat strikes, and throws beat passive guarding. The new mechanics like Flow Guard add layers on top of this balanced base."
+  },
+  {
+    question: "Can I play as the legacy characters in the new story mode?",
+    answer: "The main story scenario follows four new protagonists, including Cielo and Stella Bridges. However, legacy characters like Akira, Pai, and Wolf appear in the story and are fully playable in the 1v1 Battle Mode."
+  }
+]} />
+
+</Section>

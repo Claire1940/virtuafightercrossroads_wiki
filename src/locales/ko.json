@@ -1,1 +1,9 @@
-{}
+{
+  "nav": {
+    "release": "출시",
+    "characters": "캐릭터",
+    "story": "스토리",
+    "guide": "가이드",
+    "trailer": "트레일러"
+  }
+}

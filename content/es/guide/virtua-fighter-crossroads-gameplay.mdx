@@ -1,0 +1,230 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Virtua Fighter Crossroads: Guía de combate e historia para 2027",
+  description: "Domina la jugabilidad de Virtua Fighter Crossroads con nuestra guía sobre mecánicas de combate, la historia de Vilasapara, estilos de personajes y detalles del lanzamiento en 2027 para los jugadores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Virtua+Fighter+Crossroads+Gameplay",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Virtua Fighter Crossroads"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **jugabilidad de Virtua Fighter Crossroads** presenta un cambio importante hacia una aventura de lucha narrativa ambientada en la ciudad ficticia de Vilasapara.
+- Las **mecánicas de combate** introducen el sistema Break & Rush, que permite a los jugadores apuntar a regiones corporales específicas para infligir daño estratégico a largo plazo.
+- El **Modo Historia** utiliza una estructura de cuatro protagonistas donde las elecciones de los jugadores y los resultados de las batallas influyen directamente en la narrativa ramificada.
+- La **ventana de lanzamiento** está oficialmente confirmada para 2027, desarrollado por RGG Studio y publicado por SEGA para consolas domésticas.
+- Los **personajes clásicos** como Pai Chan y Akira Yuki regresan con diseños envejecidos, reflejando el paso del tiempo en la continuidad de la serie.
+</Callout>
+
+<Section icon={Map} title="Descripción general del lanzamiento y base de la jugabilidad">
+
+Virtua Fighter Crossroads representa una audaz evolución para la legendaria franquicia de lucha en 3D. Desarrollado por RGG Studio (el equipo detrás de las series Yakuza y Like a Dragon), esta entrega pasa de las tradicionales escaleras de estilo arcade a una enorme "Aventura de Lucha". La experiencia de **jugabilidad de Virtua Fighter Crossroads** se basa en los cimientos del combate técnico en 3D mientras se expande a un mundo vivo y dinámico. Los jugadores ya no solo luchan en escenarios estáticos; ahora navegan por las complejas jerarquías sociales y criminales de Vilasapara, una metrópolis del sudeste asiático donde las artes marciales sirven tanto de deporte nacional como de herramienta de supervivencia.
+
+**Puntos destacados del video:**
+- **Revelación del título**: Confirma la transición de "Project Victory" al título oficial, Virtua Fighter Crossroads.
+- **Lanzamiento en 2027**: Establece la ventana de lanzamiento y el enfoque en plataformas de consolas domésticas en lugar de salones recreativos.
+- **Dirección cinematográfica**: Muestra los modelos de personajes de alta fidelidad y la presentación cinemática de los impactos al estilo de una "película de acción".
+- **Detalle del entorno**: Ofrece un adelanto de los densos entornos urbanos de Vilasapara y la transición fluida hacia el combate.
+
+<YouTubeEmbed videoId="HSn13RsfP3A" title="VIRTUA FIGHTER CROSSROADS | Tráiler de revelación oficial" />
+
+La filosofía central sigue siendo "Puñetazo, patada y guardia", pero la aplicación ha cambiado. SEGA ha confirmado que, aunque se mantiene la profundidad técnica para los jugadores competitivos, el juego se está reconstruyendo para ser más intuitivo para un público moderno. Esto incluye un esquema de control renovado y un fuerte énfasis en la campaña para un jugador, que actúa como un puente para que los nuevos jugadores aprendan los matices del espaciado 3D de alto nivel y los datos de fotogramas (frame data) a través de encuentros de juego orgánicos.
+
+| Característica | Detalles | Estado |
+| :--- | :--- | :--- |
+| **Ventana de lanzamiento** | Programado para 2027 | Confirmado |
+| **Desarrollador** | RGG Studio (Sega) | Confirmado |
+| **Escenario principal** | Vilasapara (Sudeste Asiático) | Confirmado |
+| **Género del juego** | Aventura de lucha / RPG | Confirmado |
+| **Protagonistas** | 4 personajes principales jugables | Confirmado |
+| **Plataformas** | Consolas domésticas (por anunciar) | Confirmado |
+
+<Callout type="tip" title="Nota estratégica">
+A diferencia de las entregas anteriores, Crossroads otorga un gran valor a los elementos de "Aventura de lucha". Esto significa que tu rendimiento en los segmentos de mundo abierto y en las peleas basadas en la historia dictará la progresión de tu personaje y los movimientos disponibles en el Modo Batalla competitivo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Vilasapara y la estructura narrativa">
+
+La historia de Virtua Fighter Crossroads tiene lugar en el año 20XX dentro de Vilasapara. Esta ciudad ficticia está gobernada por la "Arma Carta", un estricto conjunto de leyes que puso fin a un período de violenta guerra de bandas al prohibir las armas de fuego bajo pena de muerte. En consecuencia, las artes marciales se han convertido en el método principal para resolver disputas, lo que ha llevado al auge del "Vila Fight Fest", un torneo autorizado por el gobierno que impulsa la economía de la ciudad.
+
+<CardGrid cols={2}>
+  <Card title="El arco de los cuatro protagonistas">
+    La narrativa se comparte entre cuatro protagonistas distintos. **Cielo**, un luchador de MMA centrado en el golpeo (striking), sirve como punto de entrada inicial. Sus historias se cruzan y divergen según las acciones del jugador, creando una "encrucijada" de destino que determina el futuro de la ciudad.
+  </Card>
+  <Card title="Rutas de historia ramificadas">
+    El éxito o el fracaso en combates específicos no siempre conduce a un "Game Over". En su lugar, perder una batalla clave podría obligar a tu personaje a entrar en un arco de recuperación clandestino o cambiar la forma en que los PNJ interactúan contigo en el distrito de entretenimiento.
+  </Card>
+  <Card title="Exploración de mundo abierto">
+    Vilasapara está dividida en múltiples distritos, que incluyen un centro de la ciudad amurallado, una zona de entretenimiento iluminada con luces de neón y un área de complejos turísticos de alta gama. Cada distrito ofrece misiones secundarias y "Encuentros clásicos" con personajes tradicionales de Virtua Fighter.
+  </Card>
+  <Card title="El asesino de Bakunawa">
+    Un misterio central involucra a un atacante enmascarado conocido como el Asesino de Bakunawa (Bakunawa Killer), que está atacando sistemáticamente a los mejores artistas marciales de la ciudad. Este hilo conductor vincula a los nuevos protagonistas con luchadores clásicos como Pai Chan.
+  </Card>
+</CardGrid>
+
+La profundidad narrativa cuenta con el respaldo de un equipo de guionistas de clase mundial, que incluye la supervisión de David Hayter y el guion principal de Brad Kane. Esta colaboración garantiza que el lado de "Aventura" del juego tenga el mismo peso que el lado de "Lucha". Los jugadores pueden esperar participar en labores de investigación, entablar relaciones con entrenadores y gestionar su reputación dentro de los diversos gimnasios de lucha de Vilasapara.
+
+<Callout type="warning" title="Interacción con el mundo">
+Vilasapara es un entorno reactivo. Participar en peleas callejeras no autorizadas fuera de las áreas permitidas puede atraer la atención de las fuerzas de seguridad de élite de la ciudad, lo que podría derivar en difíciles encuentros contra múltiples oponentes que pondrán a prueba tus capacidades defensivas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de juego de Virtua Fighter Crossroads">
+
+El sistema de batalla en Crossroads es un híbrido de la precisión clásica de Virtua Fighter y nuevas herramientas de impulso agresivo. Aunque la serie siempre ha sido conocida por su lógica de "Piedra, papel o tijera" (Golpe-Agarre-Guardia), Crossroads introduce capas que recompensan la planificación a largo plazo a lo largo de un combate.
+
+### Reglas de combate
+Los jugadores pueden elegir entre dos conjuntos de reglas principales para sus combates, cada uno ofreciendo un estilo táctico diferente.
+
+| Reglas | Mecánica central | Ideal para |
+| :--- | :--- | :--- |
+| **Reglas estándar** | Barras de salud tradicionales y victorias a 3 rondas. | Puristas clásicos de Virtua Fighter. |
+| **Reglas Uprising** | Puntuación dinámica que cambia el impulso y condiciones de victoria únicas. | Jugadores que buscan un flujo moderno y cinematográfico. |
+
+### Nuevos sistemas clave
+Las siguientes mecánicas son fundamentales para la evolucionada **jugabilidad de Virtua Fighter Crossroads**:
+
+1.  **Break & Rush**: Los ataques a regiones corporales específicas (brazos, piernas, torso) acumulan daño de "ruptura" (Break). Una vez que se alcanza un umbral, las capacidades defensivas del oponente en esa área se ven comprometidas. Este daño persiste entre rondas, lo que obliga a los jugadores a adaptar su postura y estrategia a medida que avanza la pelea.
+2.  **Flow Guard**: Una mecánica defensiva activa que permite transiciones fluidas desde el bloqueo hacia el contraataque. A diferencia de un bloqueo estático, Flow Guard requiere precisión en el tiempo, pero proporciona una ventana cinemática para un contraataque de gran daño.
+3.  **Stunner y Stun Combo**: Los Stunners son golpes pesados específicos que inician un estado de "aturdimiento" (Stun). Durante esta ventana, los jugadores pueden ejecutar Stun Combos, un sistema de combos más intuitivo que enfatiza el estilo visual y el impacto por sobre los complejos malabares perfectos de fotogramas de juegos anteriores.
+4.  **Presentación cinemática de impactos**: La cámara se acerca y se desplaza dinámicamente durante los golpes decisivos, otorgando al combate una estética inspirada en "Watchmen" o "John Wick", al tiempo que mantiene la integridad técnica de las cajas de colisión (hitboxes).
+
+<Callout type="success" title="Dominio del sistema">
+Dominar la interacción entre Flow Guard y Break & Rush es la clave para jugar a alto nivel. Usar Flow Guard para proteger una extremidad dañada mientras buscas un Stunner te permite convertir una desventaja defensiva en una victoria ofensiva.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Elenco de personajes y estilos de lucha">
+
+El elenco de Virtua Fighter Crossroads es una mezcla de cuatro nuevos protagonistas y una selección significativa de personajes clásicos. RGG Studio ha adoptado un enfoque de "tiempo transcurrido", lo que significa que los luchadores que regresan muestran signos visibles de envejecimiento y han evolucionado sus estilos para reflejar sus años de experiencia.
+
+### Estado confirmado de los personajes
+
+| Personaje | Categoría | Estilo de lucha | Rol en Crossroads |
+| :--- | :--- | :--- | :--- |
+| **Cielo** | Nuevo protagonista | MMA / Boxeo | Lidera el primer arco de la historia en Vilasapara. |
+| **Stella Bridges** | Nuevo protagonista | Por anunciar | Uno de los cuatro pilares narrativos principales. |
+| **Pai Chan** | Luchador clásico | Artes marciales chinas | Aparece como una mentora madura e investigadora. |
+| **Wolf Hawkfield** | Luchador clásico | Lucha libre profesional | Regresa con un diseño robusto y envejecido. |
+| **Akira Yuki** | Luchador clásico | Bajiquan | El ícono de la serie, ahora una figura legendaria en la ciudad. |
+| **Asesino de Bakunawa** | Personaje de la historia | Por anunciar | El esquivo antagonista jugable en el Modo Batalla. |
+
+<CardGrid cols={3}>
+  <Card title="Cielo">
+    - **Estilo**: MMA con raíces de boxeo
+    - **Fortaleza**: Presión a corta distancia
+    - **Historia**: Luchador clandestino
+  </Card>
+  <Card title="Pai Chan">
+    - **Estilo**: Ensei-ken
+    - **Fortaleza**: Velocidad y contraataques
+    - **Historia**: En busca del Asesino de Bakunawa
+  </Card>
+  <Card title="Akira Yuki">
+    - **Estilo**: Hakkyoku-ken
+    - **Fortaleza**: Golpes únicos de gran daño
+    - **Historia**: Maestro legendario
+  </Card>
+</CardGrid>
+
+La inclusión de personajes como Jacky Bryant ha sido sugerida a través del arte ambiental en Vilasapara, pero su estado como luchadores jugables sigue siendo una "Referencia clásica" hasta nuevas actualizaciones oficiales. Los desarrolladores han declarado que los cuatro nuevos protagonistas están diseñados para ser el "punto de entrada" para la próxima generación de Virtua Fighter, cada uno representando una visión moderna diferente de las artes marciales.
+
+<Callout type="info" title="Diseño de los protagonistas">
+Cada uno de los cuatro protagonistas está diseñado para reflejar un "Tono de historia" específico. El camino de Cielo es uno de coraje y supervivencia, mientras que otros protagonistas pueden centrarse en el espionaje corporativo o en el mundo de alto riesgo del Vila Fight Fest.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ruta de entrenamiento paso a paso para principiantes">
+
+Para aquellos nuevos en la serie o que regresan después de un largo tiempo, Crossroads ofrece un proceso de aprendizaje integral. Dado que el juego es una "Aventura de lucha", tu entrenamiento está entretejido en la historia.
+
+<Steps>
+  <Step num="1" title="Domina el triángulo">
+    Aprende la lógica fundamental de Golpe-Agarre-Guardia. Los golpes vencen a los agarres, la guardia detiene los golpes y los agarres castigan la guardia pasiva. Esta es la base de toda la **jugabilidad de Virtua Fighter Crossroads**.
+  </Step>
+  <Step num="2" title="Explora Vilasapara">
+    Participa en peleas callejeras de bajo riesgo y misiones de tutorial en el distrito inicial. Estos encuentros te enseñarán movimiento, espaciado y el nuevo tiempo de reacción del Flow Guard en un entorno de baja presión.
+  </Step>
+  <Step num="3" title="Practica los Stunners">
+    Identifica los ataques Stunner principales de tu personaje. Practica la transición de un bloqueo o evasión exitosa a un Stunner para abrir la defensa de tu oponente para un Stun Combo.
+  </Step>
+  <Step num="4" title="Gestiona el daño de ruptura">
+    En batallas de la historia más largas, presta atención a la salud de las extremidades de tu personaje. Aprende a cambiar de postura o a jugar de manera más defensiva cuando una parte específica del cuerpo esté cerca del umbral de "ruptura" (Break).
+  </Step>
+  <Step num="5" title="Ingresa al Modo Batalla">
+    Una vez que hayas completado el arco de la historia del primer protagonista, lleva tus habilidades al Modo Batalla 1 contra 1. Utiliza el conocimiento sobre datos de fotogramas y espaciado que has adquirido para competir contra otros jugadores en línea.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de entrenamiento">
+Usa la función "Legacy Echo" (Eco clásico) en el gimnasio de entrenamiento. Esto te permite entrenar contra "fantasmas" de luchadores legendarios, ayudándote a comprender los patrones de alto nivel de personajes como Akira y Wolf antes de enfrentarte a ellos en la historia o en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modos de juego e infraestructura en línea">
+
+Virtua Fighter Crossroads está diseñado para ser una experiencia independiente que satisface tanto a los aventureros solitarios como a los entusiastas competitivos. La integración entre estos modos es fluida, y las recompensas obtenidas en uno a menudo se trasladan al otro.
+
+<Checklist
+  id="game-modes"
+  title="Modos de juego disponibles:"
+  items={[
+    "Modo Historia: La aventura de lucha principal de 4 protagonistas en Vilasapara.",
+    "Modo Batalla: Combates tradicionales 1 contra 1 disponibles tanto fuera de línea como en línea.",
+    "Peleas contra múltiples oponentes: Encuentros exclusivos de la historia contra grupos de enemigos.",
+    "Batallas contra jefes: Enfrentamientos cinemáticos de alto riesgo contra los principales antagonistas de la narrativa.",
+    "Clasificatorias en línea: Emparejamiento competitivo con código de red (netcode) avanzado.",
+    "Vila Fight Fest: Un modo de torneo estacional en línea que refleja el evento del juego."
+  ]}
+/>
+
+La infraestructura en línea es un enfoque principal para SEGA. Aunque los detalles específicos sobre el código de red (como la implementación de Rollback) están pendientes, la inclusión de las "reglas Uprising" en el juego en línea sugiere el deseo de hacer que la escena competitiva sea más atractiva para los espectadores. El modo "Vila Fight Fest" es particularmente ambicioso, con el objetivo de crear un ecosistema digital donde los jugadores puedan participar en torneos masivos y escalonados que reflejen el prestigio del entorno ficticio.
+
+| Modo | Formato | Característica clave |
+| :--- | :--- | :--- |
+| **Modo Historia** | Un jugador | Rutas ramificadas y exploración del mundo. |
+| **Modo Batalla** | 1 contra 1 (Local/En línea) | Elección entre reglas estándar y Uprising. |
+| **Salas en línea** | Centros comunitarios | Salas interactivas ambientadas en ubicaciones de Vilasapara. |
+
+<Callout type="success" title="Participación comunitaria">
+El Discord oficial de Virtua Fighter y sus canales sociales son los mejores lugares para encontrar compañeros de entrenamiento y mantenerse al día sobre las "Reglas del creador" para transmitir las próximas exhibiciones de 2027.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Virtua Fighter Crossroads una secuela directa de Virtua Fighter 5?",
+    answer: "Es una nueva entrega principal que continúa con la continuidad de la serie. Aunque traslada el enfoque a cuatro nuevos protagonistas, los personajes clásicos regresan con diseños envejecidos, lo que confirma que tiene lugar años después de los eventos de VF5."
+  },
+  {
+    question: "¿Cuál es la diferencia entre las reglas estándar y Uprising en la jugabilidad?",
+    answer: "Las reglas estándar siguen el formato clásico de reducción de salud a 3 rondas. Las reglas Uprising introducen un sistema de puntuación basado en el impulso, diseñado para flujos de combate más dinámicos y cinemáticos."
+  },
+  {
+    question: "¿Necesito jugar a los juegos anteriores de Virtua Fighter para entender Crossroads?",
+    answer: "No. El juego está diseñado como una 'Aventura de lucha' con un fuerte énfasis en el aprendizaje. El modo historia en Vilasapara te enseñará todo, desde el movimiento básico hasta los sistemas de combate avanzados."
+  },
+  {
+    question: "¿Puedo jugar como los personajes clásicos en el Modo Historia?",
+    answer: "La narrativa principal sigue a cuatro nuevos protagonistas. Sin embargo, los personajes clásicos aparecen como figuras importantes en el mundo y son completamente jugables en el Modo Batalla 1 contra 1 (en línea y fuera de línea)."
+  }
+]} />
+
+</Section>

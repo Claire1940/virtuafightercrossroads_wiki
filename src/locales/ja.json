@@ -1,1 +1,9 @@
-{}
+{
+  "nav": {
+    "release": "発売情報",
+    "characters": "キャラクター",
+    "story": "ストーリー",
+    "guide": "ガイド",
+    "trailer": "トレーラー"
+  }
+}

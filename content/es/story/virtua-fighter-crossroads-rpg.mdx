@@ -1,0 +1,230 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen, Globe } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Virtua Fighter Crossroads RPG: Lanzamiento en 2027 y Guía de Combate",
+  description: "Explora el renacimiento de Virtua Fighter Crossroads RPG con nuestra guía sobre la ventana de lanzamiento de 2027, la historia de la ciudad de Vilasapara, las mecánicas de combate y el elenco de personajes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=Virtua+Fighter+Crossroads+RPG+Guide",
+  date: "2026-07-01",
+  author: "Equipo de Wiki de Virtua Fighter Crossroads"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Virtua Fighter Crossroads RPG** es una aventura de lucha centrada en la narrativa, programada para una **ventana de lanzamiento en 2027**.
+- **Vilasapara** sirve como escenario principal, una ciudad ficticia del sudeste asiático que cuenta con múltiples distritos y exploración de mundo abierto (sandbox).
+- **Cuatro protagonistas** lideran la historia, donde las decisiones del jugador y los resultados de las batallas influyen directamente en las rutas narrativas ramificadas.
+- **La evolución del combate** introduce nuevos sistemas como **Break & Rush** (Rotura y Embestida) y **Flow Guard** (Guardia de Flujo), manteniendo el clásico triángulo de ataque-agarre-guardia en 3D.
+- **Las plataformas oficiales** aún están por anunciarse (TBA), aunque el proyecto está confirmado como una experiencia enfocada en consolas domésticas desarrollada por **RGG Studio**.
+</Callout>
+
+<Section icon={Map} title="Ventana de lanzamiento y visión general de plataformas">
+
+El anuncio de **Virtua Fighter Crossroads RPG** marca un cambio significativo para la legendaria franquicia de SEGA. Desarrollado por RGG Studio, el equipo detrás de la serie Like a Dragon, este proyecto evoluciona el tradicional juego de lucha arcade hacia una extensa "Aventura de Lucha". Actualmente programado para un **lanzamiento en 2027**, el juego se centra en una experiencia profunda para un solo jugador mientras conserva el juego competitivo de alto nivel por el que la serie es conocida.
+
+**Aspectos destacados del vídeo:**
+- Confirmación oficial del título **VIRTUA FIGHTER CROSSROADS** y la ventana de 2027.
+- Introducción a la estructura de cuatro protagonistas y la ciudad de Vilasapara.
+- Primer vistazo al motor de combate evolucionado que combina estilo cinematográfico con precisión técnica.
+- Perspectivas del productor Riichiro Yamada sobre el cambio de género hacia la "Aventura de Lucha".
+
+<YouTubeEmbed videoId="dwjNGD6hpfc" title="VIRTUA FIGHTER CROSSROADS SHOWCASE" />
+
+Aunque la emoción es alta, varios detalles logísticos clave permanecen en secreto mientras SEGA prepara la siguiente fase del ciclo de marketing.
+
+| Categoría | Estado | Detalles |
+| :--- | :--- | :--- |
+| **Ventana de lanzamiento** | **Confirmado** | Programado para 2027 |
+| **Desarrollador** | **Confirmado** | RGG Studio (SEGA) |
+| **Género principal** | **Confirmado** | Aventura de Lucha / RPG Sandbox |
+| **Plataformas** | **TBA** | Enfocado en consolas domésticas, se esperan PC/PS5/Xbox |
+| **Precio/Ediciones** | **TBA** | Información reservada para futuras actualizaciones |
+| **Reserva (Pre-order)** | **TBA** | Aún no disponible en tiendas oficiales |
+
+<Callout type="warning" title="Disponibilidad de plataformas">
+Aunque RGG Studio ha confirmado que este es un proyecto enfocado en el juego doméstico en lugar de un lanzamiento arcade, los logotipos específicos de las consolas aún no han aparecido en el sitio oficial. Evita enlaces de reserva de terceros no oficiales hasta que SEGA confirme la lista final de plataformas.
+</Callout>
+
+</Section>
+
+<Section icon={Globe} title="El mundo de Vilasapara y elementos RPG">
+
+El núcleo de la experiencia de **Virtua Fighter Crossroads RPG** reside en su escenario: **Vilasapara**. Esta metrópolis ficticia del sudeste asiático está diseñada como un sandbox vivo donde las artes marciales no son solo un deporte, sino la columna vertebral cultural y económica de la sociedad. Tras el acuerdo "Arma Carta", las armas de fuego están estrictamente prohibidas, lo que lleva a un mundo donde la destreza física determina el estatus y el poder.
+
+El juego utiliza una estructura narrativa de cuatro protagonistas. Los jugadores navegarán por las vidas entrelazadas de estos personajes mientras lidian con sindicatos criminales, el "Vila Fight Fest" y una misteriosa serie de ataques atribuidos al **Asesino Bakunawa**.
+
+| Distrito | Tipo | Características clave |
+| :--- | :--- | :--- |
+| **Centro de la ciudad** | **Urbano amurallado** | Centro gubernamental, alta seguridad, base del Presidente Bato |
+| **Entretenimiento** | **Vida nocturna** | Arenas subterráneas, calles de neón, centros sociales |
+| **Zona turística** | **Costero** | Lugares de lujo, campos de entrenamiento del Vila Fight Fest |
+| **Casco antiguo** | **Residencial** | Dojos ocultos, centros de misiones secundarias, tradición local |
+
+<CardGrid cols={2}>
+  <Card title="Narrativa ramificada">
+    Las acciones, victorias e incluso las derrotas en combate del jugador activarán diferentes ramas de la historia, alejándose de las escaleras arcade lineales.
+  </Card>
+  <Card title="Exploración Sandbox">
+    Vilasapara cuenta con distritos sustanciales donde los jugadores pueden descubrir historias secundarias, misiones e interacciones con personajes clásicos.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Profundidad narrativa">
+El equipo de redacción incluye talentos internacionales como David Hayter (Supervisión) y Brad Kane (Guionista principal), lo que señala una gran inversión en el lado "RPG" de la aventura de lucha. Espera una historia que refleje la complejidad de los dramas cinematográficos modernos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de combate y sistemas de batalla">
+
+Aunque el lado de "Aventura" se encarga de la exploración, el combate en **Virtua Fighter Crossroads RPG** permanece arraigado en la herencia técnica 3D de la serie. RGG Studio ha reconstruido el motor para soportar tanto combates tradicionales uno contra uno como los nuevos encuentros narrativos, tales como peleas contra múltiples oponentes y combates cinematográficos contra jefes.
+
+El nuevo conjunto de reglas "Uprising" introduce cambios dinámicos de impulso, mientras que sistemas centrales como **Break & Rush** fomentan el ataque estratégico a regiones corporales específicas para obtener ventajas a largo plazo durante los asaltos.
+
+| Sistema | Categoría | Función |
+| :--- | :--- | :--- |
+| **Reglas estándar** | **Tradicional** | Victoria por agotamiento de HP o Ring Out (3 asaltos) |
+| **Break & Rush** | **Ofensivo** | Daño en extremidades objetivo que se traslada entre asaltos |
+| **Flow Guard** | **Defensivo** | Una defensa elegante basada en el movimiento que cambia el impulso |
+| **Stunner** | **Táctico** | Un golpe específico que inicia el estado de Stun Combo |
+| **Stun Combo** | **Combo** | Ataques de seguimiento fluidos con ejecución simplificada |
+| **Cinematic Hits** | **Presentación** | Cámara inspirada en películas de acción para golpes decisivos |
+
+<Callout type="success" title="Equilibrio mecánico">
+El equipo de desarrollo busca una sensación "intuitiva". Los nuevos jugadores pueden confiar en el sistema simplificado de Stun Combo, mientras que los veteranos pueden dominar los intrincados datos de frames y el espaciado necesario para los contraataques de alto nivel con Flow Guard.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Elenco de personajes y protagonistas">
+
+El elenco de **Virtua Fighter Crossroads RPG** es una mezcla de rostros frescos y leyendas veteranas. La historia se centra en cuatro nuevos protagonistas, siendo **Cielo** el primer líder revelado. Personajes clásicos como Akira Yuki y Pai Chan regresan con diseños que reflejan el paso del tiempo, sirviendo como mentores o rivales dentro del submundo de Vilasapara.
+
+| Personaje | Estado | Estilo | Rol |
+| :--- | :--- | :--- | :--- |
+| **Cielo** | **Nuevo protagonista** | MMA / Boxeo de golpeo | Protagonista principal en el arco argumental inicial |
+| **Stella Bridges** | **Nuevo protagonista** | TBA | Uno de los cuatro protagonistas centrales jugables |
+| **Akira Yuki** | **Clásico** | Bajiquan | Maestro que regresa; parte del elenco global |
+| **Pai Chan** | **Clásico** | Artes marciales chinas | Conectada a la caza de Cielo por el Asesino Bakunawa |
+| **Asesino Bakunawa** | **Nuevo antagonista** | TBA | Atacante misterioso; jugable en el Modo Batalla |
+| **Wolf Hawkfield** | **Clásico** | Lucha libre profesional | Leyenda que regresa con un diseño rudo y envejecido |
+
+<Callout type="info" title="Referencias clásicas">
+Los fans más atentos han visto a Jacky Bryant y otras leyendas en el arte ambiental de Vilasapara. Aunque no todos están confirmados como jugables, su presencia confirma que Crossroads es una continuación directa de la línea temporal de Virtua Fighter.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de entrenamiento para principiantes">
+
+Para los jugadores nuevos en la franquicia o aquellos que hacen la transición desde los juegos de acción de RGG, dominar el combate de **Virtua Fighter Crossroads RPG** requiere un cambio de mentalidad. A diferencia de los juegos de lucha en 2D con proyectiles, este es un juego de pulgadas, ventaja de frames y lecturas a corta distancia.
+
+<Steps>
+  <Step num="1" title="Domina el triángulo">
+    Entiende la lógica central: los golpes vencen a los agarres, las guardias vencen a los golpes y los agarres vencen a las guardias. Cada intercambio en el juego gira en torno a esta relación fundamental de Piedra-Papel-Tijera.
+  </Step>
+  <Step num="2" title="Comodidad con los inputs">
+    Practica la disposición simple de P (Puñetazo), K (Patada) y G (Guardia). Aprende notaciones básicas como P+K o K+G, que son esenciales para ejecutar los nuevos ataques Stunner y Break.
+  </Step>
+  <Step num="3" title="Disciplina defensiva">
+    Diferencia entre la Guardia de pie (bloquea alto/medio) y la Guardia agachada (bloquea bajo/evita agarres). Usa el nuevo Flow Guard para crear aperturas contra oponentes agresivos.
+  </Step>
+  <Step num="4" title="Transición de historia a Versus">
+    Usa el Modo Historia para un jugador para aprender los hábitos específicos de cada personaje. La estructura de "Aventura de Lucha" está diseñada para enseñarte mecánicas a través de encuentros narrativos antes de entrar al Modo Batalla competitivo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Personajes iniciales">
+Si tienes problemas con la complejidad técnica, comienza con **Cielo**. Su estilo MMA centrado en el golpeo está diseñado para ser el punto de entrada más accesible para los jugadores modernos, enfatizando la presión directa y los movimientos basados en el boxeo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modos de juego y funciones en línea">
+
+**Virtua Fighter Crossroads RPG** divide su contenido en dos pilares principales: la aventura narrativa y la arena competitiva. Esta estructura garantiza que tanto los fans de los RPG como los entusiastas de los juegos de lucha tengan espacios dedicados para jugar.
+
+<CardGrid cols={3}>
+  <Card title="Modo Historia">
+    - Exploración narrativa
+    - Rutas ramificadas
+    - Peleas contra múltiples oponentes
+    - Progresión de personajes
+  </Card>
+  <Card title="Modo Batalla">
+    - Versus local 1v1
+    - Juego en línea clasificado
+    - Salas casuales
+    - Práctica/Tutoriales
+  </Card>
+  <Card title="Vila Fight Fest">
+    - Estructuras de torneo
+    - Eventos de construcción del mundo
+    - Enfrentamientos contra jefes
+    - Reglas especiales
+  </Card>
+</CardGrid>
+
+| Función | Modo Historia | Modo Batalla |
+| :--- | :--- | :--- |
+| **Oponentes** | Jefes, grupos, rivales | Jugadores humanos o IA |
+| **Progresión** | Basada en narrativa y elecciones | Basada en rango y habilidad |
+| **Reglas** | Estándar y Uprising | Estándar competitivo |
+| **Juego en línea** | No (Un jugador) | Sí (Netcode TBA) |
+
+<Callout type="info" title="Infraestructura en línea">
+Aunque los detalles específicos del netcode (como el Rollback) no se han detallado oficialmente en la última presentación, SEGA ha enfatizado que el Modo Batalla está construido para un entorno competitivo moderno que soporte a una comunidad a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recursos oficiales y hitos">
+
+Para mantenerte al tanto de las últimas noticias sobre **Virtua Fighter Crossroads RPG**, los jugadores deben seguir los canales oficiales de SEGA y RGG Studio. A medida que nos acercamos al lanzamiento de 2027, espera revelaciones de personajes más frecuentes y análisis profundos de los distritos de Vilasapara.
+
+<Checklist
+  id="vf-crossroads-prep"
+  title="Preparación para el lanzamiento:"
+  items={[
+    "Sigue la cuenta oficial @VFCROSSROADS en X para actualizaciones en tiempo real",
+    "Únete al Discord oficial de Virtua Fighter para debates de la comunidad",
+    "Revisa el archivo de la presentación de 2026 para profundizar en el sistema de combate",
+    "Practica los fundamentos en los títulos actuales de VF para prepararte para el motor de 2027",
+    "Monitorea las noticias oficiales de SEGA para conocer la plataforma final y los anuncios de reserva"
+  ]}
+/>
+
+<Callout type="success" title="Directrices de la comunidad">
+SEGA ha publicado directrices específicas para creadores y co-streaming de Crossroads. Si planeas cubrir el juego o sus tráileres, asegúrate de seguir los requisitos de crédito oficiales para evitar penalizaciones en tu contenido.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Virtua Fighter Crossroads un RPG o un juego de lucha?",
+    answer: "Es una 'Aventura de Lucha' que combina ambos. Cuenta con una ciudad sandbox (Vilasapara), elecciones narrativas ramificadas y misiones secundarias (elementos RPG), pero el combate central sigue siendo un sistema técnico de lucha en 3D."
+  },
+  {
+    question: "¿Cuándo es la fecha de lanzamiento de Virtua Fighter Crossroads?",
+    answer: "El juego está programado oficialmente para una ventana de lanzamiento en 2027. SEGA aún no ha anunciado un día y mes específicos."
+  },
+  {
+    question: "¿Son jugables personajes clásicos como Akira y Pai?",
+    answer: "Sí. Aunque la historia se centra en cuatro nuevos protagonistas, los personajes clásicos están confirmados como jugables en el Modo Batalla y aparecerán a lo largo del Modo Historia como parte del mundo."
+  },
+  {
+    question: "¿Cuáles son los nuevos sistemas de combate en el RPG Crossroads?",
+    answer: "Los nuevos sistemas clave incluyen Break & Rush (daño en extremidades), Flow Guard (defensa basada en impulso) y Stunner/Stun Combo (rutas de combo simplificadas pero profundas)."
+  }
+]} />
+
+</Section>

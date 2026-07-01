@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Virtua Fighter Crossroads: Release, Story & Combat Guide",
+  description: "Explore the 2027 Virtua Fighter revival with branching single-player story, Vilasapara city lore, characters, trailers, and classic 3D combat.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Virtua+Fighter+Crossroads+Guide",
+  date: "2026-07-01",
+  author: "virtua fighter crossroads Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Virtua Fighter Crossroads** is the official 2027 title for the new fighting-adventure project.
+- The game features a **four-protagonist narrative** set in the fictional city of **Vilasapara**.
+- Combat blends **classic 3D fighting** with new mechanics like **Break & Rush** and **Stun Combos**.
+- Official platforms, price, and release date are currently **TBA** (To Be Announced).
+- The development team is prioritizing a **home-console experience** over traditional arcade releases.
+</Callout>
+
+<Section icon={Map} title="Release Window and Project Status">
+
+Virtua Fighter Crossroads represents a bold evolution for the series, shifting away from traditional arcade-only cycles toward a narrative-driven fighting adventure. SEGA and RGG Studio have confirmed a 2027 launch window, though specific details remain in development.
+
+**Video Highlights:**
+- Official title confirmed as Virtua Fighter Crossroads.
+- 2027 release window targeted for home consoles.
+- Cinematic story integration with core fighting mechanics.
+
+<YouTubeEmbed videoId="HSn13RsfP3A" title="VIRTUA FIGHTER CROSSROADS Official Reveal Trailer" />
+
+| Category | Status | Details |
+| :--- | :--- | :--- |
+| Release Window | 2027 | Official launch window confirmed |
+| Platform | TBA | Focused on home console play |
+| Price | TBA | Not yet announced |
+| Edition | TBA | Pre-order details pending |
+
+<Callout type="tip" title="Stay Updated">
+Monitor the [official SEGA product page](https://sega.jp/game/detail/virtuafighter-CROSSROADS) and [RGG Studio news](https://ryu-ga-gotoku.com/asia_en/info/detail/004309.html) for the most accurate platform and pre-order announcements.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Story Mode and Vilasapara Setting">
+
+The game takes place in the sprawling Southeast Asian metropolis of Vilasapara. Unlike previous entries, this title focuses on a branching story where player actions, victories, and defeats influence the narrative path of four distinct protagonists.
+
+| Feature | Description |
+| :--- | :--- |
+| Setting | Fictional city of Vilasapara |
+| Structure | Four-protagonist branching story |
+| Gameplay | Story mode with side quests and brawls |
+| Conflict | Investigation of the Bakunawa Killer |
+
+<Callout type="info" title="Narrative Structure">
+The story is designed as a fighting adventure. You will explore the city, engage in side quests, and participate in multi-opponent brawls, all while maintaining the core 1v1 combat integrity of the Virtua Fighter series.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and Gameplay Rules">
+
+Virtua Fighter Crossroads retains the fundamental strike-throw-guard logic that defines the series, while introducing modern systems to increase depth and visual impact.
+
+<CardGrid cols={3}>
+  <Card title="Break & Rush">
+    - Damage builds on specific body regions.
+    - Break status carries over rounds.
+    - Rewards long-term strategic planning.
+  </Card>
+  <Card title="Stunner & Combo">
+    - New strike technique opens opponents.
+    - Fluid, realistic combo routes.
+    - Easier access for new players.
+  </Card>
+  <Card title="Flow Guard">
+    - Active, stylish defensive mechanic.
+    - Shifts momentum during combat.
+    - Adds depth beyond simple blocking.
+  </Card>
+</CardGrid>
+
+| System | Category | Primary Purpose |
+| :--- | :--- | :--- |
+| Standard Rules | Battle Rule | Traditional health/ring-out victory |
+| Uprising Rules | Battle Rule | Dynamic momentum-shifting combat |
+| Cinematic Hit | Presentation | Enhanced visual feedback for reads |
+
+<Callout type="success" title="Combat Philosophy">
+The development team focuses on an intuitive control feel. While new systems like Flow Guard are added, the core experience remains a high-stakes, close-range reading game between opponents.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Beginner Training Path">
+
+Prepare for the game by mastering the fundamentals of 3D fighting. Use these steps to build the muscle memory required for the new mechanics when the game launches.
+
+<Steps>
+  <Step num="1" title="Master the Triangle">
+    Learn the core logic: Strikes beat throws, throws beat guards, and guards beat strikes.
+  </Step>
+  <Step num="2" title="Practice Movement">
+    Focus on side-stepping and spacing. Proper distance management is crucial to avoid being pressured.
+  </Step>
+  <Step num="3" title="Learn Defense">
+    Distinguish between standing and crouching guards. Practice reacting to low attacks consistently.
+  </Step>
+  <Step num="4" title="Simplify Combos">
+    Don't memorize long sequences yet. Master one reliable launcher and one simple follow-up combo.
+  </Step>
+</Steps>
+
+<Checklist
+  id="beginner-skills"
+  title="Core Skills to Practice:"
+  items={[
+    "Consistent guard timing",
+    "Throw escape inputs",
+    "Basic strike-throw-guard cycle",
+    "Character-specific spacing"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Virtua Fighter Crossroads a direct sequel to VF5?",
+    answer: "It is a new entry in the series, titled Virtua Fighter Crossroads, focusing on a new generation of protagonists and a narrative-driven fighting adventure structure."
+  },
+  {
+    question: "Can I play as classic characters like Akira or Pai?",
+    answer: "Yes, legacy characters appear in the world and are part of the roster, though the narrative focus shifts to the four new protagonists."
+  },
+  {
+    question: "Will there be online multiplayer?",
+    answer: "Yes, Battle Mode supports both offline and online head-to-head matches, maintaining the competitive spirit of the Virtua Fighter series."
+  }
+]} />
+
+</Section>

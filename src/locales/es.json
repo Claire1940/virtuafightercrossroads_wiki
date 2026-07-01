@@ -1,1 +1,9 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "characters": "Personajes",
+    "story": "Historia",
+    "guide": "Guía",
+    "trailer": "Tráiler"
+  }
+}

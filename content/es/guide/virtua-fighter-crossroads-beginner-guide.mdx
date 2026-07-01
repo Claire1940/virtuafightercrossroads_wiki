@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía para Principiantes de Virtua Fighter Crossroads: Combate y Recorrido de la Historia",
+  description: "Domina Virtua Fighter Crossroads (2027) con nuestra guía para principiantes. Aprende el triángulo de golpe-agarre-bloqueo, la exploración de Vilasapara y las nuevas mecánicas de combate.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beginner+Guide+Combat+Systems",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Virtua Fighter Crossroads",
+  keywords: "virtua fighter crossroads, guía, principiantes, combate, historia, vilasapara"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía para Principiantes de Virtua Fighter Crossroads**: Se centra en la estructura de "Aventura de Lucha" y los fundamentos del combate en 3D.
+- **Triángulo Base**: Es esencial dominar la lógica de **El Golpe vence al Agarre, el Bloqueo vence al Golpe, el Agarre vence al Bloqueo**.
+- **Nuevas Mecánicas**: Aprende **Break & Rush** para daño regional y **Flow Guard** para una defensa cinematográfica.
+- **Ciudad de Vilasapara**: La exploración en esta metrópolis del sudeste asiático es clave para desbloquear las historias de los cuatro protagonistas.
+- **Flujo de Práctica**: Comienza en el Modo Tutorial para desarrollar la memoria muscular de las entradas de Puñetazo, Patada y Bloqueo (P, K, G).
+</Callout>
+
+<Section icon={Swords} title="Fundamentos del Combate y el Triángulo de Golpes">
+
+El corazón de la **guía para principiantes de Virtua Fighter Crossroads** reside en comprender que este no es un juego de lucha de "bolas de fuego". El éxito depende de las lecturas a corta distancia, el tiempo y el dominio del triángulo de combate fundamental. A diferencia de los juegos de lucha en 2D que dependen de proyectiles, Crossroads enfatiza la física realista de las artes marciales, donde cada movimiento tiene un contraataque específico.
+
+El sistema de combate se basa en tres pilares: Golpear, Agarrar y Bloquear. Si eres nuevo en la serie, tu primera prioridad es reconocer qué acción vence a otra. Si un oponente espera pasivamente en posición de bloqueo, un golpe será bloqueado, pero un agarre conectará. Por el contrario, si anticipas un agarre, un golpe rápido interrumpirá su intento.
+
+| Acción | Vence a | Pierde contra | Uso Estratégico |
+| :--- | :--- | :--- | :--- |
+| **Golpe** | Agarres | Bloqueo | Usar para presionar e iniciar combos |
+| **Agarre** | Bloqueo | Golpes | Usar para castigar a jugadores defensivos pasivos |
+| **Bloqueo** | Golpes | Agarres | Usar para reiniciar el juego neutral y encontrar aperturas |
+
+<Callout type="tip" title="Lectura de Frames">
+Después de un bloqueo exitoso, a menudo tienes una "ventaja de frames", lo que significa que puedes moverte un poco antes que tu oponente. Esta es tu oportunidad para contraatacar. ¡No te quedes congelado, aprovecha tu turno!
+</Callout>
+
+En Crossroads, las "Reglas Uprising" introducen un concepto dinámico de cambio de impulso que difiere de las clásicas "Reglas Estándar". Mientras que las Estándar se centran en agotar las barras de salud y los ring-outs, Uprising enfatiza el flujo agresivo y los reinicios tácticos.
+
+| Tipo de Regla | Condición de Victoria | Flujo del Combate |
+| :--- | :--- | :--- |
+| **Estándar** | Agotar HP o Ring Out | Estructura tradicional por asaltos (Mejor de 3/5) |
+| **Uprising** | Puntuación basada en el impulso | Cambios dinámicos con reinicios de combate más dramáticos |
+
+</Section>
+
+<Section icon={Target} title="Diseño de Controles y Notación Básica">
+
+Virtua Fighter utiliza un diseño de tres botones famosamente simple: **Puñetazo (P)**, **Patada (K)** y **Bloqueo (G)**. Aunque los controles son intuitivos, la profundidad proviene de combinar estos botones con entradas direccionales. Por ejemplo, presionar P y K simultáneamente (P+K) suele activar el golpe característico de media distancia de un personaje.
+
+<Steps>
+  <Step num="1" title="Familiarízate con los botones">
+    Practica las entradas básicas de P, K y G individualmente. Asegúrate de poder pulsarlos sin mirar el mando.
+  </Step>
+  <Step num="2" title="Domina las entradas P+K y P+G">
+    P+K suele ser un golpe pesado, mientras que P+G es la entrada universal para agarres. Sincronizar estas pulsaciones simultáneas es vital para el juego de alto nivel.
+  </Step>
+  <Step num="3" title="Aprende el bloqueo Alto/Medio/Bajo">
+    El Bloqueo de pie (G) bloquea ataques altos y medios, pero pierde ante los bajos. El Bloqueo agachado (Abajo+G) bloquea los bajos y evita los agarres altos, pero es vulnerable a los golpes medios.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Dirección de la Entrada">
+Recuerda que las flechas de la lista de movimientos son relativas a la dirección hacia la que mira tu personaje. Si cambias de lado, tu entrada de "Adelante" se convierte en la dirección opuesta en tu stick o cruceta.
+</Callout>
+
+Entender la notación es el primer paso para leer guías avanzadas. En la comunidad, "6P" se refiere a presionar Adelante y Puñetazo (basado en un diseño de teclado numérico estándar donde 6 es adelante). Aprender esta abreviatura te ayudará a navegar por los recursos oficiales de la [Guía de Virtua Fighter](https://virtua-fighter.com/en/guide) de manera efectiva.
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas Avanzadas: Break & Rush y Flow Guard">
+
+Virtua Fighter Crossroads introduce varios sistemas nuevos que modernizan el clásico combate 3D. Estas mecánicas están diseñadas para hacer que el juego sea más cinematográfico, añadiendo capas de profundidad estratégica para los jugadores competitivos.
+
+**Break & Rush** es una característica destacada que rastrea el daño en regiones específicas del cuerpo. Si golpeas repetidamente las piernas o los brazos de un oponente, eventualmente puedes activar un estado "Roto" (Broken). Este estado se mantiene entre asaltos, lo que significa que el daño que hagas en el Asalto 1 puede hacer que tu oponente sea más vulnerable en el Asalto 3.
+
+<CardGrid cols={3}>
+  <Card title="Técnica Stunner">
+    Un nuevo tipo de golpe que abre a los oponentes para recibir daño de seguimiento sin necesidad de un lanzador tradicional.
+  </Card>
+  <Card title="Flow Guard">
+    Una mecánica defensiva con estilo que enfatiza el movimiento fluido. Permite contraataques activos en lugar de solo bloqueos pasivos.
+  </Card>
+  <Card title="Stun Combo">
+    Un sistema de combos reconstruido enfocado en el realismo. Permite rutas de daño que son más fáciles de ejecutar para los principiantes.
+  </Card>
+</CardGrid>
+
+| Mecánica | Categoría | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Break & Rush** | Ofensiva | El daño regional acumulado crea una estrategia a largo plazo |
+| **Flow Guard** | Defensiva | La defensa activa cambia el impulso y añade estilo visual |
+| **Stunner** | Golpe | Crea oportunidades claras de combo desde el estado neutral |
+| **Stun Combo** | Combo | Simplifica los seguimientos dañinos para todos los niveles de habilidad |
+
+<Callout type="info" title="Evolución del Sistema">
+El productor Riichiro Yamada ha declarado que, aunque la filosofía principal de "Puñetazo, Patada, Bloqueo" permanece, estos nuevos sistemas pretenden hacer el juego más accesible y visualmente expresivo para el lanzamiento de 2027.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Vilasapara: El Modo Historia de Aventura de Lucha">
+
+A diferencia de las entregas anteriores, Virtua Fighter Crossroads es una "Aventura de Lucha". La historia tiene lugar en **Vilasapara**, una metrópolis ficticia del sudeste asiático. Esta ciudad sirve como un centro donde puedes explorar diferentes distritos, interactuar con NPCs y descubrir misiones secundarias vinculadas a la narrativa principal del "Vila Fight Fest".
+
+La historia se cuenta a través de los ojos de cuatro protagonistas. Tus acciones, victorias e incluso tus derrotas influirán en cómo se ramifica la narrativa. Esto significa que la **guía para principiantes de Virtua Fighter Crossroads** no trata solo de luchar, sino de cómo navegas por la ciudad y las decisiones que tomas durante la campaña.
+
+<Checklist
+  id="vilasapara-exploration"
+  title="Lista de verificación de Vilasapara:"
+  items={[
+    "Visita el Centro de la Ciudad Amurallada para activar la historia principal",
+    "Explora el Distrito de Entretenimiento para misiones secundarias",
+    "Interactúa con los residentes para desbloquear el lore de personajes clásicos",
+    "Participa en combates del Vila Fight Fest para ganar recompensas",
+    "Rastrea al Asesino Bakunawa a través de pistas específicas de cada protagonista"
+  ]}
+/>
+
+<Callout type="success" title="Transferencia de Protagonistas">
+Las habilidades que aprendes en el Modo Historia están diseñadas para transferirse directamente al Modo Batalla. Los protagonistas, como Cielo, son totalmente jugables en combates competitivos versus.
+</Callout>
+
+El equipo narrativo incluye talento internacional como David Hayter (supervisión) y Brad Kane (guionista principal), asegurando que el mundo de Vilasapara se sienta vivo y con mucho en juego. Para las últimas actualizaciones de la historia, consulta las [Noticias Oficiales de RGG](https://ryu-ga-gotoku.com/asia_en/info/detail/004309.html).
+
+</Section>
+
+<Section icon={Trophy} title="Flujo de Práctica y Personajes para Principiantes">
+
+Para tener éxito en Crossroads, necesitas un enfoque estructurado para aprender. Saltar directamente a combates en línea puede ser desalentador. En su lugar, sigue una ruta de progresión que aumente tu confianza y habilidad mecánica.
+
+| Fase | Modo | Objetivo |
+| :--- | :--- | :--- |
+| **Descubrimiento** | Modo Tutorial | Aprender P, K, G básico y el Triángulo de Golpes |
+| **Familiarización** | Modo Historia | Entender el movimiento del personaje y el lore de Vilasapara |
+| **Aplicación** | Modo Arcade | Ver el elenco completo y practicar contra diferentes estilos |
+| **Competición** | Modo Batalla | Pon a prueba tus habilidades en combates 1 contra 1 online u offline |
+
+Elegir el personaje adecuado es igual de importante. Aunque Crossroads introduce nuevos protagonistas, los personajes clásicos siguen siendo excelentes para aprender los fundamentos.
+
+- **Cielo**: El primer protagonista que controlas. Utiliza un estilo de MMA con raíces en el boxeo, perfecto para aprender la presión a corta distancia.
+- **Jacky Bryant**: Un veterano de la serie que destaca por golpes simples y efectivos, enseñando la importancia del tiempo.
+- **Pai Chan**: Ideal para jugadores que quieran aprender posturas y contraataques defensivos.
+- **Stella Bridges**: Una de las cuatro nuevas protagonistas diseñadas con las mecánicas modernas en mente.
+
+<Callout type="tip" title="Concéntrate en un Combo">
+No intentes memorizar una lista de 20 movimientos. Elige un "lanzador" fiable y un golpe de "seguimiento". Domínalos hasta que sean automáticos antes de añadir más complejidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes de Virtua Fighter Crossroads">
+
+<FAQ items={[
+  {
+    question: "¿Es Virtua Fighter Crossroads una secuela de Virtua Fighter 5?",
+    answer: "Es la próxima entrega principal de la serie, pero traslada el enfoque a una nueva generación de protagonistas y a una estructura de 'Aventura de Lucha' ambientada en la ciudad de Vilasapara."
+  },
+  {
+    question: "¿Cuál es la mejor manera de empezar para un principiante total?",
+    answer: "Sigue esta guía para principiantes de Virtua Fighter Crossroads comenzando en el Modo Tutorial para aprender el triángulo de golpe-agarre-bloqueo, y luego juega la historia de Cielo para familiarizarte con el movimiento."
+  },
+  {
+    question: "¿Cómo funciona el sistema Break & Rush?",
+    answer: "Rastrea el daño en partes específicas del cuerpo. Si concentras tus ataques en las piernas de un oponente, por ejemplo, este podría entrar eventualmente en un estado 'Roto' que aumenta el daño y persiste entre asaltos."
+  },
+  {
+    question: "¿Cuándo es la fecha de lanzamiento de Virtua Fighter Crossroads?",
+    answer: "El juego está programado actualmente para una ventana de lanzamiento en 2027. Las plataformas y las fechas exactas aún están por ser anunciadas por SEGA y RGG Studio."
+  }
+]} />
+
+</Section>

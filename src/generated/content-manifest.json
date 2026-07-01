@@ -1,1 +1,690 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "virtua-fighter-crossroads-akira",
+        "file": "virtua-fighter-crossroads-akira"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-bakunawa-killer",
+        "file": "virtua-fighter-crossroads-bakunawa-killer"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-characters",
+        "file": "virtua-fighter-crossroads-characters"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-cielo",
+        "file": "virtua-fighter-crossroads-cielo"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-kage",
+        "file": "virtua-fighter-crossroads-kage"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-lau",
+        "file": "virtua-fighter-crossroads-lau"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-lei-fei",
+        "file": "virtua-fighter-crossroads-lei-fei"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-new-characters",
+        "file": "virtua-fighter-crossroads-new-characters"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-pai",
+        "file": "virtua-fighter-crossroads-pai"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-roster",
+        "file": "virtua-fighter-crossroads-roster"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-sarah",
+        "file": "virtua-fighter-crossroads-sarah"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-stella",
+        "file": "virtua-fighter-crossroads-stella"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "virtua-fighter-crossroads-adventure-overview",
+        "file": "virtua-fighter-crossroads-adventure-overview"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-beginner-guide",
+        "file": "virtua-fighter-crossroads-beginner-guide"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-button-layout",
+        "file": "virtua-fighter-crossroads-button-layout"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-combat-system",
+        "file": "virtua-fighter-crossroads-combat-system"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-gameplay",
+        "file": "virtua-fighter-crossroads-gameplay"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-guide",
+        "file": "virtua-fighter-crossroads-guide"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-scenario-battle",
+        "file": "virtua-fighter-crossroads-scenario-battle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "virtua-fighter-crossroads-pc",
+        "file": "virtua-fighter-crossroads-pc"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-platforms",
+        "file": "virtua-fighter-crossroads-platforms"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-ps5",
+        "file": "virtua-fighter-crossroads-ps5"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-release-date",
+        "file": "virtua-fighter-crossroads-release-date"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-steam",
+        "file": "virtua-fighter-crossroads-steam"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-switch-2",
+        "file": "virtua-fighter-crossroads-switch-2"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-system-requirements",
+        "file": "virtua-fighter-crossroads-system-requirements"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-wishlist",
+        "file": "virtua-fighter-crossroads-wishlist"
+      }
+    ],
+    "story": [
+      {
+        "slug": "virtua-fighter-crossroads-adventure",
+        "file": "virtua-fighter-crossroads-adventure"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-binondo",
+        "file": "virtua-fighter-crossroads-binondo"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-cebu",
+        "file": "virtua-fighter-crossroads-cebu"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-jeepney",
+        "file": "virtua-fighter-crossroads-jeepney"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-open-world",
+        "file": "virtua-fighter-crossroads-open-world"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-philippines",
+        "file": "virtua-fighter-crossroads-philippines"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-protagonist",
+        "file": "virtua-fighter-crossroads-protagonist"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-rpg",
+        "file": "virtua-fighter-crossroads-rpg"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-setting",
+        "file": "virtua-fighter-crossroads-setting"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-shenmue",
+        "file": "virtua-fighter-crossroads-shenmue"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-story",
+        "file": "virtua-fighter-crossroads-story"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "virtua-fighter-crossroads-showcase",
+        "file": "virtua-fighter-crossroads-showcase"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-trailer",
+        "file": "virtua-fighter-crossroads-trailer"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "virtua-fighter-crossroads-akira",
+        "file": "virtua-fighter-crossroads-akira"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-bakunawa-killer",
+        "file": "virtua-fighter-crossroads-bakunawa-killer"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-characters",
+        "file": "virtua-fighter-crossroads-characters"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-cielo",
+        "file": "virtua-fighter-crossroads-cielo"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-kage",
+        "file": "virtua-fighter-crossroads-kage"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-lau",
+        "file": "virtua-fighter-crossroads-lau"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-lei-fei",
+        "file": "virtua-fighter-crossroads-lei-fei"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-new-characters",
+        "file": "virtua-fighter-crossroads-new-characters"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-pai",
+        "file": "virtua-fighter-crossroads-pai"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-roster",
+        "file": "virtua-fighter-crossroads-roster"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-sarah",
+        "file": "virtua-fighter-crossroads-sarah"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-stella",
+        "file": "virtua-fighter-crossroads-stella"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "virtua-fighter-crossroads-adventure-overview",
+        "file": "virtua-fighter-crossroads-adventure-overview"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-beginner-guide",
+        "file": "virtua-fighter-crossroads-beginner-guide"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-button-layout",
+        "file": "virtua-fighter-crossroads-button-layout"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-combat-system",
+        "file": "virtua-fighter-crossroads-combat-system"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-gameplay",
+        "file": "virtua-fighter-crossroads-gameplay"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-guide",
+        "file": "virtua-fighter-crossroads-guide"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-scenario-battle",
+        "file": "virtua-fighter-crossroads-scenario-battle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "virtua-fighter-crossroads-pc",
+        "file": "virtua-fighter-crossroads-pc"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-platforms",
+        "file": "virtua-fighter-crossroads-platforms"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-ps5",
+        "file": "virtua-fighter-crossroads-ps5"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-release-date",
+        "file": "virtua-fighter-crossroads-release-date"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-steam",
+        "file": "virtua-fighter-crossroads-steam"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-switch-2",
+        "file": "virtua-fighter-crossroads-switch-2"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-system-requirements",
+        "file": "virtua-fighter-crossroads-system-requirements"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-wishlist",
+        "file": "virtua-fighter-crossroads-wishlist"
+      }
+    ],
+    "story": [
+      {
+        "slug": "virtua-fighter-crossroads-adventure",
+        "file": "virtua-fighter-crossroads-adventure"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-binondo",
+        "file": "virtua-fighter-crossroads-binondo"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-cebu",
+        "file": "virtua-fighter-crossroads-cebu"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-jeepney",
+        "file": "virtua-fighter-crossroads-jeepney"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-open-world",
+        "file": "virtua-fighter-crossroads-open-world"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-philippines",
+        "file": "virtua-fighter-crossroads-philippines"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-protagonist",
+        "file": "virtua-fighter-crossroads-protagonist"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-rpg",
+        "file": "virtua-fighter-crossroads-rpg"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-setting",
+        "file": "virtua-fighter-crossroads-setting"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-shenmue",
+        "file": "virtua-fighter-crossroads-shenmue"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-story",
+        "file": "virtua-fighter-crossroads-story"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "virtua-fighter-crossroads-showcase",
+        "file": "virtua-fighter-crossroads-showcase"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-trailer",
+        "file": "virtua-fighter-crossroads-trailer"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "virtua-fighter-crossroads-akira",
+        "file": "virtua-fighter-crossroads-akira"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-bakunawa-killer",
+        "file": "virtua-fighter-crossroads-bakunawa-killer"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-characters",
+        "file": "virtua-fighter-crossroads-characters"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-cielo",
+        "file": "virtua-fighter-crossroads-cielo"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-kage",
+        "file": "virtua-fighter-crossroads-kage"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-lau",
+        "file": "virtua-fighter-crossroads-lau"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-lei-fei",
+        "file": "virtua-fighter-crossroads-lei-fei"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-new-characters",
+        "file": "virtua-fighter-crossroads-new-characters"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-pai",
+        "file": "virtua-fighter-crossroads-pai"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-roster",
+        "file": "virtua-fighter-crossroads-roster"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-sarah",
+        "file": "virtua-fighter-crossroads-sarah"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-stella",
+        "file": "virtua-fighter-crossroads-stella"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "virtua-fighter-crossroads-adventure-overview",
+        "file": "virtua-fighter-crossroads-adventure-overview"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-beginner-guide",
+        "file": "virtua-fighter-crossroads-beginner-guide"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-button-layout",
+        "file": "virtua-fighter-crossroads-button-layout"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-combat-system",
+        "file": "virtua-fighter-crossroads-combat-system"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-gameplay",
+        "file": "virtua-fighter-crossroads-gameplay"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-guide",
+        "file": "virtua-fighter-crossroads-guide"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-scenario-battle",
+        "file": "virtua-fighter-crossroads-scenario-battle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "virtua-fighter-crossroads-pc",
+        "file": "virtua-fighter-crossroads-pc"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-platforms",
+        "file": "virtua-fighter-crossroads-platforms"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-ps5",
+        "file": "virtua-fighter-crossroads-ps5"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-release-date",
+        "file": "virtua-fighter-crossroads-release-date"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-steam",
+        "file": "virtua-fighter-crossroads-steam"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-switch-2",
+        "file": "virtua-fighter-crossroads-switch-2"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-system-requirements",
+        "file": "virtua-fighter-crossroads-system-requirements"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-wishlist",
+        "file": "virtua-fighter-crossroads-wishlist"
+      }
+    ],
+    "story": [
+      {
+        "slug": "virtua-fighter-crossroads-adventure",
+        "file": "virtua-fighter-crossroads-adventure"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-binondo",
+        "file": "virtua-fighter-crossroads-binondo"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-cebu",
+        "file": "virtua-fighter-crossroads-cebu"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-jeepney",
+        "file": "virtua-fighter-crossroads-jeepney"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-open-world",
+        "file": "virtua-fighter-crossroads-open-world"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-philippines",
+        "file": "virtua-fighter-crossroads-philippines"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-protagonist",
+        "file": "virtua-fighter-crossroads-protagonist"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-rpg",
+        "file": "virtua-fighter-crossroads-rpg"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-setting",
+        "file": "virtua-fighter-crossroads-setting"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-shenmue",
+        "file": "virtua-fighter-crossroads-shenmue"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-story",
+        "file": "virtua-fighter-crossroads-story"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "virtua-fighter-crossroads-showcase",
+        "file": "virtua-fighter-crossroads-showcase"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-trailer",
+        "file": "virtua-fighter-crossroads-trailer"
+      }
+    ]
+  },
+  "ko": {
+    "characters": [
+      {
+        "slug": "virtua-fighter-crossroads-akira",
+        "file": "virtua-fighter-crossroads-akira"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-bakunawa-killer",
+        "file": "virtua-fighter-crossroads-bakunawa-killer"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-characters",
+        "file": "virtua-fighter-crossroads-characters"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-cielo",
+        "file": "virtua-fighter-crossroads-cielo"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-kage",
+        "file": "virtua-fighter-crossroads-kage"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-lau",
+        "file": "virtua-fighter-crossroads-lau"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-lei-fei",
+        "file": "virtua-fighter-crossroads-lei-fei"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-new-characters",
+        "file": "virtua-fighter-crossroads-new-characters"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-pai",
+        "file": "virtua-fighter-crossroads-pai"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-roster",
+        "file": "virtua-fighter-crossroads-roster"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-sarah",
+        "file": "virtua-fighter-crossroads-sarah"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-stella",
+        "file": "virtua-fighter-crossroads-stella"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "virtua-fighter-crossroads-adventure-overview",
+        "file": "virtua-fighter-crossroads-adventure-overview"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-beginner-guide",
+        "file": "virtua-fighter-crossroads-beginner-guide"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-button-layout",
+        "file": "virtua-fighter-crossroads-button-layout"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-combat-system",
+        "file": "virtua-fighter-crossroads-combat-system"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-gameplay",
+        "file": "virtua-fighter-crossroads-gameplay"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-guide",
+        "file": "virtua-fighter-crossroads-guide"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-scenario-battle",
+        "file": "virtua-fighter-crossroads-scenario-battle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "virtua-fighter-crossroads-pc",
+        "file": "virtua-fighter-crossroads-pc"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-platforms",
+        "file": "virtua-fighter-crossroads-platforms"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-ps5",
+        "file": "virtua-fighter-crossroads-ps5"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-release-date",
+        "file": "virtua-fighter-crossroads-release-date"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-steam",
+        "file": "virtua-fighter-crossroads-steam"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-switch-2",
+        "file": "virtua-fighter-crossroads-switch-2"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-system-requirements",
+        "file": "virtua-fighter-crossroads-system-requirements"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-wishlist",
+        "file": "virtua-fighter-crossroads-wishlist"
+      }
+    ],
+    "story": [
+      {
+        "slug": "virtua-fighter-crossroads-adventure",
+        "file": "virtua-fighter-crossroads-adventure"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-binondo",
+        "file": "virtua-fighter-crossroads-binondo"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-cebu",
+        "file": "virtua-fighter-crossroads-cebu"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-jeepney",
+        "file": "virtua-fighter-crossroads-jeepney"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-open-world",
+        "file": "virtua-fighter-crossroads-open-world"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-philippines",
+        "file": "virtua-fighter-crossroads-philippines"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-protagonist",
+        "file": "virtua-fighter-crossroads-protagonist"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-rpg",
+        "file": "virtua-fighter-crossroads-rpg"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-setting",
+        "file": "virtua-fighter-crossroads-setting"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-shenmue",
+        "file": "virtua-fighter-crossroads-shenmue"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-story",
+        "file": "virtua-fighter-crossroads-story"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "virtua-fighter-crossroads-showcase",
+        "file": "virtua-fighter-crossroads-showcase"
+      },
+      {
+        "slug": "virtua-fighter-crossroads-trailer",
+        "file": "virtua-fighter-crossroads-trailer"
+      }
+    ]
+  }
+}

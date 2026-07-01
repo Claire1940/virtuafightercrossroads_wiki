@@ -1,0 +1,194 @@
+import { Monitor, Cpu, Zap, Settings, CheckCircle, Sparkles, Shield, Target, Map, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos del sistema de Virtua Fighter Crossroads: Guía de especificaciones para PC 2027",
+  description: "Prepárate para el lanzamiento de 2027 con nuestra guía de requisitos del sistema de Virtua Fighter Crossroads. Explora las especificaciones estimadas de PC, consejos de hardware y actualizaciones de plataforma.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/f39c12?text=System+Requirements+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Virtua Fighter Crossroads",
+  keywords: "Virtua Fighter Crossroads, requisitos del sistema, especificaciones pc, 2027, hardware, RGG Studio"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **requisitos del sistema de Virtua Fighter Crossroads** figuran actualmente como TBA (por anunciar) por parte de SEGA, con una ventana de lanzamiento confirmada para 2027.
+- **RGG Studio** está desarrollando el título, lo que sugiere demandas de hardware similares o superiores a los títulos recientes de Like a Dragon.
+- El **almacenamiento SSD** será obligatorio debido a la exploración fluida de la nueva metrópolis del sudeste asiático, Vilasapara.
+- Se espera que las **GPU modernas** con soporte para Ray Tracing y escalado por IA (DLSS/FSR) sean la base para los ajustes recomendados.
+- El soporte para **DirectX 12** será un requisito indispensable para todos los jugadores de PC para manejar el combate evolucionado y la presentación cinematográfica de los impactos.
+</Callout>
+
+<Section icon={Monitor} title="Estado Oficial y Dirección de la Plataforma">
+
+A partir de julio de 2026, SEGA y RGG Studio han confirmado oficialmente que los **requisitos del sistema de Virtua Fighter Crossroads** permanecen en la fase de "Por Anunciar" (TBA). Esto es estándar para un proyecto que apunta a una ventana de lanzamiento en 2027. Sin embargo, la dirección de desarrollo proporcionada por el productor Riichiro Yamada confirma que este es un "proyecto centrado en consolas domésticas", alejándose de las raíces de la serie de priorizar el arcade. Este cambio implica un fuerte enfoque en activos de alta fidelidad y renderizado ambiental complejo que llevará al límite el hardware de PC moderno.
+
+**Puntos destacados del video:**
+- Confirmación oficial de la ventana de lanzamiento para 2027.
+- Primer vistazo a la estructura cinematográfica de "Aventura de Lucha".
+- Introducción del nuevo protagonista, Cielo, y la ciudad de Vilasapara.
+- Teaser de las mecánicas de combate evolucionadas, incluyendo Break & Rush.
+
+<YouTubeEmbed videoId="HSn13RsfP3A" title="VIRTUA FIGHTER CROSSROADS | Tráiler de revelación oficial" />
+
+El juego se está construyendo para soportar la escala masiva de Vilasapara, una ciudad ficticia donde se cruzan las historias de cuatro protagonistas. A diferencia de entregas anteriores que se centraban en escenarios aislados, Crossroads presenta distritos sustanciales y transiciones fluidas entre la exploración y el combate. Esta elección arquitectónica influye fuertemente en las necesidades de hardware proyectadas, particularmente en lo que respecta al ancho de banda de la memoria y la velocidad de almacenamiento.
+
+<Callout type="warning" title="Estado del Desarrollo">
+Debido a que el juego aún está en desarrollo activo para un lanzamiento en 2027, estas especificaciones se basan en los estándares técnicos actuales de RGG Studio y la disponibilidad proyectada de hardware. Los requisitos oficiales finales probablemente se publicarán entre 3 y 6 meses antes del lanzamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Especificaciones Estimadas de Hardware para PC">
+
+Para proporcionar a los jugadores un objetivo realista, hemos analizado la trayectoria técnica de los lanzamientos recientes de RGG Studio. Los **requisitos del sistema de Virtua Fighter Crossroads** probablemente exigirán un procesador multinúcleo y una GPU de arquitectura moderna para manejar las "Uprising Rules" y la nueva "Presentación Cinematográfica de Impactos". La siguiente tabla resume nuestras proyecciones expertas tanto para el nivel mínimo como para el recomendado en una experiencia de 1080p y 1440p.
+
+| Componente | Mínimo (1080p/30FPS) | Recomendado (1440p/60FPS) |
+| :--- | :--- | :--- |
+| **SO** | Windows 11 (64 bits) | Windows 11 (64 bits) |
+| **Procesador** | Intel Core i5-11400 / AMD Ryzen 5 3600 | Intel Core i7-13700 / AMD Ryzen 7 7700X |
+| **Memoria** | 16 GB de RAM | 32 GB de RAM |
+| **Gráficos** | NVIDIA GTX 1660 / AMD RX 5600 XT | NVIDIA RTX 4070 / AMD RX 7800 XT |
+| **DirectX** | Versión 12 | Versión 12 |
+| **Almacenamiento** | 100 GB SSD | 100 GB NVMe Gen4 SSD |
+
+La inclusión del sistema "Break & Rush", que rastrea el daño en regiones específicas del cuerpo a lo largo de los asaltos, sugiere que el motor del juego gestionará datos más persistentes durante el combate que los juegos de lucha tradicionales. Esto requiere una CPU estable para manejar los cálculos lógicos junto con la acción de alta velocidad.
+
+<Callout type="tip" title="Enfoque en el Procesador">
+Los juegos de RGG Studio son conocidos por ser intensivos en CPU en entornos urbanos concurridos. Para Crossroads, prioriza una CPU con un fuerte rendimiento de un solo núcleo para garantizar tasas de fotogramas estables en el centro de la ciudad de Vilasapara.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gráficos Avanzados y Características Técnicas">
+
+Virtua Fighter Crossroads no es solo un renacimiento; es una revisión técnica de la franquicia. El juego utiliza una versión evolucionada del motor propietario de RGG Studio, optimizado para el género de "Aventura de Lucha". Esto significa que los jugadores pueden esperar un conjunto de características gráficas modernas que mejoran el realismo del combate de artes marciales a corta distancia.
+
+<CardGrid cols={3}>
+  <Card title="Ray Tracing">
+    - **Iluminación Global** en Vilasapara
+    - Reflejos realistas en calles mojadas de la ciudad
+    - Profundidad de sombras mejorada para los modelos de personajes
+  </Card>
+  <Card title="Escalado por IA">
+    - Soporte completo para **NVIDIA DLSS 3.5+**
+    - Integración de AMD FSR 3.0 e Intel XeSS
+    - Generación de fotogramas para pantallas de alta frecuencia de actualización
+  </Card>
+  <Card title="DirectStorage">
+    - **Carga ultra rápida** entre distritos de la ciudad
+    - Transición fluida de la historia a la batalla
+    - Reducción de tirones (stuttering) en la transmisión de activos
+  </Card>
+</CardGrid>
+
+Las mecánicas "Flow Guard" y "Stunner" introducen movimientos defensivos elegantes y un estilo visual que depende de efectos de partículas y desenfoque de movimiento de alta calidad. Para mantener la integridad competitiva en el "Battle Mode" (uno contra uno en línea), se considera que 60 FPS estables es el punto de partida absoluto, independientemente de los ajustes gráficos utilizados.
+
+| Característica | Nivel de Soporte | Impacto en el Rendimiento |
+| :--- | :--- | :--- |
+| **Ray Tracing** | Opcional (Alto/Ultra) | Alto - Requiere núcleos RT modernos |
+| **HDR10** | Totalmente compatible | Bajo - Requiere monitor compatible |
+| **Variable Rate Shading** | Compatible | Positivo - Mejora la eficiencia de la GPU |
+| **Ultrawide (21:9)** | Compatible | Moderado - Aumenta el campo de visión |
+| **Reflex/Anti-Lag** | Esencial | Bajo - Crítico para la latencia de entrada |
+
+<Callout type="success" title="Noticias de Optimización">
+Las entrevistas con los desarrolladores sugieren que el equipo está poniendo un "esfuerzo serio" en hacer de este una obra maestra independiente. Esto incluye equipos dedicados a la optimización de PC para asegurar que el juego escale bien desde PCs de mano hasta equipos entusiastas de gama alta.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Pasos de Preparación y Optimización">
+
+Mientras esperas el lanzamiento en 2027, los jugadores pueden tomar varias medidas para asegurar que sus sistemas estén listos para los **requisitos del sistema de Virtua Fighter Crossroads**. Preparar tu hardware ahora evitará cuellos de botella cuando lleguen las primeras demostraciones jugables o pruebas beta.
+
+<Steps>
+  <Step num="1" title="Migración a SSD">
+    Asegúrate de que tu unidad de juegos principal sea un SSD NVMe. La estructura de "Aventura de Lucha" de Crossroads probablemente resultará en tirones significativos en los HDD tradicionales o incluso en los SSD SATA más antiguos debido a la densidad de activos de la ciudad.
+  </Step>
+  <Step num="2" title="Mejoras de Memoria">
+    Estandariza tu sistema con al menos 16 GB de RAM DDR4 o DDR5 de alta velocidad. Los 32 GB se están convirtiendo en el nuevo estándar para juegos de aventura de mundo abierto y proporcionarán el margen necesario para tareas en segundo plano durante el juego en línea.
+  </Step>
+  <Step num="3" title="Mantenimiento de Controladores y SO">
+    Mantén Windows 11 actualizado. Crossroads aprovechará las últimas características de DirectX 12 Ultimate, que requieren las versiones más recientes del SO y los controladores de GPU para funcionar correctamente sin fallos.
+  </Step>
+  <Step num="4" title="Gestión Térmica">
+    Limpia tus sistemas de refrigeración. Los juegos de RGG Studio exigen tanto a la CPU como a la GPU simultáneamente. Asegúrate de que tu pasta térmica esté fresca y que el flujo de aire no esté obstruido para evitar el estrangulamiento térmico durante las largas sesiones del "Story Mode".
+  </Step>
+</Steps>
+
+<Callout type="info" title="Soporte para PC de mano">
+Dada la popularidad de dispositivos como Steam Deck y ROG Ally, se espera un ajuste preestablecido "Bajo" específicamente optimizado para envolventes de TDP de 15W-25W, con el objetivo de alcanzar unos 30-60 FPS estables a resoluciones de 720p/800p.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Disponibilidad y Compatibilidad de Plataformas">
+
+La lista de plataformas para Virtua Fighter Crossroads está actualmente como "Indeterminada" según la página oficial del producto de SEGA. Sin embargo, basándonos en la ventana de lanzamiento de 2027, podemos pronosticar el ecosistema probable para el juego.
+
+| Plataforma | Estado Probable | Notas |
+| :--- | :--- | :--- |
+| **PC (Steam/Epic)** | Objetivo Confirmado | Plataforma principal para la audiencia global |
+| **PlayStation 5** | Muy Probable | Pilar fundamental para la comunidad de juegos de lucha |
+| **Xbox Series X/S** | Muy Probable | Parte de la estrategia multiplataforma de SEGA |
+| **Consolas de Próxima Generación** | Potencial | Posible título de lanzamiento para hardware rumoreado |
+
+La estructura narrativa del juego implica caminos ramificados y elecciones donde las acciones, victorias y derrotas dan forma a la historia. Esta profundidad sugiere un sistema pesado de guardado y seguimiento de datos, lo que convierte al soporte de guardado cruzado (cross-save) en una característica muy solicitada para los jugadores que se mueven entre entornos de PC y consola.
+
+<Callout type="warning" title="Hardware de Generación Anterior">
+Es muy poco probable que Crossroads sea compatible con PlayStation 4 o Xbox One. Las demandas técnicas de la simulación de la ciudad de Vilasapara y la presentación cinematográfica del combate requieren la E/S de alta velocidad y la potencia de procesamiento del hardware de la generación actual y la próxima.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle} title="Lista de Verificación de Preparación de Hardware">
+
+Usa esta lista de verificación para verificar si tu configuración actual está preparada para la próxima generación de aventuras de lucha en 3D.
+
+<Checklist
+  id="hardware-prep"
+  title="Lista de preparación para Crossroads:"
+  items={[
+    "Verifica la compatibilidad de DirectX 12 Ultimate para tu GPU",
+    "Libera al menos 100 GB de espacio en un SSD NVMe de alta velocidad",
+    "Asegúrate de que tu CPU tenga al menos 6 núcleos físicos y 12 hilos",
+    "Comprueba si tu monitor soporta al menos 60Hz (se recomiendan 120Hz+)",
+    "Actualiza a la última versión de Windows 11"
+  ]}
+/>
+
+<Callout type="tip" title="Recomendación Final">
+Si estás planeando una actualización de hardware, apunta a la gama media del mercado de 2026/2027. Una GPU con al menos 12 GB de VRAM será crucial para manejar las texturas de alta resolución de los entornos del "Vila Fight Fest" y los modelos de los personajes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Funcionará Virtua Fighter Crossroads en una Steam Deck?",
+    answer: "Aunque no está confirmado oficialmente, RGG Studio tiene un sólido historial de optimización para Steam Deck. Se espera que funcione en configuraciones bajas a medias con FSR activado."
+  },
+  {
+    question: "¿Necesito un fight stick para cumplir con los requisitos de entrada?",
+    answer: "No, el equipo de desarrollo se está centrando en 'controles intuitivos reconstruidos' y una 'sensación simple e inmediata'. Un mando estándar o teclado será totalmente compatible y competitivo."
+  },
+  {
+    question: "¿Son los requisitos del sistema de Virtua Fighter Crossroads más altos que los de Tekken 8?",
+    answer: "Probablemente sí. Debido a que Crossroads incluye un modo de exploración de ciudad a gran escala (Vilasapara) además del combate tradicional 1v1, requerirá más RAM y un almacenamiento más rápido que un juego de lucha estándar."
+  },
+  {
+    question: "¿Se requiere conexión a internet para el Story Mode?",
+    answer: "Aunque el Story Mode es una aventura para un solo jugador, es posible que se requiera una conexión a internet para la activación inicial, las actualizaciones y las funciones integradas del 'Battle Mode' en línea."
+  }
+]} />
+
+</Section>

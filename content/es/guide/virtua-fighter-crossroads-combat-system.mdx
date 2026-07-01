@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sistema de combate de Virtua Fighter Crossroads: Guía de mecánicas paso a paso",
+  description: "Domina el sistema de combate de Virtua Fighter Crossroads con nuestra guía sobre las reglas Uprising, las mecánicas de Break & Rush, Flow Guard y los estilos específicos de cada personaje.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Combat+System+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Virtua Fighter Crossroads"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Núcleo del combate**: El **sistema de combate de Virtua Fighter Crossroads** conserva el clásico triángulo de Golpe-Agarre-Guardia al tiempo que añade profundidad cinematográfica.
+- **Nuevos conjuntos de reglas**: Los jugadores pueden elegir entre las **Reglas Estándar** (tradicionales) y las nuevas **Reglas Uprising** (basadas en el impulso).
+- **Mecánica clave**: **Break & Rush** permite infligir daño corporal regional que se conserva entre rondas.
+- **Capa defensiva**: **Flow Guard** proporciona una forma activa y elegante de mitigar la presión y cambiar el rumbo del combate.
+- **Enfoque en los protagonistas**: Nuevos personajes como **Cielo** introducen estilos basados en las MMA y el boxeo en la arena 3D.
+</Callout>
+
+<Section icon={Map} title="Evolución del sistema de combate de Virtua Fighter Crossroads">
+
+El **sistema de combate de Virtua Fighter Crossroads** representa una evolución audaz para la legendaria serie de lucha en 3D. Desarrollado por RGG Studio y programado para su lanzamiento en 2027, este proyecto cierra la brecha entre la simulación técnica de artes marciales y una aventura cinematográfica impulsada por la historia. El combate está diseñado para ser intuitivo para los recién llegados que exploran la ciudad de **Vilasapara**, pero lo suficientemente profundo como para satisfacer a los veteranos competitivos de toda la vida. 
+
+Al integrar el enfoque narrativo de una "Aventura de Lucha", los desarrolladores se han asegurado de que cada golpe se sienta pesado y cada victoria afecte las ramificaciones de la historia. El sistema enfatiza las lecturas a corta distancia, las reacciones realistas a los impactos y un esquema de control renovado que hace que el juego de alto nivel sea más accesible sin sacrificar la profundidad característica de la serie.
+
+**Puntos destacados del video:**
+- **Revelación oficial**: Confirma la transición al título **Virtua Fighter Crossroads** y la ventana de lanzamiento para 2027.
+- **Integración cinematográfica**: Muestra cómo las escenas de la historia se transforman a la perfección en batallas de 1 contra 1 y contra múltiples oponentes.
+- **Entorno de Vilasapara**: Destaca cómo la ficticia ciudad del sudeste asiático influye en la cultura de lucha y en los diseños de las arenas.
+
+<YouTubeEmbed videoId="HSn13RsfP3A" title="VIRTUA FIGHTER CROSSROADS | Tráiler oficial de revelación" />
+
+<Callout type="tip" title="Perspectiva estratégica">
+La victoria en el modo historia no consiste solo en agotar la salud; tu rendimiento y tus decisiones de combate específicas pueden alterar la trayectoria narrativa a lo largo de las vidas de los cuatro protagonistas principales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Reglas de batalla: Estándar vs. Uprising">
+
+Una de las adiciones más significativas al **sistema de combate de Virtua Fighter Crossroads** es la introducción de conjuntos de reglas duales. Mientras que los tradicionalistas apreciarán el regreso de las estructuras de combate clásicas, las nuevas **Reglas Uprising** ofrecen un flujo más dinámico que se alinea con el ritmo de las aventuras de acción modernas. 
+
+Estos conjuntos de reglas dictan cómo se gana un combate y cómo se realiza el seguimiento del impulso (momentum) a lo largo de la pelea. En la aventura para un jugador, estas reglas pueden cambiar según el contexto de la historia, como peleas clandestinas o combates oficiales del **Vila Fight Fest**.
+
+| Reglas | Objetivo principal | Condición de victoria | Ideal para |
+| :--- | :--- | :--- | :--- |
+| **Estándar** | Gestión de salud | Agotar PS o Ring Out | 1v1 competitivo, jugadores clásicos |
+| **Uprising** | Control del impulso | Puntuación dinámica / Cambio de impulso | Batallas dramáticas de la historia, juego agresivo |
+
+<Callout type="info" title="Disponibilidad de reglas">
+Las reglas Estándar suelen tener por defecto un formato de "Al mejor de 5" (tres rondas para ganar), mientras que las reglas Uprising se centran en cambiar el "rumbo de la batalla" a través de cadenas ofensivas exitosas.
+</Callout>
+
+### Comparación de reglas principales
+La siguiente tabla detalla las diferencias técnicas específicas entre las dos formas principales de entablar combate en la versión de 2026 del juego.
+
+| Característica | Reglas Estándar | Reglas Uprising |
+| :--- | :--- | :--- |
+| **Estructura de la ronda** | Rondas fijas (60 s por defecto) | Flujo continuo de impulso |
+| **Ring Outs** | Pérdida inmediata de la ronda | Penalización al impulso / Posicionamiento |
+| **Escalado de daño** | Consistente por golpe | Aumenta con el nivel de impulso |
+| **Activador de victoria** | Ganar 3 rondas | Umbral de puntuación o Knockout |
+
+</Section>
+
+<Section icon={Target} title="Sistemas ofensivos: Break, Rush y Stunners">
+
+La ofensiva en el **sistema de combate de Virtua Fighter Crossroads** se ha reconstruido para que se sienta más visceral. La introducción de **Break & Rush** cambia la estrategia a largo plazo de un combate, pasando de buscar puramente el daño inmediato a centrarse en regiones corporales específicas.
+
+Cuando un jugador concentra sus ataques en los brazos o las piernas de un oponente, acumula daño de "Break". Una vez que se alcanza un umbral, se puede activar un **Ataque Break**, infligiendo un debuff que persiste entre rondas. Esto hace que cada intercambio al principio del combate sea relevante para el resultado final de la pelea.
+
+<CardGrid cols={3}>
+  <Card title="Break & Rush">
+    - **Daño regional**: Ataca extremidades específicas para debilitar a los oponentes.
+    - **Persistencia**: El estado de Break se conserva entre rondas.
+    - **Profundidad estratégica**: Obliga a los oponentes a cambiar su postura defensiva.
+  </Card>
+  <Card title="Mecánicas de Stunner">
+    - **Iniciador de combo**: Nueva técnica de golpe para iniciar la presión.
+    - **Confirmación de golpe**: Ventanas más fáciles de leer para los contraataques.
+    - **Versatilidad**: Funciona contra la mayoría de las guardias de pie.
+  </Card>
+  <Card title="Combo Stun">
+    - **Fluidez**: Reemplaza los complejos patrones de malabarismo clásicos.
+    - **Realismo**: Las animaciones reflejan el peso de los impactos.
+    - **Accesibilidad**: Menor barrera de ejecución para un daño elevado.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo profesional: Estrategia de Break">
+Usa los golpes basados en el boxeo de **Cielo** para atacar el torso y los brazos del oponente desde el principio. Un estado de "Break" en el brazo delantero del rival reducirá significativamente su velocidad de golpeo en las rondas posteriores.
+</Callout>
+
+### Desglose de mecánicas ofensivas
+Para dominar el flujo ofensivo, los jugadores deben comprender cómo interactúan estos sistemas durante un intercambio a alta velocidad en Vilasapara.
+
+| Sistema | Tipo de entrada | Efecto principal | Impacto en el jugador |
+| :--- | :--- | :--- | :--- |
+| **Stunner** | Direccional + Golpe | Fuerza un breve tambaleo | Abre una ventana para un Combo Stun |
+| **Rush** | Entradas secuenciales | Presión de fuego rápido | Evita que el oponente restablezca el juego neutral |
+| **Ataque Break** | Golpe cargado/pesado | Inflige un debuff permanente en la extremidad | Reduce la movilidad o el poder del oponente |
+
+</Section>
+
+<Section icon={Shield} title="Capas defensivas y el triángulo de combate">
+
+Defender en **Virtua Fighter Crossroads** requiere más que solo mantener presionado un botón. El sistema **Flow Guard** introduce una capa defensiva activa que recompensa la sincronización y el posicionamiento. A diferencia de un bloqueo estándar, Flow Guard permite al jugador moverse con fluidez mientras mitiga el daño, preparando oportunidades de contraataque inmediato.
+
+A pesar de estas nuevas adiciones, el núcleo del juego sigue siendo el triángulo de "Golpe-Agarre-Guardia". Esta lógica fundamental garantiza que cada acción tenga un contraataque directo, manteniendo la reputación de la serie de ser un "ajedrez de lucha".
+
+<Steps>
+  <Step num="1" title="Domina el triángulo">
+    Comprende que los **Golpes** vencen a los intentos de agarre, las **Guardias** anulan los golpes y los **Agarres** castigan la guardia pasiva. Esta es la base de cada encuentro 1v1.
+  </Step>
+  <Step num="2" title="Implementa Flow Guard">
+    Practica la activación de Flow Guard durante la presión del oponente para mantener la movilidad. Esto es esencial para navegar por las peleas contra múltiples oponentes en el modo historia.
+  </Step>
+  <Step num="3" title="Reconoce los cambios de postura">
+    Los ataques altos, medios y bajos requieren diferentes alturas de guardia. La Guardia de pie bloquea los ataques altos y medios, pero pierde contra los bajos y los agarres.
+  </Step>
+  <Step num="4" title="Ejecuta escapes de agarre">
+    Cuando te agarren, introducir la dirección correcta más el botón de Puñetazo + Guardia romperá el agarre, restableciendo el juego neutral.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de defensa">
+Depender demasiado de la Guardia de pie te convierte en un blanco fácil para los agarres de comando únicos de **Bakunawa Killer**. Varía tus opciones defensivas para mantener a tu oponente adivinando.
+</Callout>
+
+### Estadísticas e interacciones defensivas
+La interacción entre las diferentes posturas defensivas es fundamental para sobrevivir en los niveles de dificultad más altos de la campaña de Vilasapara.
+
+| Acción defensiva | Bloquea | Débil contra | Ganancia de impulso |
+| :--- | :--- | :--- | :--- |
+| **Guardia de pie** | Golpes altos y medios | Golpes bajos, Agarres | Baja |
+| **Guardia agachado** | Golpes bajos | Golpes medios | Moderada |
+| **Flow Guard** | Todo (Con sincronización) | Errores de sincronización precisos | Alta |
+| **Escape de agarre** | Agarres | Golpes, Presión continua | Muy alta |
+
+</Section>
+
+<Section icon={Trophy} title="Elenco de personajes y estilos de lucha">
+
+El **sistema de combate de Virtua Fighter Crossroads** presenta un elenco diverso que combina a cuatro nuevos protagonistas con íconos legendarios de la serie. Cada personaje está diseñado para representar una filosofía de artes marciales específica, mejorada aún más por el paso del tiempo dentro del universo del juego.
+
+Por ejemplo, **Pai Chan** regresa con un diseño más maduro y un estilo de artes marciales chinas refinado que enfatiza los contraataques y la fluidez. Mientras tanto, el nuevo líder, **Cielo**, aporta un enfoque moderno de MMA que es sumamente efectivo para el nuevo sistema **Break & Rush**.
+
+| Personaje | Categoría | Estilo de lucha | Rol de combate |
+| :--- | :--- | :--- | :--- |
+| **Cielo** | Nuevo protagonista | MMA / Boxeo | Presión agresiva, Especialista en Break |
+| **Akira Yuki** | Leyenda clásica | Bajiquan | Golpes técnicos de alto daño |
+| **Pai Chan** | Leyenda clásica | Mizongyi | Contraataques y Reversiones |
+| **Bakunawa Killer** | Rival de la historia | Desconocido / Táctico | Alta movilidad, Agarres de comando |
+| **Wolf Hawkfield** | Leyenda clásica | Lucha libre profesional | Agarres y Defensa basada en la fuerza |
+
+<Callout type="tip" title="Personaje para principiantes">
+Si eres nuevo en el **sistema de combate de Virtua Fighter Crossroads**, comienza con **Cielo**. Su conjunto de movimientos centrado en los golpes es la forma más intuitiva de aprender las nuevas mecánicas de Stunner y Combo Stun.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de verificación para dominar el combate">
+
+Para prepararse por completo para el lanzamiento en 2027, los jugadores deben intentar dominar los siguientes hitos de combate durante su tiempo en la demo o en las fases de acceso anticipado de la aventura en Vilasapara.
+
+<Checklist
+  id="combat-mastery"
+  title="Objetivos de excelencia en combate:"
+  items={[
+    "Ejecutar con éxito un Combo Stun de 5 golpes en el Modo Batalla",
+    "Activar una Ruptura de extremidad (Limb Break) contra un oponente de nivel jefe",
+    "Ganar un combate con reglas Uprising mediante el umbral de impulso",
+    "Perfeccionar la sincronización de un contraataque con Flow Guard",
+    "Completar el tutorial de combate específico de Cielo en Vilasapara"
+  ]}
+/>
+
+<Callout type="success" title="Nota final">
+El **sistema de combate de Virtua Fighter Crossroads** está diseñado para crecer con el jugador. Ya sea que participes en el Modo Batalla 1v1 o explores las rutas ramificadas de la historia, estas mecánicas te brindan las herramientas para una experiencia de lucha verdaderamente personalizada.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿En qué se diferencian las Reglas Uprising de las Reglas Estándar?",
+    answer: "Las Reglas Estándar siguen el formato tradicional de Virtua Fighter de reducción de salud y Ring Outs a lo largo de rondas fijas. Las Reglas Uprising se centran en un sistema de impulso dinámico donde el flujo de la batalla y la puntuación determinan al ganador, lo que da lugar a intercambios más cinematográficos."
+  },
+  {
+    question: "¿Qué es el sistema Break & Rush?",
+    answer: "Break & Rush es una nueva mecánica en la que los golpes repetidos en regiones corporales específicas (como brazos o piernas) causan daños duraderos. Una vez que una parte se 'rompe', el debuff se conserva en las rondas siguientes, afectando la velocidad o el poder del oponente."
+  },
+  {
+    question: "¿Sigue siendo relevante el clásico triángulo de Golpe-Agarre-Guardia?",
+    answer: "Sí, el triángulo sigue siendo la base fundamental del sistema de combate de Virtua Fighter Crossroads. Los golpes vencen a los agarres, las guardias vencen a los golpes y los agarres vencen a la guardia pasiva. Las nuevas mecánicas como Flow Guard añaden capas sobre esta base equilibrada."
+  },
+  {
+    question: "¿Puedo jugar con los personajes clásicos en el nuevo modo historia?",
+    answer: "El escenario de la historia principal sigue a cuatro nuevos protagonistas, incluidos Cielo y Stella Bridges. Sin embargo, los personajes clásicos como Akira, Pai y Wolf aparecen en la historia y son completamente jugables en el Modo Batalla 1v1."
+  }
+]} />
+
+</Section>

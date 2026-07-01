@@ -10,7 +10,13 @@
       "twitterDescription": "Explore the 2027 Virtua Fighter revival: release window, story, characters, combat, trailers, and Vilasapara city lore."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "characters": "Characters",
+    "story": "Story",
+    "guide": "Guide",
+    "trailer": "Trailer"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -897,7 +903,7 @@
       "featured": "Featured & Essential",
       "all": "All Release Articles"
     },
-    "trailers": {
+    "trailer": {
       "title": "Virtua Fighter Crossroads Trailers",
       "description": "Watch the official reveal trailer, showcase archive, Cielo story trailer, Bakunawa Killer trailer, and LEGACY promotional video.",
       "metaTitle": "Virtua Fighter Crossroads Trailers and Showcase",
@@ -957,46 +963,6 @@
       "featured": "Featured & Essential",
       "all": "All Character Articles"
     },
-    "combat": {
-      "title": "Virtua Fighter Crossroads Combat",
-      "description": "Learn the confirmed and previewed combat systems: punch-kick-guard core, match rules, Break and Rush, Stun Combo, and Flow Guard.",
-      "metaTitle": "Virtua Fighter Crossroads Combat Mechanics",
-      "metaDescription": "Virtua Fighter Crossroads combat mechanics, match rules, and the evolved battle system from RGG Studio.",
-      "categoryLabel": "COMBAT SYSTEM",
-      "whatIs": "What is the Virtua Fighter Crossroads combat?",
-      "whatIsDescription": "An evolved take on Virtua Fighter's punch, kick, and guard philosophy with more realistic close-range fighting and stronger strategy.",
-      "why": "Why learn the combat?",
-      "whySteps": {
-        "step1Title": "Core Philosophy",
-        "step1Description": "Master the punch, kick, and guard foundation.",
-        "step2Title": "Match Rules",
-        "step2Description": "Understand Standard and Uprising rule sets.",
-        "step3Title": "Advanced Systems",
-        "step3Description": "Explore Break and Rush, Stun Combo, and Flow Guard."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Combat Articles"
-    },
-    "modes": {
-      "title": "Virtua Fighter Crossroads Modes",
-      "description": "Understand Story Mode battles, multi-opponent brawls, boss fights, and direct one-on-one Battle Mode matches.",
-      "metaTitle": "Virtua Fighter Crossroads Battle Mode and Online Play",
-      "metaDescription": "Virtua Fighter Crossroads game modes: Story Mode battles, Battle Mode 1v1, and online versus play.",
-      "categoryLabel": "GAME MODES",
-      "whatIs": "What modes does Virtua Fighter Crossroads have?",
-      "whatIsDescription": "A narrative Story Mode with brawls and boss battles, plus a direct one-on-one Battle Mode for online and offline play.",
-      "why": "Why compare the modes?",
-      "whySteps": {
-        "step1Title": "Story Battles",
-        "step1Description": "Follow narrative-driven fights and boss encounters.",
-        "step2Title": "Battle Mode 1v1",
-        "step2Description": "Jump into classic one-on-one versus play.",
-        "step3Title": "Online Play",
-        "step3Description": "Take the fight online once competitive details arrive."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Modes Articles"
-    },
     "guide": {
       "title": "Virtua Fighter Crossroads Guides",
       "description": "Beginner fundamentals, strike-throw-guard logic, close-range spacing, movement, and practice flow for new players.",
@@ -1016,26 +982,6 @@
       },
       "featured": "Featured & Essential",
       "all": "All Guide Articles"
-    },
-    "links": {
-      "title": "Virtua Fighter Crossroads Links",
-      "description": "A clean hub for the official site, news, Discord, X, YouTube, Instagram, TikTok, and official channels.",
-      "metaTitle": "Virtua Fighter Crossroads Official Links and Updates",
-      "metaDescription": "Official Virtua Fighter Crossroads links: website, Discord, X, YouTube, Instagram, TikTok, and news.",
-      "categoryLabel": "OFFICIAL LINKS",
-      "whatIs": "What are the official Virtua Fighter Crossroads links?",
-      "whatIsDescription": "The official website, social channels, and news sources maintained by SEGA and RGG Studio.",
-      "why": "Why use the official links?",
-      "whySteps": {
-        "step1Title": "Verified Sources",
-        "step1Description": "Get news straight from the official channels.",
-        "step2Title": "Trailer Drops",
-        "step2Description": "Catch new trailers and showcases first.",
-        "step3Title": "Community",
-        "step3Description": "Join the official Discord for discussion."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Link Articles"
     }
   }
 }

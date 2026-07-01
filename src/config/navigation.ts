@@ -1,19 +1,32 @@
-import type { LucideIcon } from 'lucide-react'
+import {
+	Users,
+	GraduationCap,
+	Calendar,
+	Compass,
+	Film,
+	type LucideIcon,
+} from 'lucide-react'
 
 export interface NavigationItem {
-	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
-	path: string // URL 路径，如 '/codes'
+	key: string // 用于翻译键，如 'characters' -> t('nav.characters')
+	path: string // URL 路径，如 '/characters'
 	icon: LucideIcon // Lucide 图标组件
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 内容类型由后续内容填充 part（Part8）按真实文章目录重建
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+// Virtua Fighter Crossroads 内容分类（与 content/<locale>/ 目录一一对应）
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{ key: 'release', path: '/release', icon: Calendar, isContentType: true },
+	{ key: 'characters', path: '/characters', icon: Users, isContentType: true },
+	{ key: 'story', path: '/story', icon: Compass, isContentType: true },
+	{ key: 'guide', path: '/guide', icon: GraduationCap, isContentType: true },
+	{ key: 'trailer', path: '/trailer', icon: Film, isContentType: true },
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
 	(item) => item.path.slice(1),
-) // 移除开头的 '/' -> ['codes', 'build', 'combat', 'guides']
+) // 移除开头的 '/' -> ['release', 'characters', 'story', 'guide', 'trailer']
 
 export type ContentType = (typeof CONTENT_TYPES)[number]
 

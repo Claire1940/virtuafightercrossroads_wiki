@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, MousePointer2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Diseño de botones de Virtua Fighter Crossroads: Guía de configuración y controles de combate",
+  description: "Domina el diseño de botones de Virtua Fighter Crossroads. Guía de controles clásicos de P/K/G, nuevas entradas de Break & Rush, mapeo de Flow Guard y optimización de mando.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Button+Layout+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Virtua Fighter Crossroads"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Diseño de botones de Virtua Fighter Crossroads**: Basado en el clásico triángulo de **Puñetazo (P)**, **Patada (K)** y **Guardia (G)**.
+- **Nuevas mecánicas**: Incluye entradas dedicadas para **Break & Rush**, **Stunner** y el cinematográfico **Flow Guard**.
+- **Diseño intuitivo**: RGG Studio ha simplificado los complejos controles heredados manteniendo la estrategia de alto nivel.
+- **Soporte para mando**: Optimizado para consolas domésticas con gatillos personalizables para macros de múltiples botones como P+K o P+G.
+- **Ventana de lanzamiento**: El juego está programado oficialmente para un lanzamiento en **2027** en plataformas domésticas.
+</Callout>
+
+<Section icon={Settings} title="Controles básicos y mapeo de botones">
+
+El **diseño de botones de Virtua Fighter Crossroads** sirve como base para la estructura de aventura de lucha (Fighting Adventure) del juego. A diferencia de otros juegos de lucha modernos que dependen de elaboradas secuencias de movimiento, este regreso de 2027 mantiene la filosofía distintiva de tres botones de la serie: Puñetazo, Patada y Guardia. RGG Studio se ha enfocado en hacer que estos controles se sientan "simples de entender al primer contacto", asegurando que tanto los veteranos como los recién llegados puedan navegar por las peligrosas calles de Vilasapara.
+
+**Puntos destacados del video:**
+- **Revelación del título**: Confirma Virtua Fighter Crossroads como el nombre oficial del nuevo proyecto.
+- **Evolución del combate**: Muestra la transición de la lucha tradicional en 3D a una aventura impulsada por la narrativa.
+- **Escenario de Vilasapara**: Destaca cómo interactúa el diseño de botones con las peleas en el entorno y los combates contra múltiples oponentes.
+
+<YouTubeEmbed videoId="HSn13RsfP3A" title="VIRTUA FIGHTER CROSSROADS | Tráiler oficial de presentación" />
+
+Aunque la lista específica de plataformas sigue sin anunciarse (TBA), el equipo de desarrollo ha confirmado un enfoque en consolas domésticas. Esto significa que el diseño está pensado específicamente para mandos modernos y arcade sticks, priorizando el acceso ergonómico a los nuevos sistemas **Stunner** y **Break & Rush**.
+
+| Tipo de botón | Entrada estándar | Función en combate | Impacto en el jugador |
+| :--- | :--- | :--- | :--- |
+| **Puñetazo (P)** | Cuadrado / X | Golpes rápidos, jabs e iniciadores de combos | Alta velocidad, bajo riesgo |
+| **Patada (K)** | Triángulo / Y | Golpes de mayor alcance y gran daño | Velocidad media, gran alcance |
+| **Guardia (G)** | X / A | Bloquea ataques altos y medios entrantes | Base defensiva |
+| **P+K** | R1 / RB | Golpes potentes a media distancia y especiales | Rompe la defensa pasiva |
+| **P+G** | L1 / LB | Agarre estándar para castigar la guardia | Contrarresta el juego defensivo pasivo (turtling) |
+| **K+G** | R2 / RT | Maniobras defensivas especializadas | Evasión de alto nivel |
+
+<Callout type="tip" title="Consejo profesional">
+Si vienes de otros juegos de RGG Studio como Like a Dragon, recuerda que Virtua Fighter Crossroads utiliza un **botón de Guardia** dedicado en lugar de bloqueo automático. Dominar el tiempo del botón G es esencial para sobrevivir en el Vila Fight Fest.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas avanzadas y nuevos sistemas de entrada">
+
+Más allá de lo básico, el **diseño de botones de Virtua Fighter Crossroads** integra varios sistemas nuevos diseñados por el equipo de Riichiro Yamada. Estas mecánicas, como **Break & Rush** y **Flow Guard**, añaden capas de estrategia para cambiar el ritmo de cada encuentro.
+
+<CardGrid cols={2}>
+  <Card title="Break & Rush">
+    - **Activación**: Acumular daño en regiones específicas del cuerpo.
+    - **Efecto**: Asestar un "Break Attack" (Ataque de ruptura) aplica penalizaciones de estado que persisten entre rondas.
+    - **Estrategia**: Enfoca tus entradas de botones en una presión constante sobre las extremidades.
+  </Card>
+  <Card title="Flow Guard">
+    - **Activación**: Entrada de Guardia sincronizada durante ventanas ofensivas específicas.
+    - **Efecto**: Un movimiento defensivo elegante y cinematográfico que crea aperturas.
+    - **Estrategia**: Utiliza esto para cambiar la defensa a una contraofensiva inmediata.
+  </Card>
+  <Card title="Sistema Stunner">
+    - **Activación**: Entradas específicas de P+K o golpes direccionales.
+    - **Efecto**: Abre al oponente al flujo del nuevo **Stun Combo** (Combo de aturdimiento).
+    - **Estrategia**: Reemplaza el tradicional "lanzar y hacer malabares en el aire" (launch-and-juggle) con presión en el suelo.
+  </Card>
+  <Card title="Reglas Uprising">
+    - **Activación**: Exclusivo del modo de batalla Uprising.
+    - **Efecto**: Puntuación dinámica y cambios de ritmo basados en el juego agresivo.
+    - **Estrategia**: Prioriza golpes de alto impacto sobre la seguridad defensiva.
+  </Card>
+</CardGrid>
+
+La técnica "Stunner" es particularmente vital para el protagonista **Cielo**. Como luchador de estilo MMA con raíces en el boxeo, su diseño enfatiza las sucesiones rápidas de Puñetazos (P) que conducen a estados Stunner, lo que permite combinaciones de seguimiento devastadoras sin la necesidad de una ejecución perfecta en cada fotograma (frame-perfect).
+
+<Callout type="warning" title="Importante">
+El sistema **Break & Rush** significa que el daño ya no es solo una pérdida temporal de salud. El estado de extremidad rota persiste, lo que hace que la disciplina del botón defensivo sea más crítica que en entregas anteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración y optimización del mando">
+
+La optimización de tu **diseño de botones de Virtua Fighter Crossroads** depende de tu hardware preferido. Dado que el juego apunta a un lanzamiento en 2027 en consolas domésticas, el mapeo predeterminado está diseñado para los mandos de PS5 DualSense y Xbox Series. Sin embargo, la profundidad del sistema de combate se beneficia significativamente del mapeo de macros personalizadas.
+
+| Componente del mando | Mapeo recomendado | Razón de la elección |
+| :--- | :--- | :--- |
+| **Botones de acción** | P, K, G, P+K | Diseño clásico en diamante para un acceso rápido |
+| **Gatillo derecho** | P+K+G (Macro) | Acceso fácil a movimientos potentes universales |
+| **Gatillo izquierdo** | P+G (Agarre) | Garantiza que el escape de agarres (throw teching) sea instantáneo |
+| **Cruceta / Joystick** | Movimiento | Movimiento preciso en 8 direcciones para controlar el espacio |
+| **Panel táctil / Select** | Reiniciar práctica | Esencial para el nuevo laboratorio del Modo Batalla |
+
+Para los jugadores que utilizan un arcade stick, el diseño "Tipo A" sigue siendo el estándar de oro. Esto implica colocar Puñetazo, Patada y Guardia en una fila triangular o lineal, lo que permite realizar pulsaciones rápidas ("piano-ing") durante los complejos **Stun Combos**.
+
+<Callout type="success" title="Nota de estrategia">
+El equipo de desarrollo está reconstruyendo la filosofía de control para que sea "intuitiva". Esto significa que las pulsaciones de múltiples botones (como P+K+G) a menudo están mapeadas en un solo gatillo por defecto en las versiones de consola para reducir la barrera de entrada a los nuevos jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Familiarización con el diseño paso a paso">
+
+Para dominar el **diseño de botones de Virtua Fighter Crossroads** antes del lanzamiento en 2027, sigue esta progresión de entrenamiento. Este camino está diseñado para hacerte pasar de los movimientos básicos a las mecánicas avanzadas de "Flow Guard".
+
+<Steps>
+  <Step num="1" title="Domina el triángulo">
+    Dedica tiempo en el Modo Tutorial a aprender el triángulo de Ataque-Agarre-Guardia. Usa el **Puñetazo** para vencer los intentos de agarre, la **Guardia** para detener los golpes y los **Agarres** para castigar el bloqueo pasivo.
+  </Step>
+  <Step num="2" title="Crea memoria muscular para las macros">
+    Configura tus gatillos para **P+K** y **P+G**. Practica realizar un agarre inmediatamente después de una guardia exitosa para interiorizar el ritmo de "turnos" de Virtua Fighter.
+  </Step>
+  <Step num="3" title="Integra el Stunner">
+    Identifica la entrada de **Stunner** de tu personaje. Practica conectar una serie básica de Puñetazos en un Stunner, y luego continúa con las rutas automatizadas de **Stun Combo**.
+  </Step>
+  <Step num="4" title="Entrena el Flow Guard">
+    En el Modo Batalla, configura la IA en modo agresivo. Practica el tiempo del **Flow Guard** (G + entrada direccional) para activar las animaciones defensivas cinematográficas y obtener una ventaja de fotogramas (frame advantage).
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de maestría">
+
+Utiliza esta lista de verificación para realizar un seguimiento de tu habilidad con el **diseño de botones de Virtua Fighter Crossroads** y los fundamentos del combate.
+
+<Checklist
+  id="layout-mastery"
+  title="Objetivos de preparación para el combate:"
+  items={[
+    "Escapar de agarres (tech throws) de forma consistente utilizando la macro P+G",
+    "Activar con éxito un Break Attack (Ataque de ruptura) utilizando golpes dirigidos a las extremidades",
+    "Asestar un Stun Combo completo tras un golpe Stunner",
+    "Ejecutar 5 Flow Guards consecutivos en un solo combate",
+    "Cambiar entre las reglas Estándar y Uprising sin perder el ritmo"
+  ]}
+/>
+
+<Callout type="info" title="Contexto de Vilasapara">
+En el Modo Historia, tu diseño de botones se mantiene constante ya sea en un duelo 1v1 o en una pelea contra múltiples oponentes. RGG Studio se ha asegurado de que el contexto de "aventura de lucha" no diluya la precisión técnica del combate.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el botón más importante en el diseño de botones de Virtua Fighter Crossroads?",
+    answer: "El botón de Guardia (G) es sin duda el más importante. Dado que el juego utiliza un botón dedicado para bloquear en lugar de mantener presionado 'atrás', toda tu estrategia defensiva y la nueva mecánica de Flow Guard giran en torno a dominar el botón G."
+  },
+  {
+    question: "¿Puedo usar un arcade stick para Virtua Fighter Crossroads?",
+    answer: "Sí. Aunque el proyecto está enfocado en consolas domésticas, los desarrolladores han confirmado que los diseños tradicionales de arcade stick (P, K, G) son totalmente compatibles y siguen siendo la opción preferida para el juego competitivo en el Modo Batalla."
+  },
+  {
+    question: "¿Cómo cambian las nuevas 'Reglas Uprising' el diseño de botones?",
+    answer: "El diseño en sí no cambia, pero el valor de tus entradas sí. Las Reglas Uprising priorizan el impulso agresivo, lo que significa que usarás tus entradas de P+K y Stunner con más frecuencia para mantener una alta tasa de puntuación."
+  },
+  {
+    question: "¿Existe un modo de control 'Sencillo' para principiantes?",
+    answer: "RGG Studio está diseñando los controles básicos para que sean 'intuitivos' por defecto. Esto incluye macros premapeadas para entradas de múltiples botones y el sistema Stun Combo, que simplifica la ejecución de secuencias de gran daño."
+  }
+]} />
+
+</Section>
