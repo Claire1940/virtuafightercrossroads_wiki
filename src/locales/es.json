@@ -1,9 +1,987 @@
 {
+  "seo": {
+    "home": {
+      "title": "Virtua Fighter Crossroads - Lanzamiento, historia y combate",
+      "description": "Guía sobre la información de lanzamiento, tráileres, personajes, historia, Vilasapara, combate, modos y actualizaciones oficiales de Virtua Fighter Crossroads para jugadores nuevos y veteranos.",
+      "keywords": "virtua fighter crossroads, fecha de lanzamiento, personajes, historia, combate, tráileres",
+      "ogTitle": "Virtua Fighter Crossroads - Lanzamiento, historia y combate",
+      "ogDescription": "Guía sobre la información de lanzamiento, tráileres, personajes, historia, Vilasapara, combate, modos y actualizaciones oficiales de Virtua Fighter Crossroads para jugadores nuevos y veteranos.",
+      "twitterTitle": "Virtua Fighter Crossroads - Lanzamiento, historia y combate",
+      "twitterDescription": "Explora el renacimiento de Virtua Fighter en 2027: ventana de lanzamiento, historia, personajes, combate, tráileres y la historia de la ciudad de Vilasapara."
+    }
+  },
   "nav": {
     "release": "Lanzamiento",
     "characters": "Personajes",
     "story": "Historia",
     "guide": "Guía",
     "trailer": "Tráiler"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Ver sitio oficial",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximos artículos"
+  },
+  "hero": {
+    "badge": "Aventura de lucha 3D narrativa",
+    "title": "Wiki de Virtua Fighter Crossroads",
+    "description": "Explora el renacimiento de Virtua Fighter en 2027 con una historia narrativa para un jugador, la historia de la ciudad de Vilasapara, actualizaciones sobre Cielo, tráileres y el clásico combate 3D cara a cara.",
+    "getFreeCodesCTA": "Ver tráiler",
+    "playOnSteamCTA": "Ver sitio oficial",
+    "stats": {
+      "stat1": {
+        "value": "2027",
+        "label": "Ventana de lanzamiento"
+      },
+      "stat2": {
+        "value": "4",
+        "label": "Nuevos protagonistas"
+      },
+      "stat3": {
+        "value": "Vilasapara",
+        "label": "Ciudad principal"
+      },
+      "stat4": {
+        "value": "Bakunawa Killer",
+        "label": "Luchador más reciente"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Virtua Fighter Crossroads",
+    "description": "Una aventura de lucha 3D narrativa de SEGA y RGG Studio, ambientada en la ciudad de lucha de Vilasapara con cuatro protagonistas cuyas historias se entrelazan y un combate uno contra uno evolucionado."
+  },
+  "tools": {
+    "title": "Virtua Fighter Crossroads",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para seguir el lanzamiento de 2027, la historia, los personajes, el combate y las actualizaciones oficiales de Virtua Fighter Crossroads.",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Fecha de lanzamiento y plataformas de Virtua Fighter Crossroads",
+        "description": "Ventana de lanzamiento de 2027, desarrollador y editor confirmados, y detalles de plataformas por anunciar"
+      },
+      {
+        "icon": "Film",
+        "title": "Tráileres y presentación de Virtua Fighter Crossroads",
+        "description": "Tráileres de revelación oficial, presentación, Cielo y Bakunawa Killer"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Modo historia y Vilasapara de Virtua Fighter Crossroads",
+        "description": "Historia de cuatro protagonistas, rutas ramificadas, misiones secundarias y el trasfondo de la ciudad"
+      },
+      {
+        "icon": "Users",
+        "title": "Personajes y plantel de Virtua Fighter Crossroads",
+        "description": "Nuevos protagonistas, luchadores clásicos, roles confirmados y estilos de lucha"
+      },
+      {
+        "icon": "Swords",
+        "title": "Mecánicas de combate de Virtua Fighter Crossroads",
+        "description": "Base de puño-patada-guardia, reglas de las partidas y el sistema de batalla evolucionado"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guía para principiantes de Virtua Fighter Crossroads",
+        "description": "Fundamentos, lógica de golpe-agarre-guardia, espaciado y flujo de práctica"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Modo de batalla y juego en línea de Virtua Fighter Crossroads",
+        "description": "Batallas de la historia, modo de batalla uno contra uno y juego versus en línea"
+      },
+      {
+        "icon": "ExternalLink",
+        "title": "Enlaces oficiales y actualizaciones de Virtua Fighter Crossroads",
+        "description": "Sitio oficial, Discord, X, YouTube, Instagram y noticias"
+      }
+    ]
+  },
+  "modules": {
+    "vfCrossroadsRelease": {
+      "title": "Fecha de lanzamiento y plataformas de Virtua Fighter Crossroads",
+      "intro": "Los datos clave del lanzamiento de la nueva entrega de Virtua Fighter de SEGA y RGG Studio, separando la ventana confirmada de 2027 de los detalles de lanzamiento que aún no se han publicado.",
+      "facts": [
+        {
+          "icon": "Calendar",
+          "label": "Ventana de lanzamiento",
+          "value": "2027",
+          "status": "Confirmado",
+          "details": "SEGA lista Virtua Fighter Crossroads para una ventana de lanzamiento en 2027."
+        },
+        {
+          "icon": "BadgeCheck",
+          "label": "Título oficial",
+          "value": "VIRTUA FIGHTER CROSSROADS",
+          "status": "Confirmado",
+          "details": "Revelado como el título oficial del New Virtua Fighter Project y la próxima entrega principal de la serie."
+        },
+        {
+          "icon": "Building2",
+          "label": "Desarrollador",
+          "value": "RGG Studio",
+          "status": "Confirmado",
+          "details": "RGG Studio está construyendo la ciudad de Vilasapara, la estructura de un solo jugador centrada en la historia y la experiencia de combate evolucionada."
+        },
+        {
+          "icon": "Estrella",
+          "label": "Editor",
+          "value": "SEGA",
+          "status": "Confirmado",
+          "details": "SEGA gestiona el sitio web oficial, las páginas de noticias, los lanzamientos de tráileres y los canales sociales del juego."
+        },
+        {
+          "icon": "Monitor",
+          "label": "Dirección de la plataforma",
+          "value": "Proyecto centrado en consolas domésticas",
+          "status": "Confirmado",
+          "details": "El productor y director creativo Riichiro Yamada describe el proyecto como dirigido principalmente al juego en casa en lugar de a las máquinas recreativas."
+        },
+        {
+          "icon": "Gamepad2",
+          "label": "Plataformas designadas",
+          "value": "Por anunciar",
+          "status": "Por anunciar",
+          "details": "La lista exacta de plataformas no se ha publicado en el sitio web oficial ni en las páginas de anuncios."
+        },
+        {
+          "icon": "Reloj",
+          "label": "Detalles de lanzamiento",
+          "value": "Fecha exacta, precio, ediciones, preventa y requisitos del sistema: Por anunciar",
+          "status": "Por anunciar",
+          "details": "Estos detalles se completarán después de que SEGA publique las páginas de la tienda o un anuncio dedicado a la fecha de lanzamiento."
+        }
+      ]
+    },
+    "vfCrossroadsTrailers": {
+      "title": "Tráileres y presentaciones de Virtua Fighter Crossroads",
+      "intro": "Un recorrido claro por el ciclo oficial de revelación de Virtua Fighter Crossroads, desde la revelación del título en 2027 hasta Vilasapara, Cielo, la estructura de cuatro protagonistas y el recién revelado Bakunawa Killer.",
+      "videos": [
+        {
+          "icon": "Película",
+          "title": "VIRTUA FIGHTER CROSSROADS | Tráiler oficial de revelación",
+          "type": "Tráiler de revelación",
+          "url": "https://www.youtube.com/watch?v=HSn13RsfP3A",
+          "focus": "Revelación oficial del título y ventana de lanzamiento para 2027",
+          "confirms": [
+            "El nuevo proyecto de Virtua Fighter ahora se titula VIRTUA FIGHTER CROSSROADS.",
+            "El juego está programado para 2027.",
+            "La nueva dirección combina escenas de historia cinemáticas con el combate de Virtua Fighter."
+          ]
+        },
+        {
+          "icon": "Claqueta",
+          "title": "VIRTUA FIGHTER CROSSROADS SHOWCASE",
+          "type": "Archivo de presentaciones",
+          "url": "https://www.youtube.com/watch?v=dwjNGD6hpfc",
+          "focus": "Resumen del desarrollador sobre Vilasapara y la evolución del combate",
+          "confirms": [
+            "El productor y director creativo Riichiro Yamada y el equipo de desarrollo explican la dirección del juego.",
+            "El showcase cubre Vilasapara, la ciudad donde se desarrolla la historia.",
+            "El showcase presenta el sistema de combate evolucionado y la estructura de aventura de lucha."
+          ]
+        },
+        {
+          "icon": "Libro abierto",
+          "title": "VIRTUA FIGHTER CROSSROADS | Tráiler de la historia de Cielo",
+          "type": "Tráiler de la historia",
+          "url": "https://www.youtube.com/watch?v=m5hz3IUesmk",
+          "focus": "Cielo, Vilasapara y el planteamiento del modo historia",
+          "confirms": [
+            "Cielo es uno de los cuatro nuevos protagonistas.",
+            "La historia se centra en vidas interconectadas, rutas ramificadas y combates dramáticos.",
+            "La cultura de lucha de Vilasapara, la presión del crimen y el conflicto de Vila Fight Fest son fundamentales para la trama."
+          ]
+        },
+        {
+          "icon": "Usuarios",
+          "title": "VIRTUA FIGHTER CROSSROADS | Nuevo tráiler de Bakunawa Killer",
+          "type": "Tráiler de personaje",
+          "url": "https://www.youtube.com/watch?v=5p_vR6s_fzk",
+          "focus": "Revelación de Bakunawa Killer",
+          "confirms": [
+            "Bakunawa Killer es un nuevo personaje de la historia de Cielo.",
+            "Bakunawa Killer se puede jugar en el Battle Mode.",
+            "El tráiler conecta a Pai Chan y Cielo con la persecución del atacante enmascarado."
+          ]
+        },
+        {
+          "icon": "Destellos",
+          "title": "VIRTUA FIGHTER CROSSROADS | AMV oficial de LEGACY",
+          "type": "Video promocional",
+          "url": "https://www.youtube.com/watch?v=IAzfDOlbzNM",
+          "focus": "El legado de la serie y pieza de ambientación",
+          "confirms": [
+            "SEGA está posicionando Crossroads como un nuevo y audaz capítulo para Virtua Fighter.",
+            "El video refuerza la identidad del juego como una continuación moderna de la longeva serie de lucha en 3D."
+          ]
+        }
+      ]
+    },
+    "vfCrossroadsStory": {
+      "title": "Modo historia de Virtua Fighter Crossroads y Vilasapara",
+      "intro": "Virtua Fighter Crossroads es una aventura de lucha, no solo una campaña de lucha tradicional. La historia transcurre en Vilasapara, donde las acciones, victorias y derrotas de los jugadores determinan cómo se desarrolla la narrativa de los cuatro protagonistas.",
+      "chapters": [
+        {
+          "icon": "Marcador de mapa",
+          "section": "Premisa",
+          "title": "Una ciudad construida en torno a la lucha",
+          "summary": "La historia se ambienta en el año 20XX en Vilasapara, una metrópolis ficticia del sudeste asiático donde la Arma Carta puso fin a una era de derramamiento de sangre y las armas de fuego se castigan con la muerte.",
+          "details": [
+            "Los sindicatos del crimen operan bajo un equilibrio frágil.",
+            "El presidente Bato promueve el Vila Fight Fest como un deporte nacional y una solución económica.",
+            "Una serie de ataques a artistas marciales está vinculada a la figura conocida como Bakunawa Killer."
+          ]
+        },
+        {
+          "icon": "Brújula",
+          "section": "Ambientación",
+          "title": "Vilasapara",
+          "summary": "Vilasapara es conocida como una ciudad de lucha e incluye varias áreas distintas, desde un centro amurallado hasta distritos de entretenimiento y complejos turísticos.",
+          "details": [
+            "La ciudad ha sido diseñada por RGG Studio como un entorno vivo para la exploración.",
+            "Los jugadores pueden descubrir historias secundarias y misiones vinculadas a los residentes y las ubicaciones.",
+            "Las entrevistas con los desarrolladores describen a Vilasapara como una gran ciudad con múltiples distritos importantes."
+          ]
+        },
+        {
+          "icon": "Usuarios",
+          "section": "Protagonistas",
+          "title": "Cuatro historias entrelazadas",
+          "summary": "El escenario principal sigue a cuatro nuevos protagonistas con diferentes vidas, objetivos y razones para venir a Vilasapara.",
+          "details": [
+            "Cielo es el primer protagonista que los jugadores controlan en el modo para un jugador.",
+            "Las historias de los cuatro protagonistas se superponen, se cruzan y divergen a lo largo de la ciudad.",
+            "Cada protagonista está diseñado con un tono de historia y un trasfondo diferentes."
+          ]
+        },
+        {
+          "icon": "GitBranch",
+          "section": "Decisiones",
+          "title": "Rutas ramificadas",
+          "summary": "El sitio oficial presenta las acciones, victorias y derrotas como fuerzas principales que dan forma a la historia.",
+          "details": [
+            "El juego está diseñado para ir más allá de simplemente ver escenas de la historia entre combates.",
+            "Las entrevistas con los desarrolladores describen una estructura creada para ofrecer diferentes experiencias en cada partida.",
+            "El modo Historia y el modo Versus comparten la misma base de control principal."
+          ]
+        },
+        {
+          "icon": "Huellas",
+          "section": "Misiones",
+          "title": "Historias secundarias y actividades de la ciudad",
+          "summary": "La exploración a lo largo de Vilasapara lleva a historias secundarias, misiones y actividades realistas conectadas con la ciudad y su gente.",
+          "details": [
+            "El juego tiene como objetivo ofrecer una experiencia sustancial para un solo jugador.",
+            "El contenido secundario está construido en torno al mundo de Vilasapara en lugar de ser actividades de relleno aleatorias.",
+            "Los personajes clásicos de Virtua Fighter pueden aparecer a través de la historia y del contenido secundario."
+          ]
+        },
+        {
+          "icon": "Espadas",
+          "section": "Batallas",
+          "title": "Batallas de historia y modo Batalla",
+          "summary": "El modo Historia incluye enfrentamientos dramáticos, peleas contra múltiples oponentes y batallas contra jefes, mientras que el modo Batalla permite combates directos uno contra uno.",
+          "details": [
+            "Las batallas de la historia están integradas en la narrativa en lugar de existir como combates de arcade independientes.",
+            "El modo Batalla es compatible con combates uno contra uno tanto en línea como sin conexión.",
+            "El combate mantiene la filosofía de puñetazo, patada y guardia de Virtua Fighter, al tiempo que reconstruye partes del sistema."
+          ]
+        },
+        {
+          "icon": "PenTool",
+          "section": "Escritores",
+          "title": "Equipo narrativo",
+          "summary": "La historia se está desarrollando con escritores internacionales y el personal de guionistas de RGG Studio.",
+          "details": [
+            "David Hayter figura como supervisor de la creación del mundo.",
+            "Brad Kane figura como escritor principal.",
+            "Tsuyoshi Furuta figura como director de escena.",
+            "Shinji Yamamoto figura como guionista."
+          ]
+        }
+      ]
+    },
+    "vfCrossroadsCharacters": {
+      "title": "Personajes y elenco de Virtua Fighter Crossroads",
+      "intro": "Virtua Fighter Crossroads presenta a cuatro nuevos protagonistas a la vez que integra a personajes clásicos de Virtua Fighter en el mismo mundo. Las revelaciones actuales incluyen a Cielo, Stella Bridges, Pai Chan, Wolf Hawkfield, Akira Yuki y Bakunawa Killer.",
+      "fighters": [
+        {
+          "icon": "Destellos",
+          "name": "Cielo",
+          "category": "Nuevo protagonista",
+          "status": "Protagonista jugable",
+          "style": "MMA centrado en el golpeo con raíces en el boxeo",
+          "role": "Cielo es el primer protagonista que los jugadores controlan en el modo de un jugador y uno de los cuatro nuevos protagonistas cuyos caminos se cruzan en Vilasapara."
+        },
+        {
+          "icon": "Estrella",
+          "name": "Stella Bridges",
+          "category": "Nuevo protagonista",
+          "status": "Protagonista jugable",
+          "style": "TBA",
+          "role": "Stella Bridges es una de los cuatro nuevos protagonistas y forma parte de la nueva generación de personajes de Virtua Fighter."
+        },
+        {
+          "icon": "UserPlus",
+          "name": "Protagonista sin nombre 3",
+          "category": "Espacio para nuevo protagonista",
+          "status": "Protagonista jugable",
+          "style": "TBA",
+          "role": "Uno de los cuatro nuevos protagonistas cuya vida y objetivos se entrelazan con la historia principal de Vilasapara."
+        },
+        {
+          "icon": "User",
+          "name": "Protagonista sin nombre 4",
+          "category": "Espacio para nuevo protagonista",
+          "status": "Protagonista jugable",
+          "style": "TBA",
+          "role": "Uno de los cuatro nuevos protagonistas con un trasfondo, motivación y tono de historia distintos."
+        },
+        {
+          "icon": "Viento",
+          "name": "Pai Chan",
+          "category": "Luchador clásico",
+          "status": "Luchador clásico jugable",
+          "style": "Artes marciales chinas",
+          "role": "Pai Chan aparece como un personaje clásico de mayor edad y está vinculada a la búsqueda del Bakunawa Killer por parte de Cielo."
+        },
+        {
+          "icon": "Trofeo",
+          "name": "Wolf Hawkfield",
+          "category": "Luchador clásico",
+          "status": "Luchador clásico jugable",
+          "style": "Lucha libre profesional",
+          "role": "Wolf regresa como uno de los personajes clásicos de Virtua Fighter visibles en Crossroads."
+        },
+        {
+          "icon": "Rayo",
+          "name": "Akira Yuki",
+          "category": "Luchador clásico",
+          "status": "Luchador clásico jugable",
+          "style": "Bajiquan",
+          "role": "Akira aparece como una figura que regresa de Virtua Fighter en el plantel y el mundo de Crossroads."
+        },
+        {
+          "icon": "Ojo",
+          "name": "Bakunawa Killer",
+          "category": "Personaje de la historia",
+          "status": "Jugable en el modo de batalla",
+          "style": "Por anunciar",
+          "role": "Bakunawa Killer está vinculado a una serie de ataques contra luchadores por todo Vilasapara."
+        },
+        {
+          "icon": "Imagen",
+          "name": "Jacky Bryant",
+          "category": "Referencia de legado",
+          "status": "Referencia visual",
+          "style": "Jeet Kune Do",
+          "role": "Se hace referencia a Jacky a través de arte mural en Vilasapara junto con otras figuras de legado de Virtua Fighter."
+        }
+      ]
+    },
+    "vfCrossroadsCombat": {
+      "title": "Mecánicas de combate de Virtua Fighter Crossroads",
+      "intro": "Virtua Fighter Crossroads mantiene el enfoque de la serie en la lectura a corta distancia mientras reconstruye el sistema de batalla en torno a nuevas herramientas de impulso, opciones defensivas cinematográficas y una presentación de impactos más realista. Esta sección separa las reglas de batalla de las mecánicas individuales para que los jugadores puedan ver rápidamente qué hace cada sistema en las peleas reales.",
+      "mechanics": [
+        {
+          "icon": "Escudo",
+          "name": "Reglas estándar",
+          "category": "Regla de batalla",
+          "howItWorks": "La victoria se determina al agotar la salud del oponente o al provocar un ring out. Por defecto, los combates se ganan al obtener tres rondas.",
+          "playerImpact": "Esta es la opción de reglas tradicional al estilo Virtua Fighter para jugadores que buscan gestión de salud, control del escenario y presión de ring out.",
+          "trackedDetails": [
+            "Ajustes de ronda",
+            "Comportamiento de ring out",
+            "Controles de opciones de combate"
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Reglas de Uprising",
+          "category": "Regla de batalla",
+          "howItWorks": "Una nueva opción de reglas construida en torno a oportunidades dinámicas de cambio de impulso, diseñada como un concepto separado de las reglas estándar.",
+          "playerImpact": "Uprising es el conjunto de reglas clave a tener en cuenta para los jugadores que desean un flujo de combate más dramático que el combate clásico basado en rondas.",
+          "trackedDetails": [
+            "Flujo completo de reglas",
+            "Condiciones de puntuación",
+            "Ajustes competitivos"
+          ]
+        },
+        {
+          "icon": "Martillo",
+          "name": "Break and Rush",
+          "category": "Sistema ofensivo",
+          "howItWorks": "Los golpes repetidos en regiones específicas del cuerpo acumulan daño. Una vez que se acumula suficiente daño, el atacante puede asestar un ataque break, y el estado de rotura se mantiene entre rondas.",
+          "playerImpact": "Los jugadores pueden planificar ataques basados en la presión de partes del cuerpo en lugar de solo buscar daño inmediato, creando una estrategia a largo plazo durante el combate.",
+          "trackedDetails": [
+            "Regiones rompibles",
+            "Activadores de ataque break",
+            "Comportamiento de persistencia"
+          ]
+        },
+        {
+          "icon": "Zap",
+          "name": "Aturdidor",
+          "category": "Técnica de golpeo",
+          "howItWorks": "Una nueva técnica de golpeo que expone a los oponentes a daño adicional y conecta con el nuevo flujo de Combo aturdidor.",
+          "playerImpact": "El Aturdidor ofrece a los jugadores una forma clara de crear oportunidades de combo sin depender únicamente de los antiguos patrones de elevación y malabares.",
+          "trackedDetails": [
+            "Comandos del Aturdidor",
+            "Condiciones de impacto",
+            "Ventanas de continuación"
+          ]
+        },
+        {
+          "icon": "Actividad",
+          "name": "Combo aturdidor",
+          "category": "Sistema de combos",
+          "howItWorks": "Una nueva mecánica de combo centrada en la fluidez y el realismo, diseñada para que los jugadores puedan acceder a rutas de combos más fuertes sin comandos complejos.",
+          "playerImpact": "Los nuevos jugadores obtienen una vía más clara para realizar continuaciones dañinas, mientras que los jugadores experimentados pueden estudiar cómo los estados de aturdimiento redefinen la presión.",
+          "trackedDetails": [
+            "Iniciadores de combo",
+            "Escalado de daño",
+            "Rutas específicas de personajes"
+          ]
+        },
+        {
+          "icon": "Viento",
+          "name": "Flow Guard",
+          "category": "Sistema defensivo",
+          "howItWorks": "Una elegante mecánica defensiva que enfatiza el movimiento fluido y el estilo visual. Funciona junto con Break y Rush para alternar el ataque y la defensa durante el combate.",
+          "playerImpact": "La defensa se vuelve más activa y legible, ofreciendo a los jugadores otra capa más allá de simplemente bloquear o esquivar.",
+          "trackedDetails": [
+            "Sincronización de la guardia",
+            "Interacción de Break y Rush",
+            "Opciones de contrajuego"
+          ]
+        },
+        {
+          "icon": "Mano",
+          "name": "Núcleo de combate a corta distancia de Virtua Fighter",
+          "category": "Bases de la saga",
+          "howItWorks": "El combate de Virtua Fighter se construye en torno a la lucha a corta distancia, con los golpes, los agarres y la guardia como pilares centrales.",
+          "playerImpact": "Crossroads sigue exigiendo a los jugadores leer directamente al oponente: los golpes vencen a los intentos de agarre, la guardia frena los golpes y los agarres castigan la guardia pasiva.",
+          "trackedDetails": [
+            "Lógica de golpe-agarre-guardia",
+            "Reglas de distanciamiento",
+            "Opciones de movimiento"
+          ]
+        },
+        {
+          "icon": "Claqueta",
+          "name": "Presentación cinematográfica de impactos",
+          "category": "Sistema de presentación",
+          "howItWorks": "Crossroads utiliza una presentación de combate inspirada en las películas de acción, con un trabajo de cámara dramático y reacciones a los impactos en primer plano más contundentes.",
+          "playerImpact": "El juego mantiene la identidad técnica de Virtua Fighter a la vez que hace que los ataques decisivos sean más fáciles de leer y visualmente más expresivos.",
+          "trackedDetails": [
+            "Comportamiento de la cámara",
+            "Presentación del golpe final",
+            "Legibilidad en el modo versus"
+          ]
+        },
+        {
+          "icon": "Gamepad2",
+          "name": "Controles intuitivos reconstruidos",
+          "category": "Filosofía de control",
+          "howItWorks": "El equipo de desarrollo está preservando la sensación simple e inmediata de Virtua Fighter a la vez que reorganiza los elementos complejos más antiguos y añade nuevos sistemas.",
+          "playerImpact": "Crossroads se está posicionando como un juego fácil de entender al primer contacto, con una profundidad que proviene de la precisión, las lecturas, la defensa y el dominio del sistema.",
+          "trackedDetails": [
+            "Flujo de puño, patada y guardia",
+            "Cambios en los sistemas heredados",
+            "Accesibilidad de comandos"
+          ]
+        }
+      ]
+    },
+    "vfCrossroadsBeginner": {
+      "title": "Guía para principiantes de Virtua Fighter Crossroads",
+      "intro": "Virtua Fighter no consiste en lanzar bolas de fuego ni en el control de distancias a largo alcance. Se trata de tomar decisiones a corta distancia: cuándo golpear, cuándo defenderse, cuándo agarrar y cómo reaccionar después de cada intercambio. Esta guía ofrece a los nuevos jugadores una ruta de entrenamiento clara antes del lanzamiento de Crossroads.",
+      "steps": [
+        {
+          "icon": "Retícula",
+          "focus": "Combate principal",
+          "title": "Aprende el triángulo de golpes, agarres y guardia",
+          "whatToLearn": "Los golpes vencen a los oponentes que intentan agarrar, la guardia anula los golpes y los agarres abren la defensa de los oponentes que siguen cubriéndose.",
+          "practiceActions": [
+            "Juega rondas cortas centradas únicamente en bloquear, agarrar y realizar ataques básicos.",
+            "Después de cada intercambio, identifica qué venció a qué antes de comenzar la siguiente ronda."
+          ],
+          "crossroadsCarryover": "Crossroads mantiene la identidad de corta distancia de Virtua Fighter y añade nuevos sistemas sobre esa base."
+        },
+        {
+          "icon": "Teclado",
+          "focus": "Controles",
+          "title": "Familiarízate con Puño, Patada y Guardia",
+          "whatToLearn": "La notación de Virtua Fighter utiliza una lógica de botones sencilla: PK significa Puño y luego Patada, mientras que P+K significa presionar Puño y Patada al mismo tiempo.",
+          "practiceActions": [
+            "Repite los comandos básicos de Puño, Patada, Guardia, PK y P+K hasta que el ritmo resulte natural.",
+            "Lee las flechas de la lista de movimientos desde la dirección a la que mira el Jugador 1, y luego inviértelas cuando practiques en el lado opuesto."
+          ],
+          "crossroadsCarryover": "Crossroads se está diseñando en torno a una sensación de control intuitiva donde las acciones básicas siguen siendo fáciles de entender."
+        },
+        {
+          "icon": "ClipboardCheck",
+          "focus": "Primera sesión de práctica",
+          "title": "Usa el modo Tutorial antes de intentar dominar la defensa avanzada",
+          "whatToLearn": "La guía oficial para principiantes recomienda aprender los controles, el movimiento, la guardia y los aspectos fundamentales antes de pasar a las lecciones avanzadas de defensa y ataque.",
+          "practiceActions": [
+            "Completa primero el tutorial básico.",
+            "Ignora los sistemas avanzados durante la primera sesión y repite los ejercicios de movimiento y guardia."
+          ],
+          "crossroadsCarryover": "El mismo orden funciona para Crossroads: aprende primero los controles básicos y luego estudia Break and Rush, Flow Guard, Stunner y Stun Combo."
+        },
+        {
+          "icon": "Escudo",
+          "focus": "Defensa",
+          "title": "Separa la guardia de pie de la guardia agachada",
+          "whatToLearn": "La guardia de pie bloquea los ataques altos y medios, pero pierde contra los ataques bajos y los agarres. La guardia agachada bloquea los ataques bajos y esquiva los altos y los agarres, pero pierde contra los medios.",
+          "practiceActions": [
+            "Comienza con la guardia de pie para reducir el daño de los ataques medios fuertes.",
+            "Añade la guardia agachada una vez que puedas reconocer los ataques bajos y los intentos de agarre."
+          ],
+          "crossroadsCarryover": "Flow Guard añade una nueva capa defensiva, pero la anticipación básica de los ataques altos, medios, bajos y agarres sigue siendo lo primero."
+        },
+        {
+          "icon": "Objetivo",
+          "focus": "Alternancia de turnos",
+          "title": "Ataca después de una guardia exitosa",
+          "whatToLearn": "Tras un bloqueo exitoso, el jugador que bloquea suele moverse primero. Ese es el momento de contraatacar en lugar de quedarse congelado.",
+          "practiceActions": [
+            "Bloquea un ataque básico y responde de inmediato con un ataque medio rápido.",
+            "Practica una continuación segura para tu personaje de entrenamiento antes de añadir más opciones."
+          ],
+          "crossroadsCarryover": "El Flow Guard y la presentación cinematográfica del combate hacen que los momentos defensivos sean una parte importante del aprendizaje de Crossroads, pero el hábito sigue comenzando con la disciplina básica de la guardia."
+        },
+        {
+          "icon": "Mano",
+          "focus": "Agarres",
+          "title": "No te escondas detrás de la guardia para siempre",
+          "whatToLearn": "Bloquear demasiado invita a los agarres. Ataca cuando esperes un agarre y practica escapes de agarre con la dirección del agarre del oponente más P+G o presionando P mientras te cubres.",
+          "practiceActions": [
+            "Deja que un oponente te agarre varias veces para que puedas ver el patrón.",
+            "Alterna entre ejercicios de guardia, ataque y escape de agarre."
+          ],
+          "crossroadsCarryover": "El mismo juego de lectura de ataque-agarre-guardia sigue siendo la forma más rápida de entender las batallas uno contra uno de Crossroads."
+        },
+        {
+          "icon": "Cohete",
+          "focus": "Combos",
+          "title": "Comienza con los combos recomendados, no con rutas largas",
+          "whatToLearn": "Después de conectar un ataque, continúa primero con un combo simple. Las rutas de combos más largas pueden aumentar el daño, pero deberían usarse una vez que las rutas iniciales se sientan automáticas.",
+          "practiceActions": [
+            "Elige un launcher o iniciador y una continuación corta.",
+            "Repite el mismo combo desde ambos lados antes de añadir una segunda ruta."
+          ],
+          "crossroadsCarryover": "Stunner y Stun Combo le dan a Crossroads nuevas rutas de combos, por lo que los hábitos limpios de inicio importarán más que memorizar rutas antiguas sin contexto."
+        },
+        {
+          "icon": "Huellas",
+          "focus": "Flujo de práctica",
+          "title": "Ve al Modo Tutorial, Modo Arcade y luego a las partidas en línea",
+          "whatToLearn": "La guía oficial para principiantes recomienda el Modo Tutorial para los controles, el Modo Arcade para familiarizarse con el plantel de personajes y las partidas en línea una vez que se gane confianza.",
+          "practiceActions": [
+            "Usa el Modo Tutorial para los comandos.",
+            "Usa el Modo Arcade para ver a muchos personajes.",
+            "Usa las partidas en línea solo después de que puedas defenderte, castigar y realizar un combo corto de manera confiable."
+          ],
+          "crossroadsCarryover": "El Modo Batalla incluye combates uno contra uno en línea y locales, por lo que este flujo de práctica se traslada directamente al juego versus."
+        },
+        {
+          "icon": "Usuarios",
+          "focus": "Personajes de entrenamiento",
+          "title": "Usa elecciones de práctica de Virtua Fighter recomendadas para principiantes",
+          "whatToLearn": "La guía oficial actual de Virtua Fighter destaca a Jacky, Pai y Jean como opciones recomendadas para principiantes para aprender los conceptos básicos en el entorno de juego existente.",
+          "practiceActions": [
+            "Usa a Jacky para aprender golpes y agarres simples.",
+            "Usa a Pai para familiarizarte con las posturas y los reversals.",
+            "Usa a Jean para aprender técnicas básicas y ataques cargados."
+          ],
+          "crossroadsCarryover": "Usa estos personajes como elecciones de práctica actuales de Virtua Fighter; la selección de personajes de Crossroads debe basarse en los recursos del plantel final de Crossroads."
+        },
+        {
+          "icon": "Brújula",
+          "focus": "Transición a Crossroads",
+          "title": "Lleva las lecciones del modo de un solo jugador al juego versus",
+          "whatToLearn": "Crossroads está diseñado para que lo que los jugadores aprendan en el modo de un solo jugador se pueda aplicar en partidas competitivas. También está previsto que los cuatro protagonistas sean personajes jugables en el modo versus.",
+          "practiceActions": [
+            "Usa el Modo Historia para conocer la identidad de los personajes y sus hábitos de combate.",
+            "Lleva al mismo personaje al Modo Batalla para poner a prueba esos hábitos en combates uno contra uno."
+          ],
+          "crossroadsCarryover": "Cielo es un luchador de MMA centrado en el golpeo con raíces en el boxeo, lo que lo convierte en un primer personaje natural a tener en cuenta para la presión moderna a corta distancia."
+        }
+      ],
+      "quickTips": [
+        "Virtua Fighter Crossroads mantiene la identidad de puñetazos, patadas y guardias a corta distancia, a la vez que añade Break, Rush, Flow Guard, Stunner y Stun Combo.",
+        "La lógica de golpe-agarre-guardia sigue siendo el modelo mental más rápido para entender los combates uno contra uno de Crossroads.",
+        "Progresa en orden: Modo Tutorial para los comandos, Modo Arcade para el plantel y, después, partidas en línea una vez que sepas cubrirte, castigar y ejecutar un combo corto.",
+        "Jacky, Pai y Jean son elecciones de Virtua Fighter actuales ideales para principiantes para desarrollar los fundamentos antes de que se finalice el plantel de Crossroads."
+      ]
+    },
+    "vfCrossroadsBattleMode": {
+      "title": "Modo de batalla y juego en línea de Virtua Fighter Crossroads",
+      "intro": "Crossroads se basa en dos estilos de juego conectados: una aventura para un jugador con gran peso narrativo en Vilasapara y batallas directas uno contra uno a través del Modo de batalla. Las batallas de la historia enseñan el mundo, los personajes y los nuevos sistemas, mientras que el Modo de batalla ofrece a los jugadores el formato clásico de enfrentamiento directo.",
+      "modes": [
+        {
+          "icon": "Libro abierto",
+          "name": "Modo historia / Aventura de lucha",
+          "format": "Aventura narrativa para un jugador",
+          "playerExperience": "Explora Vilasapara, sigue las historias entrelazadas de cuatro protagonistas y toma decisiones donde las acciones, victorias y derrotas dan forma a la historia.",
+          "confirmedFeatures": [
+            "Jugabilidad basada en la narrativa",
+            "Estructura de historia con cuatro protagonistas",
+            "Caminos ramificados",
+            "Historias secundarias y misiones ligadas a Vilasapara"
+          ],
+          "bestFor": "Jugadores que buscan historia, exploración, arcos de personajes y encuentros de combate en un solo modo."
+        },
+        {
+          "icon": "Usuarios",
+          "name": "Peleas contra múltiples oponentes",
+          "format": "Encuentro de combate del modo historia",
+          "playerExperience": "Libra dramáticas batallas contra múltiples oponentes integradas en la narrativa en lugar de solo los tradicionales duelos uno contra uno.",
+          "confirmedFeatures": [
+            "Enfrentamientos contra múltiples oponentes",
+            "Contexto de combate de acción y aventura",
+            "Integración narrativa"
+          ],
+          "bestFor": "Jugadores que provienen de juegos de acción al estilo RGG que buscan encuentros de combate más amplios dentro del marco de Virtua Fighter."
+        },
+        {
+          "icon": "Corona",
+          "name": "Batallas contra jefes",
+          "format": "Combate de escena preparada del modo historia",
+          "playerExperience": "Enfréntate a intensas batallas contra jefes que puntúan momentos importantes de la historia y ponen a prueba el dominio del jugador sobre el nuevo sistema de batalla.",
+          "confirmedFeatures": [
+            "Batallas contra jefes en el modo historia",
+            "Presentación dramática de escenas preparadas",
+            "Ubicación de los combates basada en la narrativa"
+          ],
+          "bestFor": "Jugadores que buscan combates culminantes para un jugador con una presentación más potente que la de una partida estándar."
+        },
+        {
+          "icon": "Espadas",
+          "name": "Modo de batalla",
+          "format": "Versus uno contra uno",
+          "playerExperience": "Salta directamente a combates uno contra uno sin pasar por el flujo de la aventura de la historia.",
+          "confirmedFeatures": [
+            "Combates uno contra uno sin conexión",
+            "Combates uno contra uno en línea",
+            "Formato de batalla tradicional cara a cara"
+          ],
+          "bestFor": "Jugadores que buscan combates directos de Virtua Fighter, juego local, juego en línea o práctica enfocada en el sistema."
+        },
+        {
+          "icon": "Wifi",
+          "name": "Modo de Batalla Online",
+          "format": "Juego uno contra uno en línea",
+          "playerExperience": "Juega partidas cara a cara en línea a través del Modo de Batalla.",
+          "confirmedFeatures": [
+            "Modo de Batalla Online",
+            "Estructura de combates uno contra uno"
+          ],
+          "bestFor": "Jugadores que quieran probar los personajes y sistemas de Crossroads contra otros jugadores."
+        },
+        {
+          "icon": "Monitor",
+          "name": "Modo de Batalla Offline",
+          "format": "Juego uno contra uno local u offline",
+          "playerExperience": "Usa el Modo de Batalla para combates cara a cara offline, sesiones de práctica y partidas locales.",
+          "confirmedFeatures": [
+            "Modo de Batalla Offline",
+            "Estructura de combates uno contra uno"
+          ],
+          "bestFor": "Jugadores que busquen versus local, sesiones de laboratorio o configuraciones para eventos sin matchmaking en línea."
+        },
+        {
+          "icon": "BadgeCheck",
+          "name": "Conjuntos de reglas",
+          "format": "Standard y Uprising",
+          "playerExperience": "Standard mantiene el agotamiento de salud y las condiciones de victoria por ring-out, mientras que Uprising introduce un nuevo concepto de batalla que cambia el impulso.",
+          "confirmedFeatures": [
+            "Reglas Standard",
+            "Reglas Uprising",
+            "Break and Rush",
+            "Flow Guard",
+            "Stunner",
+            "Stun Combo"
+          ],
+          "bestFor": "Jugadores que comparan la lógica de combate clásica de Virtua Fighter con la nueva dirección de batalla de Crossroads."
+        },
+        {
+          "icon": "GitBranch",
+          "name": "Transferencia de personajes de Historia a Versus",
+          "format": "Protagonistas jugables en todos los modos",
+          "playerExperience": "Conoce a los cuatro protagonistas a través de la historia y luego llévalos al modo versus.",
+          "confirmedFeatures": [
+            "Se planea que los cuatro protagonistas sean personajes jugables",
+            "El aprendizaje para un solo jugador está diseñado para trasladarse a las partidas competitivas",
+            "Cielo utiliza un estilo de MMA centrado en el golpeo con raíces en el boxeo"
+          ],
+          "bestFor": "Jugadores que quieran elegir a un personaje principal mediante la familiaridad con la historia antes de entrar al Modo de Batalla."
+        }
+      ]
+    },
+    "vfCrossroadsOfficialLinks": {
+      "title": "Enlaces oficiales y actualizaciones de Virtua Fighter Crossroads",
+      "intro": "Este centro reúne los recursos oficiales de Crossroads en un solo lugar: páginas de anuncios, noticias, canales sociales, archivos de video, enlaces de la comunidad y reglas para creadores sobre la transmisión o co-transmisión de material oficial.",
+      "links": [
+        {
+          "icon": "Globo",
+          "name": "Sitio oficial de VIRTUA FIGHTER CROSSROADS",
+          "category": "Sitio web oficial",
+          "url": "https://crossroads.virtua-fighter.com/en",
+          "description": "Página de inicio principal para el título de 2027, propuesta central, medios oficiales y enlaces sociales.",
+          "bestFor": "Ventana de lanzamiento, sinopsis de la historia, ilustraciones principales, medios oficiales"
+        },
+        {
+          "icon": "Edificio2",
+          "name": "Portal web oficial de Virtua Fighter",
+          "category": "Portal oficial",
+          "url": "https://virtua-fighter.com/en",
+          "description": "Centro de la saga para noticias de Virtua Fighter, recursos para principiantes, actualizaciones actuales del juego, mercancía y enlaces de la comunidad.",
+          "bestFor": "Noticias de la saga, guía oficial para principiantes, acceso a Discord"
+        },
+        {
+          "icon": "Periódico",
+          "name": "Noticias de Virtua Fighter",
+          "category": "Noticias",
+          "url": "https://virtua-fighter.com/en/news",
+          "description": "Índice oficial de noticias que cubre los avisos de Crossroads y las actualizaciones actuales de Virtua Fighter.",
+          "bestFor": "Últimos avisos, publicaciones de actualización, información de eventos"
+        },
+        {
+          "icon": "Destellos",
+          "name": "Revelación de Crossroads y detalles del combate",
+          "category": "Noticias",
+          "url": "https://ryu-ga-gotoku.com/asia_en/info/detail/004309.html",
+          "description": "Publicación oficial de noticias de RGG Studio que cubre la ventana de lanzamiento de 2027, Vilasapara, la premisa de la historia, el Modo Historia, el Modo Batalla y los canales sociales oficiales.",
+          "bestFor": "Detalles principales del anuncio de Crossroads"
+        },
+        {
+          "icon": "Enviar",
+          "name": "VIRTUA FIGHTER CROSSROADS en X",
+          "category": "Redes sociales",
+          "url": "https://x.com/VFCROSSROADS",
+          "description": "Cuenta oficial de X de Crossroads para anuncios breves y publicaciones de actualización.",
+          "bestFor": "Consultas rápidas de noticias y actualizaciones en redes sociales"
+        },
+        {
+          "icon": "Cámara",
+          "name": "VIRTUA FIGHTER CROSSROADS en Instagram",
+          "category": "Redes sociales",
+          "url": "https://www.instagram.com/vfcrossroads",
+          "description": "Cuenta oficial de Instagram para actualizaciones visuales, clips y publicaciones promocionales.",
+          "bestFor": "Capturas de pantalla, clips y publicaciones de campaña"
+        },
+        {
+          "icon": "Música",
+          "name": "VIRTUA FIGHTER CROSSROADS en TikTok",
+          "category": "Redes sociales",
+          "url": "https://www.tiktok.com/@vfcrossroads",
+          "description": "Cuenta oficial de TikTok para actualizaciones de videos cortos y clips promocionales.",
+          "bestFor": "Videos cortos y clips de redes sociales"
+        },
+        {
+          "icon": "Video",
+          "name": "YouTube oficial de Virtua Fighter",
+          "category": "Video",
+          "url": "https://www.youtube.com/@virtuafighter_official_jp",
+          "description": "Canal oficial de YouTube para tráileres de revelación, archivos de presentaciones, tráileres de la historia y vídeos de personajes o guías.",
+          "bestFor": "Tráileres, presentaciones, archivos de vídeo oficiales"
+        },
+        {
+          "icon": "MessageCircle",
+          "name": "Discord oficial de Virtua Fighter",
+          "category": "Comunidad",
+          "url": "https://discord.gg/virtuafighter-official",
+          "description": "Servidor oficial de la comunidad enlazado desde las páginas oficiales de Virtua Fighter y Crossroads.",
+          "bestFor": "Discusión de la comunidad y anuncios oficiales de Discord"
+        },
+        {
+          "icon": "Clapperboard",
+          "name": "Directrices de co-transmisión de Crossroads",
+          "category": "Reglas para creadores",
+          "url": "https://virtua-fighter.com/en/news/891",
+          "description": "Reglas oficiales para la co-transmisión del Crossroads Showcase y la publicación de vídeos de reseñas, incluyendo plataformas permitidas, créditos requeridos y subidas prohibidas.",
+          "bestFor": "Co-transmisiones del Showcase y vídeos de reseñas"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "name": "Directrices de transmisión de SEGA",
+          "category": "Reglas para creadores",
+          "url": "https://www.sega.co.jp/en/streaming_guideline/",
+          "description": "Política general de SEGA para vídeos de jugabilidad, límites de monetización, contenido no oficial, productos no lanzados y contenido prohibido.",
+          "bestFor": "Creadores de vídeo, streamers y operadores de sitios"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Virtua Fighter Crossroads",
+    "questions": [
+      {
+        "question": "¿Cuándo se lanzará Virtua Fighter Crossroads?",
+        "answer": "Virtua Fighter Crossroads está programado para una ventana de lanzamiento en 2027. SEGA aún no ha anunciado una fecha de lanzamiento exacta."
+      },
+      {
+        "question": "¿En qué plataformas estará Virtua Fighter Crossroads?",
+        "answer": "Las plataformas designadas aún están por anunciarse (TBA). Virtua Fighter Crossroads se describe como un proyecto centrado en consolas de sobremesa, y SEGA publicará la lista completa de plataformas más cerca del lanzamiento."
+      },
+      {
+        "question": "¿Es Virtua Fighter Crossroads un juego de lucha o un juego de aventura?",
+        "answer": "Virtua Fighter Crossroads es una aventura de lucha. Combina una historia narrativa para un solo jugador ambientada en la ciudad de Vilasapara con el combate tradicional uno contra uno de Virtua Fighter."
+      },
+      {
+        "question": "¿Quiénes son los protagonistas de Virtua Fighter Crossroads?",
+        "answer": "La historia sigue a cuatro nuevos protagonistas, incluidos Cielo y Stella Bridges, con luchadores clásicos como Pai Chan, Wolf Hawkfield y Akira Yuki apareciendo también en Virtua Fighter Crossroads."
+      },
+      {
+        "question": "¿Dónde tiene lugar la historia de Virtua Fighter Crossroads?",
+        "answer": "La historia se desarrolla en Vilasapara, una ciudad de lucha ficticia del sudeste asiático donde el Vila Fight Fest, los sindicatos del crimen y los artistas marciales colisionan en Virtua Fighter Crossroads."
+      },
+      {
+        "question": "¿Se puede jugar con Bakunawa Killer en Virtua Fighter Crossroads?",
+        "answer": "Sí. Bakunawa Killer está confirmado como personaje jugable en el Battle Mode y aparece en el hilo de la historia de Cielo en Virtua Fighter Crossroads."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para sumergirte en Virtua Fighter Crossroads?",
+    "description": "Únete a la comunidad oficial de Virtua Fighter Crossroads en Discord para actualizaciones de la historia, revelaciones de personajes, tráileres y debates.",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Ver sitio oficial"
+  },
+  "footer": {
+    "title": "Wiki de Virtua Fighter Crossroads",
+    "description": "Tu centro completo de recursos para la información de lanzamiento, historia, personajes, combate, tráileres y el lore de la ciudad de Vilasapara de Virtua Fighter Crossroads.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "YouTube",
+    "steamStore": "Instagram",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Virtua Fighter Crossroads Wiki. No afiliado a SEGA ni a RGG Studio.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Lanzamiento de Virtua Fighter Crossroads",
+      "description": "Sigue la ventana de lanzamiento confirmada para 2027, el título oficial, el desarrollador, el distribuidor y los detalles de las plataformas por confirmar de Virtua Fighter Crossroads.",
+      "metaTitle": "Fecha de lanzamiento y plataformas de Virtua Fighter Crossroads",
+      "metaDescription": "Fecha de lanzamiento de Virtua Fighter Crossroads, ventana de lanzamiento para 2027, desarrollador y distribuidor confirmados, y detalles de plataformas por confirmar.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Cuál es el estado del lanzamiento de Virtua Fighter Crossroads?",
+      "whatIsDescription": "Virtua Fighter Crossroads está programado para 2027 por parte de SEGA y RGG Studio. La fecha exacta, las plataformas, el precio y las ediciones están por confirmar.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Ventana confirmada",
+        "step1Description": "Conoce la ventana de lanzamiento oficial para 2027 antes de que se abran las reservas.",
+        "step2Title": "Claridad de plataformas",
+        "step2Description": "Sigue qué consolas de sobremesa y tiendas de PC están confirmadas.",
+        "step3Title": "Ediciones y reservas",
+        "step3Description": "Entérate del precio, las ediciones y las fechas de reserva a medida que SEGA las publique."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "trailer": {
+      "title": "Tráileres de Virtua Fighter Crossroads",
+      "description": "Mira el tráiler de revelación oficial, el archivo de la presentación, el tráiler de la historia de Cielo, el tráiler de Bakunawa Killer y el video promocional LEGACY.",
+      "metaTitle": "Tráileres y presentación de Virtua Fighter Crossroads",
+      "metaDescription": "Tráileres oficiales de Virtua Fighter Crossroads: videos de revelación, de la presentación, de la historia de Cielo y de la revelación de Bakunawa Killer.",
+      "categoryLabel": "VIDEOS OFICIALES",
+      "whatIs": "¿Cuáles son los tráileres de Virtua Fighter Crossroads?",
+      "whatIsDescription": "El ciclo de videos oficiales que revelan el título, Vilasapara, los cuatro protagonistas y los personajes confirmados recientemente.",
+      "why": "¿Por qué ver los tráileres?",
+      "whySteps": {
+        "step1Title": "Título y lanzamiento",
+        "step1Description": "Confirmar el título oficial y la ventana de lanzamiento de 2027.",
+        "step2Title": "Mundo e historia",
+        "step2Description": "Ver Vilasapara, Cielo y la dirección narrativa.",
+        "step3Title": "Nuevos personajes",
+        "step3Description": "Conoce a los luchadores recientemente revelados como Bakunawa Killer."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de los tráileres"
+    },
+    "story": {
+      "title": "Historia de Virtua Fighter Crossroads",
+      "description": "Explora la estructura de aventura de lucha, la ciudad de Vilasapara, cuatro protagonistas, caminos ramificados y misiones secundarias.",
+      "metaTitle": "Modo historia de Virtua Fighter Crossroads y Vilasapara",
+      "metaDescription": "Modo historia de Virtua Fighter Crossroads, ambientación de Vilasapara, cuatro protagonistas, caminos ramificados y misiones secundarias.",
+      "categoryLabel": "MODO HISTORIA",
+      "whatIs": "¿Cuál es la historia de Virtua Fighter Crossroads?",
+      "whatIsDescription": "Una aventura de lucha narrativa ambientada en Vilasapara donde las acciones, victorias y derrotas de los jugadores dan forma a la historia de cuatro protagonistas.",
+      "why": "¿Por qué seguir la historia?",
+      "whySteps": {
+        "step1Title": "Cuatro protagonistas",
+        "step1Description": "Sigue a cuatro protagonistas cuyas historias se cruzan en Vilasapara.",
+        "step2Title": "Caminos ramificados",
+        "step2Description": "Mira cómo las elecciones y los resultados cambian la narrativa.",
+        "step3Title": "Historia de la ciudad",
+        "step3Description": "Descubre el Vila Fight Fest y el trasfondo de Arma Carta."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de la historia"
+    },
+    "characters": {
+      "title": "Personajes de Virtua Fighter Crossroads",
+      "description": "Sigue la pista de los nuevos protagonistas confirmados, luchadores revelados, apariciones clásicas, estilos de lucha y los roles de los personajes en la historia.",
+      "metaTitle": "Personajes y elenco de Virtua Fighter Crossroads",
+      "metaDescription": "Personajes de Virtua Fighter Crossroads: nuevos protagonistas, luchadores clásicos, roles confirmados y estilos de lucha.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Quiénes son los personajes de Virtua Fighter Crossroads?",
+      "whatIsDescription": "Cuatro nuevos protagonistas más luchadores clásicos como Pai Chan, Wolf Hawkfield y Akira Yuki, y el personaje de la historia Bakunawa Killer.",
+      "why": "¿Por qué estudiar el plantel?",
+      "whySteps": {
+        "step1Title": "Nuevos protagonistas",
+        "step1Description": "Conoce a Cielo, Stella Bridges y a los nuevos protagonistas.",
+        "step2Title": "Luchadores clásicos",
+        "step2Description": "Mira cómo los personajes que regresan encajan en el nuevo mundo.",
+        "step3Title": "Estilos de lucha",
+        "step3Description": "Conoce el estilo de artes marciales confirmado de cada luchador."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de personajes"
+    },
+    "guide": {
+      "title": "Guías de Virtua Fighter Crossroads",
+      "description": "Fundamentos para principiantes, lógica de golpe-agarre-defensa, espaciado a corta distancia, movimiento y flujo de práctica para nuevos jugadores.",
+      "metaTitle": "Guía para principiantes de Virtua Fighter Crossroads",
+      "metaDescription": "Guía para principiantes de Virtua Fighter Crossroads que cubre los fundamentos, el espaciado, el movimiento y el flujo de práctica.",
+      "categoryLabel": "GUÍAS PARA PRINCIPIANTES",
+      "whatIs": "¿Qué contiene la guía de Virtua Fighter Crossroads?",
+      "whatIsDescription": "Los fundamentos básicos que los nuevos jugadores necesitan antes del lanzamiento, basados en la clásica filosofía de tres botones de Virtua Fighter.",
+      "why": "¿Por qué leer las guías?",
+      "whySteps": {
+        "step1Title": "Aprende lo básico",
+        "step1Description": "Comprende los comandos de puñetazo, patada y defensa.",
+        "step2Title": "Domina el espaciado",
+        "step2Description": "Controla los intercambios a corta distancia que deciden los combates.",
+        "step3Title": "Practica con inteligencia",
+        "step3Description": "Desarrolla memoria muscular antes de jugar en línea."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de la guía"
+    }
   }
 }

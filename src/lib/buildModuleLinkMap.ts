@@ -61,7 +61,7 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
+  // Exact phrase match in title (stripped of "Virtua Fighter Crossroads")
   const strippedQuery = normalizedQuery.replace(/virtua fighter crossroads\s*/g, '').trim()
   const strippedTitle = normalizedTitle.replace(/virtua fighter crossroads\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {

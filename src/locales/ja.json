@@ -1,9 +1,987 @@
 {
+  "seo": {
+    "home": {
+      "title": "Virtua Fighter Crossroads - リリース、ストーリー＆バトル",
+      "description": "新規および復帰プレイヤー向けのVirtua Fighter Crossroadsのリリース情報、トレーラー、キャラクター、ストーリー、Vilasapara、バトル、モード、および公式アップデートのガイド。",
+      "keywords": "virtua fighter crossroads, 発売日, キャラクター, ストーリー, バトル, トレーラー",
+      "ogTitle": "Virtua Fighter Crossroads - リリース、ストーリー＆バトル",
+      "ogDescription": "新規および復帰プレイヤー向けのVirtua Fighter Crossroadsのリリース情報、トレーラー、キャラクター、ストーリー、Vilasapara、バトル、モード、および公式アップデートのガイド。",
+      "twitterTitle": "Virtua Fighter Crossroads - リリース、ストーリー＆バトル",
+      "twitterDescription": "2027年のVirtua Fighterの復活を探る：発売時期、ストーリー、キャラクター、バトル、トレーラー、およびVilasaparaの街の設定（ロア）。"
+    }
+  },
   "nav": {
-    "release": "発売情報",
+    "release": "リリース",
     "characters": "キャラクター",
     "story": "ストーリー",
     "guide": "ガイド",
     "trailer": "トレーラー"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "公式サイトを見る",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定です"
+  },
+  "hero": {
+    "badge": "ナラティブ3D格闘アドベンチャー",
+    "title": "Virtua Fighter Crossroads Wiki",
+    "description": "分岐するシングルプレイヤーストーリー、Vilasaparaの街の設定、Cieloのアップデート、トレーラー、そして伝統的な3Dの1対1のバトルとともに、2027年のVirtua Fighterの復活を体験しましょう。",
+    "getFreeCodesCTA": "トレーラーを見る",
+    "playOnSteamCTA": "公式サイトを見る",
+    "stats": {
+      "stat1": {
+        "value": "2027",
+        "label": "発売時期"
+      },
+      "stat2": {
+        "value": "4",
+        "label": "新たな主人公たち"
+      },
+      "stat3": {
+        "value": "Vilasapara",
+        "label": "メインシティ"
+      },
+      "stat4": {
+        "value": "Bakunawa Killer",
+        "label": "最新のファイター"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Virtua Fighter Crossroads",
+    "description": "SEGAとRGG Studioが贈る、闘いの街「Vilasapara」を舞台に交錯する4人の主人公と進化した1対1のバトルを描くナラティブ3D格闘アドベンチャー。"
+  },
+  "tools": {
+    "title": "Virtua Fighter Crossroads",
+    "titleHighlight": "リソース",
+    "subtitle": "Virtua Fighter Crossroadsの2027年発売、ストーリー、キャラクター、戦闘、および公式アップデートを追跡するために必要なすべての情報。",
+    "cards": [
+      {
+        "icon": "カレンダー",
+        "title": "Virtua Fighter Crossroads 発売日と対応プラットフォーム",
+        "description": "2027年の発売時期、確定済みの開発・販売元、および後日発表予定のプラットフォーム詳細"
+      },
+      {
+        "icon": "映像",
+        "title": "Virtua Fighter Crossroads トレーラー＆ショーケース",
+        "description": "公式発表、ショーケース、Cielo、およびBakunawa Killerのトレーラー"
+      },
+      {
+        "icon": "ブックオープン",
+        "title": "Virtua Fighter Crossroads ストーリーモードとVilasapara",
+        "description": "4人の主人公によるストーリー、分岐する道、サイドクエスト、および街の伝承"
+      },
+      {
+        "icon": "ユーザー",
+        "title": "Virtua Fighter Crossroads キャラクターと参戦キャラクター一覧",
+        "description": "新主人公、歴代ファイター、確定した役割、および格闘スタイル"
+      },
+      {
+        "icon": "ソード",
+        "title": "Virtua Fighter Crossroads コンバットメカニクス",
+        "description": "パンチ・キック・ガードの核、試合ルール、および進化したバトルシステム"
+      },
+      {
+        "icon": "グラデュエーションキャップ",
+        "title": "Virtua Fighter Crossroads ビギナーガイド",
+        "description": "基礎、打撃・投げ・ガードの三すくみ、間合い、および練習の流れ"
+      },
+      {
+        "icon": "ゲームパッド2",
+        "title": "Virtua Fighter Crossroads バトルモードとオンラインプレイ",
+        "description": "ストーリーバトル、1対1のバトルモード、およびオンライン対戦プレイ"
+      },
+      {
+        "icon": "外部リンク",
+        "title": "Virtua Fighter Crossroads 公式リンクとアップデート",
+        "description": "公式サイト、Discord、X、YouTube、Instagram、およびニュース"
+      }
+    ]
+  },
+  "modules": {
+    "vfCrossroadsRelease": {
+      "title": "Virtua Fighter Crossroads 発売日と対応プラットフォーム",
+      "intro": "セガと龍が如くスタジオによるVirtua Fighter新作に関する主要な発売情報。確定した2027年の発売時期と、未発表の発売詳細を整理。",
+      "facts": [
+        {
+          "icon": "カレンダー",
+          "label": "発売時期",
+          "value": "2027年",
+          "status": "確定",
+          "details": "セガはVirtua Fighter Crossroadsを2027年発売予定としてリストアップしています。"
+        },
+        {
+          "icon": "バッジチェック",
+          "label": "正式タイトル",
+          "value": "VIRTUA FIGHTER CROSSROADS",
+          "status": "確定",
+          "details": "「新Virtua Fighterプロジェクト」の正式名称であり、シリーズの次なる本編作品として発表されました。"
+        },
+        {
+          "icon": "ビルディング2",
+          "label": "開発元",
+          "value": "龍が如くスタジオ",
+          "status": "確定",
+          "details": "龍が如くスタジオは、ヴィラサパラの街、ストーリー主導のシングルプレイヤー構造、そして進化した格闘体験を構築しています。"
+        },
+        {
+          "icon": "スター",
+          "label": "パブリッシャー",
+          "value": "セガ",
+          "status": "確定",
+          "details": "セガは、本作の公式サイト、ニュースページ、トレーラー公開、およびソーシャルチャネルを運営しています。"
+        },
+        {
+          "icon": "モニター",
+          "label": "プラットフォームの方向性",
+          "value": "家庭用ゲーム機向けのプロジェクト",
+          "status": "確定",
+          "details": "プロデューサー兼クリエイティブディレクターの山田理一郎氏は、このプロジェクトをアーケードではなく、主に家庭用でのプレイを目的としたものだと説明しています。"
+        },
+        {
+          "icon": "ゲームパッド2",
+          "label": "対応プラットフォーム",
+          "value": "未定",
+          "status": "未定",
+          "details": "正確なプラットフォームのリストは、公式サイトや告知ページでまだ公開されていません。"
+        },
+        {
+          "icon": "クロック",
+          "label": "発売詳細",
+          "value": "正確な日付、価格、エディション、予約、およびシステム要件：未定",
+          "status": "未定",
+          "details": "これらの詳細は、セガがストアページを公開するか、専用の発売日発表を行った後に入力されます。"
+        }
+      ]
+    },
+    "vfCrossroadsTrailers": {
+      "title": "Virtua Fighter Crossroads トレーラー＆ショーケース",
+      "intro": "2027年のタイトル発表から、ヴィラサパラ、シエロ、4人の主人公構造、および新たに明かされたバクナワ・キラーまで、Virtua Fighter Crossroadsの公式公開サイクルを辿ります。",
+      "videos": [
+        {
+          "icon": "フィルム",
+          "title": "VIRTUA FIGHTER CROSSROADS | 公式リビールトレーラー",
+          "type": "リビールトレーラー",
+          "url": "https://www.youtube.com/watch?v=HSn13RsfP3A",
+          "focus": "公式タイトルの発表と2027年の発売時期",
+          "confirms": [
+            "「新バーチャファイタープロジェクト」の正式タイトルが『VIRTUA FIGHTER CROSSROADS』に決定しました。",
+            "本作は2027年に発売予定です。",
+            "新しい方向性では、映画のようなストーリーシーンとVirtua Fighterの格闘アクションが融合しています。"
+          ]
+        },
+        {
+          "icon": "カチンコ",
+          "title": "VIRTUA FIGHTER CROSSROADS SHOWCASE",
+          "type": "ショーケース・アーカイブ",
+          "url": "https://www.youtube.com/watch?v=dwjNGD6hpfc",
+          "focus": "開発者によるヴィラサパラの概要と格闘システムの進化",
+          "confirms": [
+            "プロデューサー兼クリエイティブディレクターの山田理一郎氏と開発チームが、ゲームの方向性について説明します。",
+            "ショーケースでは、物語の舞台となる都市「ビラサパラ」を紹介しています。",
+            "ショーケースでは、進化したバトルシステムとファイティングアドベンチャーの構成を紹介しています。"
+          ]
+        },
+        {
+          "icon": "ブックオープン",
+          "title": "VIRTUA FIGHTER CROSSROADS | シエロ ストーリートレーラー",
+          "type": "ストーリートレーラー",
+          "url": "https://www.youtube.com/watch?v=m5hz3IUesmk",
+          "focus": "シエロ、ビラサパラ、そしてストーリーモードの導入",
+          "confirms": [
+            "シエロは4人の新たな主人公のうちの1人です。",
+            "物語は、交錯する人生、分岐する運命、そしてドラマチックな闘いを中心に展開します。",
+            "ビラサパラの格闘文化、犯罪組織の圧力、そして「ビラ・ファイト・フェスト」を巡る対立が、設定の核となっています。"
+          ]
+        },
+        {
+          "icon": "ユーザー",
+          "title": "VIRTUA FIGHTER CROSSROADS | バクナワキラー 最新トレーラー",
+          "type": "キャラクタートレーラー",
+          "url": "https://www.youtube.com/watch?v=5p_vR6s_fzk",
+          "focus": "バクナワキラー公開",
+          "confirms": [
+            "バクナワキラーは、シエロのストーリーに登場する新キャラクターです。",
+            "バクナワキラーはバトルモードでプレイ可能です。",
+            "トレーラーでは、パイ・チェンとシエロが仮面の襲撃者を追跡する様子が描かれています。"
+          ]
+        },
+        {
+          "icon": "スパークル",
+          "title": "VIRTUA FIGHTER CROSSROADS | LEGACY 公式AMV",
+          "type": "プロモーションビデオ",
+          "url": "https://www.youtube.com/watch?v=IAzfDOlbzNM",
+          "focus": "シリーズのレガシーと世界観を表現した映像",
+          "confirms": [
+            "セガは『クロスロード』を『バーチャファイター』の新たなる大胆な一歩として位置づけています。",
+            "この映像は、長年続く3D格闘シリーズの現代的な後継作としての本作のアイデンティティを支えています。"
+          ]
+        }
+      ]
+    },
+    "vfCrossroadsStory": {
+      "title": "『バーチャファイター クロスロード』ストーリーモードとビラサパラ",
+      "intro": "『バーチャファイター クロスロード』は、単なる従来の格闘ゲームのキャンペーンにとどまらない、ファイティングアドベンチャーです。物語の舞台となるビラサパラでは、プレイヤーの行動や勝敗によって、4人の主人公が織りなすストーリーの展開が変化します。",
+      "chapters": [
+        {
+          "icon": "マップピン",
+          "section": "基本設定",
+          "title": "闘いを中心に築かれた街",
+          "summary": "物語の舞台は20XX年のビラサパラ。そこは「アルマ・カルタ」によって流血の時代が終結し、銃器の所持・使用には死刑が科される架空の東南アジアの大都市です。",
+          "details": [
+            "犯罪組織は、危うい均衡の下で活動しています。",
+            "バト大統領は、経済復興の解決策および国技として「ビラ・ファイト・フェスト」を推進しています。",
+            "格闘家を狙った一連の襲撃事件は、「バクナワキラー」と呼ばれる人物と結びついています。"
+          ]
+        },
+        {
+          "icon": "コンパス",
+          "section": "舞台設定",
+          "title": "ビラサパラ",
+          "summary": "ビラサパラは闘いの街として知られ、城壁に囲まれた中心部から、歓楽街やリゾート地区まで、いくつかの特徴的なエリアに分かれています。",
+          "details": [
+            "この街は、探索を楽しめる生きた舞台として、龍が如くスタジオによって設計されています。",
+            "プレイヤーは、住民や場所に紐づいたサイドストーリーやクエストを見つけ出すことができます。",
+            "開発者インタビューでは、ヴィラサパラは複数の大規模な地区で構成される大都市であると説明されています。"
+          ]
+        },
+        {
+          "icon": "ユーザー",
+          "section": "主人公",
+          "title": "交錯する4つの物語",
+          "summary": "メインシナリオでは、異なる人生、目的、そしてヴィラサパラを訪れた理由を持つ4人の新たな主人公たちの姿が描かれます。",
+          "details": [
+            "シエロは、シングルプレイでプレイヤーが最初に操作する主人公です。",
+            "4人の主人公の物語は、街の中で重なり合い、交錯し、そして分岐していきます。",
+            "各主人公は、それぞれ異なる物語のトーンや背景を持ってデザインされています。"
+          ]
+        },
+        {
+          "icon": "Gitブランチ",
+          "section": "選択肢",
+          "title": "分岐ルート",
+          "summary": "公式サイトでは、行動、勝利、そして敗北がストーリーを大きく左右する要因として位置づけられています。",
+          "details": [
+            "本作は、戦闘の合間に単にストーリーシーンを観るだけにとどまらない設計になっています。",
+            "開発者インタビューでは、プレイするたびに異なる体験ができるように構築された構造について説明されています。",
+            "ストーリーモードと対戦プレイは、同じ基本的な操作体系を共有しています。"
+          ]
+        },
+        {
+          "icon": "足跡",
+          "section": "クエスト",
+          "title": "サイドストーリーと街のアクティビティ",
+          "summary": "ヴィラサパラの探索を進めることで、街やその人々に関連したサイドストーリー、クエスト、そして生活感のあるアクティビティを楽しむことができます。",
+          "details": [
+            "本作は、充実したシングルプレイ体験を提供することを目指しています。",
+            "サイドコンテンツは、単なる時間稼ぎの要素ではなく、ヴィラサパラの世界観に基づいて構築されています。",
+            "歴代の『バーチャファイター』キャラクターが、ストーリーやサイドコンテンツを通じて登場することがあります。"
+          ]
+        },
+        {
+          "icon": "剣",
+          "section": "バトル",
+          "title": "ストーリーバトルとバトルモード",
+          "summary": "ストーリーモードには、ドラマチックな対決、複数人との乱闘、ボス戦が含まれており、バトルモードでは直接的な1対1の対戦がサポートされています。",
+          "details": [
+            "ストーリーバトルは、単なる独立したアーケードマッチではなく、物語の一部として組み込まれています。",
+            "バトルモードは、オンラインとオフラインの両方で1対1の対戦に対応しています。",
+            "戦闘システムは、『バーチャファイター』のパンチ、キック、ガードという基本理念を維持しつつ、システムの一部を再構築しています。"
+          ]
+        },
+        {
+          "icon": "ペンツール",
+          "section": "ライター",
+          "title": "ナラティブチーム",
+          "summary": "ストーリーは、海外のライターと龍が如くスタジオのシナリオスタッフによって共同開発されています。",
+          "details": [
+            "デヴィッド・ヘイターが世界観監修としてクレジットされています。",
+            "ブラッド・ケインがリードライターとしてクレジットされています。",
+            "古田剛志がシナリオディレクターとしてクレジットされています。",
+            "山本慎二がシナリオライターとしてクレジットされています。"
+          ]
+        }
+      ]
+    },
+    "vfCrossroadsCharacters": {
+      "title": "『バーチャファイター クロスロード』の登場キャラクターとロスター",
+      "intro": "『バーチャファイター クロスロード』では、4人の新たな主人公が登場すると同時に、従来の『バーチャファイター』のキャラクターたちも同じ世界に登場します。現在公開されているキャラクターには、シエロ、ステラ・ブリッジス、パイ・チェン、ウルフ・ホークフィールド、結城晶、そしてバクナワキラーが含まれます。",
+      "fighters": [
+        {
+          "icon": "スパークル",
+          "name": "シエロ",
+          "category": "新主人公",
+          "status": "プレイアブルな主人公",
+          "style": "ボクシングをベースとした打撃中心の総合格闘技",
+          "role": "シエロはシングルプレイヤーでプレイヤーが最初に操作する主人公であり、ヴィラサパラで道が交差する4人の新主人公の一人です。"
+        },
+        {
+          "icon": "スター",
+          "name": "ステラ・ブリッジス",
+          "category": "新主人公",
+          "status": "プレイアブルな主人公",
+          "style": "TBA",
+          "role": "ステラ・ブリッジスは4人の新主人公の一人であり、バーチャファイターの新世代キャラクターの一員です。"
+        },
+        {
+          "icon": "UserPlus",
+          "name": "名前のない主人公3",
+          "category": "新主人公スロット",
+          "status": "プレイアブルな主人公",
+          "style": "TBA",
+          "role": "ヴィラサパラの壮大な物語の中で、人生と目的が交差する4人の新主人公の一人。"
+        },
+        {
+          "icon": "User",
+          "name": "名前のない主人公4",
+          "category": "新主人公スロット",
+          "status": "プレイアブルな主人公",
+          "style": "TBA",
+          "role": "異なる背景、動機、ストーリーのトーンを持つ4人の新主人公の一人。"
+        },
+        {
+          "icon": "ウィンド",
+          "name": "パイ・チェン",
+          "category": "レガシーファイター",
+          "status": "プレイアブルなレガシーファイター",
+          "style": "中国拳法",
+          "role": "パイ・チェンは年を重ねたレガシーキャラクターとして登場し、シエロによるバクナワ・キラーの追跡に関わっています。"
+        },
+        {
+          "icon": "トロフィー",
+          "name": "ウルフ・ホークフィールド",
+          "category": "レガシーファイター",
+          "status": "プレイアブルなレガシーファイター",
+          "style": "プロレスリング",
+          "role": "ウルフは『Crossroads』に登場するレガシーなバーチャファイターキャラクターの一人として再登場します。"
+        },
+        {
+          "icon": "ザップ",
+          "name": "結城 晶",
+          "category": "レガシーファイター",
+          "status": "プレイアブルなレガシーファイター",
+          "style": "八極拳",
+          "role": "Akiraは、Crossroadsのロスターおよび世界に復活するVirtua Fighterのキャラクターとして登場します。"
+        },
+        {
+          "icon": "目",
+          "name": "Bakunawa Killer",
+          "category": "ストーリーキャラクター",
+          "status": "バトルモードでプレイ可能",
+          "style": "TBA",
+          "role": "Bakunawa Killerは、Vilasapara中のファイターを標的とした一連の襲撃事件に関与しています。"
+        },
+        {
+          "icon": "画像",
+          "name": "Jacky Bryant",
+          "category": "レガシーリファレンス",
+          "status": "ビジュアルリファレンス",
+          "style": "Jeet Kune Do",
+          "role": "Jackyは、他のレガシーなVirtua Fighterのキャラクターとともに、Vilasaparaのウォールアートに描かれています。"
+        }
+      ]
+    },
+    "vfCrossroadsCombat": {
+      "title": "Virtua Fighter Crossroadsの戦闘メカニクス",
+      "intro": "Virtua Fighter Crossroadsは、シリーズ伝統の至近距離での読み合いに焦点を当てつつ、新たなモメンタムツール、シネマティックな防御オプション、そしてよりリアルな打撃表現を中心にバトルシステムを再構築しています。このセクションでは、プレイヤーが実際の戦闘で各システムがどのように機能するかを素早く確認できるよう、バトルルールと個々のメカニクスを分けて説明します。",
+      "mechanics": [
+        {
+          "icon": "シールド",
+          "name": "スタンダードルール",
+          "category": "バトルルール",
+          "howItWorks": "勝敗は、相手の体力をゼロにするか、リングアウトさせることで決定します。デフォルト設定では、3ラウンド先取することで勝利となります。",
+          "playerImpact": "これは、体力管理、ステージコントロール、そしてリングアウトのプレッシャーを求めるプレイヤー向けの、伝統的なVirtua Fighterスタイルのルールオプションです。",
+          "trackedDetails": [
+            "ラウンド設定",
+            "リングアウトの挙動",
+            "マッチオプションコントロール"
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Uprisingルール",
+          "category": "バトルルール",
+          "howItWorks": "スタンダードルールとは異なるコンセプトとして設計された、ダイナミックな戦況の変化（モメンタムシフト）の機会を中心に構築された新しいルールオプションです。",
+          "playerImpact": "Uprisingは、従来のラウンド制バトルよりもドラマチックな試合展開を求めるプレイヤーにとって、注目の主要ルールセットです。",
+          "trackedDetails": [
+            "全体のルールフロー",
+            "スコア獲得条件",
+            "対戦設定"
+          ]
+        },
+        {
+          "icon": "ハンマー",
+          "name": "Break and Rush",
+          "category": "攻撃システム",
+          "howItWorks": "特定の身体部位に攻撃を当て続けることで、ダメージが蓄積されます。一定以上のダメージが蓄積すると、攻撃側はブレイク攻撃を繰り出すことができ、破壊された状態はラウンドをまたいで引き継がれます。",
+          "playerImpact": "プレイヤーは目先のダメージを追い求めるだけでなく、特定の部位へのプレッシャーを軸にした攻撃プランを組み立てることができ、試合全体を通じた長期的な戦略が生まれます。",
+          "trackedDetails": [
+            "破壊可能な部位",
+            "ブレイク攻撃の発動条件",
+            "引き継ぎの挙動"
+          ]
+        },
+        {
+          "icon": "Zap",
+          "name": "スタナー",
+          "category": "打撃技",
+          "howItWorks": "相手にさらなるダメージを与える隙を作り、新たなスタンコンボの流れへと繋ぐ新しい打撃技。",
+          "playerImpact": "スタナーは、従来の浮かせからの空中コンボパターンのみに頼ることなく、コンボの起点を作る明確な手段をプレイヤーに提供します。",
+          "trackedDetails": [
+            "スタナーの入力",
+            "ヒット条件",
+            "追撃受付時間"
+          ]
+        },
+        {
+          "icon": "アクティビティ",
+          "name": "スタンコンボ",
+          "category": "コンボシステム",
+          "howItWorks": "流れるような動きとリアリズムに焦点を当て、複雑な入力なしでより強力なコンボルートにアクセスできるように設計された新しいコンボシステム。",
+          "playerImpact": "初心者プレイヤーはダメージの高い追撃へのより明確なルートを得られ、上級者プレイヤーはスタン状態がどのようにプレッシャーの駆け引きを変化させるかを探求できます。",
+          "trackedDetails": [
+            "コンボ始動技",
+            "ダメージ補正",
+            "キャラクター固有ルート"
+          ]
+        },
+        {
+          "icon": "風",
+          "name": "フローガード",
+          "category": "防御システム",
+          "howItWorks": "流れるような動きと視覚的な華やかさを強調したスタイリッシュな防御メカニクス。戦闘中に「ブレイク」や「ラッシュ」と連携し、攻守の主導権を移行させます。",
+          "playerImpact": "防御がより能動的かつ明確になり、単にガードや避けを行うだけではない、新たな駆け引きのレイヤーをプレイヤーに提供します。",
+          "trackedDetails": [
+            "ガードタイミング",
+            "ブレイクとラッシュの相互作用",
+            "カウンタープレイの選択肢"
+          ]
+        },
+        {
+          "icon": "手",
+          "name": "近距離戦におけるバーチャファイターの根幹",
+          "category": "シリーズの基盤",
+          "howItWorks": "バーチャファイターの戦闘は、打撃、投げ、ガードを三つの柱とした近接格闘を中心に構築されています。",
+          "playerImpact": "『Crossroads』でも、プレイヤーは相手の動きを直接読む必要があります。打撃は投げの試みを破り、ガードは打撃を無効化し、投げは消極的なガードを崩します。",
+          "trackedDetails": [
+            "打撃・投げ・ガードの三すくみ",
+            "間合いのルール",
+            "移動の選択肢"
+          ]
+        },
+        {
+          "icon": "カチンコ",
+          "name": "シネマティックなヒット演出",
+          "category": "演出システム",
+          "howItWorks": "『Crossroads』では、ドラマチックなカメラワークや、より重みのあるクローズアップでの被弾リアクションなど、アクション映画にインスパイアされた戦闘演出を採用しています。",
+          "playerImpact": "本作はバーチャファイターならではのテクニカルなアイデンティティを維持しつつ、決定打をより見極めやすく、視覚的にも表現力豊かなものにしています。",
+          "trackedDetails": [
+            "カメラの挙動",
+            "フィニッシュヒット演出",
+            "対戦における視認性"
+          ]
+        },
+        {
+          "icon": "ゲームパッド2",
+          "name": "直感的な操作体系の再構築",
+          "category": "操作理念",
+          "howItWorks": "開発チームは、Virtua Fighterのシンプルでダイレクトな操作感を維持しながら、過去の複雑な要素を整理し、新しいシステムを追加しています。",
+          "playerImpact": "Crossroadsは、初見でも理解しやすいシンプルさを持ちながら、タイミング、読み合い、防御、そしてシステムの習得によって奥深さが生まれるゲームとして位置づけられています。",
+          "trackedDetails": [
+            "パンチ、キック、ガードの流れ",
+            "レガシーシステムの変更",
+            "入力のアクセシビリティ"
+          ]
+        }
+      ]
+    },
+    "vfCrossroadsBeginner": {
+      "title": "Virtua Fighter Crossroads ビギナーガイド",
+      "intro": "Virtua Fighterは、飛び道具や遠距離でのゾーニングを競うゲームではありません。重要なのは、いつ打撃を繰り出し、いつガードし、いつ投げ、そして各攻防の後にどう対応するかといった、至近距離での判断です。このガイドは、Crossroadsの発売前に、新規プレイヤーへ明確な練習手順を提供します。",
+      "steps": [
+        {
+          "icon": "クロスヘア",
+          "focus": "戦闘の基本",
+          "title": "打撃、投げ、ガードの三すくみを学ぶ",
+          "whatToLearn": "打撃は投げを狙う相手に勝ち、ガードは打撃を無効化し、投げはガードを固める相手を崩します。",
+          "practiceActions": [
+            "ガード、投げ、基本攻撃のみに焦点を当てた、短いラウンドをプレイしましょう。",
+            "毎回の攻防の後、次のラウンドを始める前に、何が何に勝ったのかを声に出して確認しましょう。"
+          ],
+          "crossroadsCarryover": "Crossroadsは、至近距離での攻防というVirtua Fighterのアイデンティティを維持しつつ、その土台の上に新しいシステムを追加しています。"
+        },
+        {
+          "icon": "キーボード",
+          "focus": "操作方法",
+          "title": "パンチ、キック、ガードの操作に慣れる",
+          "whatToLearn": "Virtua Fighterのコマンド表記はシンプルなボタンルールに基づいています。PKはパンチの後にキック、P+Kはパンチとキックの同時押しを意味します。",
+          "practiceActions": [
+            "タイミングが自然に感じられるようになるまで、基本的なパンチ、キック、ガード、PK、P+Kの入力を繰り返しましょう。",
+            "技表の矢印はプレイヤー1（1P）の向きを基準に読み、逆のサイドで練習する際は矢印を反転させてください。"
+          ],
+          "crossroadsCarryover": "Crossroadsは、基本アクションが分かりやすく、直感的な操作感を中心に設計されています。"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "focus": "最初の練習セッション",
+          "title": "高度な防御を追求する前に、チュートリアルモードを活用する",
+          "whatToLearn": "公式の初心者向けガイダンスでは、高度な攻防のレッスンの前に、操作方法、移動、ガード、そして基本事項を学ぶことを推奨しています。",
+          "practiceActions": [
+            "まずは基本的なチュートリアルをプレイしましょう。",
+            "最初のセッションでは高度なシステムは無視し、移動とガードの反復練習を行いましょう。"
+          ],
+          "crossroadsCarryover": "この順序はCrossroadsでも同様です。まずは基本操作を学び、その後にBreak and Rush、Flow Guard、Stunner、そしてStun Comboを習得しましょう。"
+        },
+        {
+          "icon": "シールド",
+          "focus": "防御",
+          "title": "立ちガードとしゃがみガードを使い分ける",
+          "whatToLearn": "立ちガードは上段・中段攻撃を防ぎますが、下段攻撃や投げには負けます。しゃがみガードは下段攻撃を防ぎ、上段攻撃や投げを回避しますが、中段攻撃には負けます。",
+          "practiceActions": [
+            "まずは立ちガードから始めて、強力な中段攻撃によるダメージを抑えましょう。",
+            "下段攻撃や投げを見極められるようになったら、しゃがみガードを取り入れましょう。"
+          ],
+          "crossroadsCarryover": "Flow Guardは新たな防御の選択肢を加えるものですが、まずは上段、中段、下段、そして投げに対する基本的な意識が不可欠です。"
+        },
+        {
+          "icon": "ターゲット",
+          "focus": "ターンのやり取り",
+          "title": "ガード成功後に攻撃する",
+          "whatToLearn": "ガードに成功した後、多くの場合、ガードした側が先に動けます。固まったままにならず、反撃のチャンスを逃さないようにしましょう。",
+          "practiceActions": [
+            "基本的な攻撃をガードし、すぐに発生の早い中段攻撃で応戦しましょう。",
+            "選択肢を増やす前に、まずは練習中のキャラクターで隙の少ない追撃を1つ練習しましょう。"
+          ],
+          "crossroadsCarryover": "「Flow Guard」やシネマティックな戦闘演出により、防御はCrossroadsの習得において重要な要素となりますが、まずは基本的なガードの習慣を身につけることから始まります。"
+        },
+        {
+          "icon": "ハンド",
+          "focus": "投げ技",
+          "title": "ずっとガードに閉じこもらない",
+          "whatToLearn": "ガードしすぎると投げを誘発します。投げが来ると予測したら打撃を繰り出すか、相手の投げ方向に合わせた方向キー＋P+G、またはガード中にPを押して投げ抜けを練習しましょう。",
+          "practiceActions": [
+            "相手に何度か投げさせて、そのパターンを見極めましょう。",
+            "ガード、打撃、投げ抜けの練習を交互に行いましょう。"
+          ],
+          "crossroadsCarryover": "打撃・投げ・ガードの三すくみの読み合いは、依然としてCrossroadsの1対1の対戦を理解する最短の道です。"
+        },
+        {
+          "icon": "ロケット",
+          "focus": "コンボ",
+          "title": "長いルートではなく、まずはおすすめコンボから始めよう",
+          "whatToLearn": "攻撃が当たったら、まずは簡単なコンボで追撃しましょう。長いコンボルートはダメージを伸ばせますが、まずは基本のルートを無意識に出せるようになってからです。",
+          "practiceActions": [
+            "浮かせ技か始動技を1つ、そして短い追撃を1つ選びましょう。",
+            "別のルートを追加する前に、同じコンボを左右両方の立ち位置から繰り返しましょう。"
+          ],
+          "crossroadsCarryover": "「Stunner」や「Stun Combo」によってCrossroadsには新たなコンボパスが加わります。そのため、文脈のない古いルートを暗記するよりも、正確な始動の習慣を身につけることが重要です。"
+        },
+        {
+          "icon": "フットプリント",
+          "focus": "練習の流れ",
+          "title": "チュートリアルモード、アーケードモード、そしてオンライン対戦へ",
+          "whatToLearn": "公式の初心者向けガイドでは、操作習得のためのチュートリアルモード、全キャラクターに慣れるためのアーケードモード、そして自信がついたらオンライン対戦に挑戦することを推奨しています。",
+          "practiceActions": [
+            "入力の練習にはチュートリアルモードを活用しましょう。",
+            "多くのキャラクターを知るためにアーケードモードを活用しましょう。",
+            "ガード、確定反撃、そして短いコンボを確実にこなせるようになってからオンライン対戦に挑みましょう。"
+          ],
+          "crossroadsCarryover": "Battle Modeにはオンライン・オフライン両方の1対1の対戦が含まれているため、この練習の流れはそのまま対人戦に活かせます。"
+        },
+        {
+          "icon": "ユーザー",
+          "focus": "練習用キャラクター",
+          "title": "初心者に優しいVirtua Fighterの推奨キャラクターを使おう",
+          "whatToLearn": "現在のVirtua Fighterの公式ガイドでは、既存のゲーム環境で基本を学ぶための初心者向けキャラクターとして、Jacky、Pai、Jeanが挙げられています。",
+          "practiceActions": [
+            "Jackyを使って、シンプルな打撃と投げを学びましょう。",
+            "Paiを使って、構えや捌きの意識を学びましょう。",
+            "Jeanを使って、基本技と溜め攻撃を学びましょう。"
+          ],
+          "crossroadsCarryover": "これらは現在のVirtua Fighterにおける練習用キャラクターです。Crossroadsでのキャラクター選択は、最終的なCrossroadsの参戦キャラクターリストに基づいて行ってください。"
+        },
+        {
+          "icon": "コンパス",
+          "focus": "Crossroadsへの移行",
+          "title": "シングルプレイヤーで学んだ教訓を対戦プレイに活かそう",
+          "whatToLearn": "Crossroadsは、シングルプレイヤーで学んだことが対人戦でも活かせるように設計されています。4人の主人公も、対戦モードのプレイアブルキャラクターとして登場予定です。",
+          "practiceActions": [
+            "Story Modeを通じて、キャラクターの個性や戦闘スタイルを学びましょう。",
+            "同じキャラクターをBattle Modeで使用し、1対1の対戦でそのスタイルを試してみましょう。"
+          ],
+          "crossroadsCarryover": "シエロはボクシングをベースにした打撃重視の総合格闘家であり、現代的な近接プレッシャーを仕掛ける上で、最初に注目すべきキャラクターです。"
+        }
+      ],
+      "quickTips": [
+        "『バーチャファイター クロスロード』は、近接でのパンチ、キック、ガードというアイデンティティを維持しつつ、「ブレイク＆ラッシュ」、「フローガード」、「スタナー」、「スタンコンボ」を追加しています。",
+        "打撃・投げ・ガードのロジックは、依然として『クロスロード』の1対1のバトルを理解するための最も手っ取り早い思考モデルです。",
+        "次の順序で進めましょう：操作入力のためのチュートリアルモード、キャラクターに慣れるためのアーケードモード、そしてガードや確定反撃、短いコンボを1つ決められるようになったらオンラインマッチへ。",
+        "ジャッキー、パイ、ジャンは、現在の『バーチャファイター』において初心者向けのキャラクターであり、『クロスロード』のロスターが決定する前に基礎を築くための最適な選択肢です。"
+      ]
+    },
+    "vfCrossroadsBattleMode": {
+      "title": "『バーチャファイター クロスロード』バトルモード＆オンラインプレイ",
+      "intro": "『クロスロード』は、連動する2つのプレイスタイルを中心に構成されています。ヴィラサパラを舞台にしたストーリー重視のシングルプレイヤーアドベンチャーと、バトルモードによる直接的な1対1の対戦です。ストーリーバトルでは世界観、キャラクター、新システムを学ぶことができ、バトルモードでは従来の対戦形式を楽しむことができます。",
+      "modes": [
+        {
+          "icon": "BookOpen",
+          "name": "ストーリーモード / ファイティングアドベンチャー",
+          "format": "シングルプレイヤー向けのストーリーアドベンチャー",
+          "playerExperience": "ヴィラサパラを探索し、4人の主人公の交錯するストーリーを追いながら、行動や勝敗によって結末が変化する選択を行っていきます。",
+          "confirmedFeatures": [
+            "ストーリー主導のゲームプレイ",
+            "4人の主人公によるストーリー構成",
+            "分岐ルート",
+            "ヴィラサパラに紐づくサイドストーリーやクエスト"
+          ],
+          "bestFor": "ストーリー、探索、キャラクターの成長、そしてバトル要素を一つのモードで楽しみたいプレイヤー。"
+        },
+        {
+          "icon": "ユーザー",
+          "name": "多人数バトル",
+          "format": "ストーリーモードの戦闘エンカウント",
+          "playerExperience": "従来の1対1の決闘だけでなく、ストーリーに組み込まれたドラマチックな多人数バトルに挑みます。",
+          "confirmedFeatures": [
+            "多人数での決戦",
+            "アクションアドベンチャーの戦闘要素",
+            "ストーリーとの融合"
+          ],
+          "bestFor": "『バーチャファイター』の枠組みの中で、龍が如くスタイルのアクションゲームのような幅広いバトルを楽しみたいプレイヤー。"
+        },
+        {
+          "icon": "Crown",
+          "name": "ボスバトル",
+          "format": "ストーリーモードの演出バトル",
+          "playerExperience": "ストーリーの重要な節目で発生する激しいボス戦に挑み、新しいバトルシステムへの理解度を試されます。",
+          "confirmedFeatures": [
+            "ストーリーモードにおけるボスバトル",
+            "ドラマチックな演出",
+            "ストーリー展開に合わせたバトルの配置"
+          ],
+          "bestFor": "通常の対戦プレイよりも豪華な演出で、シングルプレイヤーとしてのクライマックスバトルを楽しみたいプレイヤー。"
+        },
+        {
+          "icon": "Swords",
+          "name": "バトルモード",
+          "format": "1対1の対戦",
+          "playerExperience": "ストーリーアドベンチャーを進めることなく、直接1対1の対戦に移行できます。",
+          "confirmedFeatures": [
+            "オフラインでの1対1の対戦",
+            "オンラインでの1対1の対戦",
+            "従来の対戦形式"
+          ],
+          "bestFor": "『バーチャファイター』の直接対戦、ローカルプレイ、オンラインプレイ、または特定のシステム練習を行いたいプレイヤー。"
+        },
+        {
+          "icon": "Wi-Fi",
+          "name": "オンラインバトルモード",
+          "format": "オンラインでの1対1対戦",
+          "playerExperience": "バトルモードでオンライン対戦を行います。",
+          "confirmedFeatures": [
+            "オンラインバトルモード",
+            "1対1の対戦形式"
+          ],
+          "bestFor": "Crossroadsのキャラクターやシステムを他のプレイヤーと競い合って試したいプレイヤー。"
+        },
+        {
+          "icon": "モニター",
+          "name": "オフラインバトルモード",
+          "format": "ローカルまたはオフラインでの1対1対戦",
+          "playerExperience": "オフラインでの対戦、練習、ローカルマッチセッションにはバトルモードを使用します。",
+          "confirmedFeatures": [
+            "オフラインバトルモード",
+            "1対1の対戦形式"
+          ],
+          "bestFor": "オンラインマッチングなしで、ローカル対戦、トレーニングセッション、イベント設定を行いたいプレイヤー。"
+        },
+        {
+          "icon": "バッジチェック",
+          "name": "ルールセット",
+          "format": "スタンダードとアップライジング",
+          "playerExperience": "スタンダードは体力減少とリングアウトによる勝利条件を維持し、アップライジングは戦況を劇的に変化させる新たなバトルコンセプトを導入します。",
+          "confirmedFeatures": [
+            "スタンダードルール",
+            "アップライジングルール",
+            "ブレイク＆ラッシュ",
+            "フローガード",
+            "スタナー",
+            "スタンコンボ"
+          ],
+          "bestFor": "従来のVirtua Fighterの対戦ロジックと、新しいCrossroadsのバトルの方向性を比較するプレイヤー。"
+        },
+        {
+          "icon": "Gitブランチ",
+          "name": "ストーリーから対戦モードへのキャラクター引き継ぎ",
+          "format": "複数のモードでプレイ可能な主人公たち",
+          "playerExperience": "ストーリーを通じて4人の主人公に出会い、彼らを使って対戦プレイに臨みましょう。",
+          "confirmedFeatures": [
+            "4人の主人公がプレイアブルキャラクターとして予定されています",
+            "シングルプレイでの学びが、そのまま対戦プレイに活きるように設計されています",
+            "Cieloはボクシングをベースにした打撃重視の総合格闘技（MMA）スタイルを使用します"
+          ],
+          "bestFor": "バトルモードに入る前に、ストーリーを通じて使い慣れたメインキャラクターを選びたいプレイヤー。"
+        }
+      ]
+    },
+    "vfCrossroadsOfficialLinks": {
+      "title": "Virtua Fighter Crossroads 公式リンク＆アップデート",
+      "intro": "このハブでは、告知ページ、ニュースフィード、ソーシャルチャネル、ビデオアーカイブ、コミュニティリンク、公式素材の配信や同時視聴に関するクリエイター向けルールなど、公式のCrossroadsリソースを1か所にまとめています。",
+      "links": [
+        {
+          "icon": "地球儀",
+          "name": "VIRTUA FIGHTER CROSSROADS 公式サイト",
+          "category": "公式サイト",
+          "url": "https://crossroads.virtua-fighter.com/en",
+          "description": "2027年発売タイトルのメインランディングページ、コアピッチ、公式メディア、およびソーシャルリンク。",
+          "bestFor": "発売時期、ストーリー概要、キービジュアル、公式メディア"
+        },
+        {
+          "icon": "ビル2",
+          "name": "Virtua Fighter公式ウェブポータル",
+          "category": "公式ポータル",
+          "url": "https://virtua-fighter.com/en",
+          "description": "Virtua Fighterのニュース、初心者向けリソース、最新のゲームアップデート、グッズ、コミュニティリンクをまとめたシリーズのハブ。",
+          "bestFor": "シリーズニュース、公式ビギナーズガイド、Discordへのアクセス"
+        },
+        {
+          "icon": "新聞",
+          "name": "Virtua Fighterニュース",
+          "category": "ニュース",
+          "url": "https://virtua-fighter.com/en/news",
+          "description": "Crossroadsの告知や最新のVirtua Fighterアップデートを網羅する公式ニュースインデックス。",
+          "bestFor": "最新のお知らせ、アップデート情報、イベント情報"
+        },
+        {
+          "icon": "キラキラ",
+          "name": "Crossroadsの発表とバトルの詳細",
+          "category": "ニュース",
+          "url": "https://ryu-ga-gotoku.com/asia_en/info/detail/004309.html",
+          "description": "2027年の発売時期、Vilasapara、ストーリー設定、ストーリーモード、バトルモード、公式SNSチャンネルを紹介するRGG Studio公式ニュースポスト。",
+          "bestFor": "Crossroads発表の主な詳細"
+        },
+        {
+          "icon": "送信",
+          "name": "VIRTUA FIGHTER CROSSROADS公式X",
+          "category": "ソーシャル",
+          "url": "https://x.com/VFCROSSROADS",
+          "description": "短文の告知やアップデート情報を発信するCrossroads公式Xアカウント。",
+          "bestFor": "素早いニュース確認とソーシャルアップデート"
+        },
+        {
+          "icon": "カメラ",
+          "name": "VIRTUA FIGHTER CROSSROADS公式Instagram",
+          "category": "ソーシャル",
+          "url": "https://www.instagram.com/vfcrossroads",
+          "description": "ビジュアルアップデート、クリップ、プロモーション投稿を発信する公式Instagramアカウント。",
+          "bestFor": "スクリーンショット、クリップ、キャンペーン投稿"
+        },
+        {
+          "icon": "音楽",
+          "name": "VIRTUA FIGHTER CROSSROADS公式TikTok",
+          "category": "ソーシャル",
+          "url": "https://www.tiktok.com/@vfcrossroads",
+          "description": "短編動画のアップデートやプロモーションクリップを発信する公式TikTokアカウント。",
+          "bestFor": "ショート動画とソーシャルクリップ"
+        },
+        {
+          "icon": "動画",
+          "name": "Virtua Fighter公式YouTube",
+          "category": "動画",
+          "url": "https://www.youtube.com/@virtuafighter_official_jp",
+          "description": "公開トレーラー、ショーケースのアーカイブ、ストーリートレーラー、キャラクター紹介やガイド動画を配信する公式YouTubeチャンネルです。",
+          "bestFor": "トレーラー、ショーケース、公式ビデオアーカイブ"
+        },
+        {
+          "icon": "MessageCircle",
+          "name": "Virtua Fighter 公式Discord",
+          "category": "コミュニティ",
+          "url": "https://discord.gg/virtuafighter-official",
+          "description": "Virtua FighterおよびCrossroadsの公式サイトからリンクされている公式コミュニティサーバーです。",
+          "bestFor": "コミュニティでの議論や公式Discordアナウンス"
+        },
+        {
+          "icon": "Clapperboard",
+          "name": "Crossroads 同時視聴配信ガイドライン",
+          "category": "クリエイター規約",
+          "url": "https://virtua-fighter.com/en/news/891",
+          "description": "Crossroads Showcaseの同時視聴配信やレビュー動画の投稿に関する公式ルールです。許可されているプラットフォーム、必須のクレジット表記、禁止事項などが含まれます。",
+          "bestFor": "ショーケースの同時視聴配信とレビュー動画"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "name": "SEGA ゲーム配信ガイドライン",
+          "category": "クリエイター規約",
+          "url": "https://www.sega.co.jp/en/streaming_guideline/",
+          "description": "プレイ動画、収益化の制限、非公式コンテンツ、未発売製品、および禁止事項に関するSEGAの全般的なポリシーです。",
+          "bestFor": "動画クリエイター、ストリーマー、およびサイト運営者"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "ご質問",
+    "subtitle": "Virtua Fighter Crossroadsに関するすべての情報",
+    "questions": [
+      {
+        "question": "Virtua Fighter Crossroadsの発売日はいつですか？",
+        "answer": "Virtua Fighter Crossroadsは2027年の発売を予定しています。SEGAはまだ正確な発売日を発表していません。"
+      },
+      {
+        "question": "Virtua Fighter Crossroadsの対応プラットフォームは何ですか？",
+        "answer": "対応プラットフォームはまだ未定（TBA）です。Virtua Fighter Crossroadsは家庭用ゲーム機向けのプロジェクトとして説明されており、SEGAは発売時期が近づいた際に完全なプラットフォームリストを公開する予定です。"
+      },
+      {
+        "question": "Virtua Fighter Crossroadsは格闘ゲームですか、それともアドベンチャーゲームですか？",
+        "answer": "Virtua Fighter Crossroadsは格闘アドベンチャーです。Vilasaparaを舞台にした物語主導のシングルプレイヤー向けストーリーと、従来のVirtua Fighterの1対1の対戦格闘が融合しています。"
+      },
+      {
+        "question": "Virtua Fighter Crossroadsの主人公は誰ですか？",
+        "answer": "物語はCieloやStella Bridgesを含む4人の新主人公を追います。また、Pai Chan、Wolf Hawkfield、Akira Yukiといった歴代のファイターもVirtua Fighter Crossroadsに登場します。"
+      },
+      {
+        "question": "Virtua Fighter Crossroadsの物語の舞台はどこですか？",
+        "answer": "舞台は東南アジアの架空の格闘都市Vilasaparaです。Virtua Fighter Crossroadsでは、Vila Fight Festや犯罪シンジケート、および格闘家たちが交錯します。"
+      },
+      {
+        "question": "Virtua Fighter CrossroadsでBakunawa Killerはプレイ可能ですか？",
+        "answer": "はい。Bakunawa KillerはBattle Modeでプレイ可能なキャラクターとして確定しており、Virtua Fighter Crossroads内のCieloのストーリーにも登場します。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Virtua Fighter Crossroadsの世界に飛び込む準備はいいですか？",
+    "description": "DiscordのVirtua Fighter Crossroads公式コミュニティに参加して、ストーリーの更新、キャラクター公開、トレーラー、議論をチェックしましょう。",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "公式サイトを見る"
+  },
+  "footer": {
+    "title": "Virtua Fighter Crossroads Wiki",
+    "description": "Virtua Fighter Crossroadsの発売情報、ストーリー、キャラクター、バトル、トレーラー、そしてVilasaparaの街の伝承に関する完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的事項",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "YouTube",
+    "steamStore": "Instagram",
+    "about": "このサイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Virtua Fighter Crossroads Wiki. セガおよび龍が如くスタジオとは提携していません。",
+    "disclaimer": "非公式のファンによるリソースウェブサイトです。"
+  },
+  "pages": {
+    "release": {
+      "title": "Virtua Fighter Crossroads 発売情報",
+      "description": "Virtua Fighter Crossroadsの確定した2027年の発売時期、正式タイトル、開発元、パブリッシャー、およびTBA（後日発表）のプラットフォーム詳細を追跡します。",
+      "metaTitle": "Virtua Fighter Crossroads 発売日とプラットフォーム",
+      "metaDescription": "Virtua Fighter Crossroadsの発売日、2027年の発売時期、確定した開発元とパブリッシャー、およびTBAのプラットフォーム詳細。",
+      "categoryLabel": "発売情報",
+      "whatIs": "Virtua Fighter Crossroadsの発売状況はどうなっていますか？",
+      "whatIsDescription": "Virtua Fighter Crossroadsはセガと龍が如くスタジオより2027年に発売予定です。正確な日付、プラットフォーム、価格、エディションはTBA（後日発表）です。",
+      "why": "なぜ発売情報を追うのか？",
+      "whySteps": {
+        "step1Title": "確定した発売時期",
+        "step1Description": "予約開始前に、公式の2027年発売時期を把握しましょう。",
+        "step2Title": "プラットフォームの明確化",
+        "step2Description": "どの家庭用ゲーム機やPCストアフロントが確定しているかを確認しましょう。",
+        "step3Title": "エディションと予約",
+        "step3Description": "セガから発表される価格、エディション、予約開始日をいち早くキャッチしましょう。"
+      },
+      "featured": "注目の記事＆基本情報",
+      "all": "すべての発売関連記事"
+    },
+    "trailer": {
+      "title": "Virtua Fighter Crossroads トレーラー",
+      "description": "公式の発表トレーラー、ショーケースのアーカイブ、Cieloのストーリートレーラー、Bakunawa Killerのトレーラー、そしてLEGACYプロモーションビデオを視聴しましょう。",
+      "metaTitle": "Virtua Fighter Crossroads トレーラー＆ショーケース",
+      "metaDescription": "Virtua Fighter Crossroads公式トレーラー：発表、ショーケース、Cieloストーリー、Bakunawa Killerの公開ビデオ。",
+      "categoryLabel": "公式ビデオ",
+      "whatIs": "Virtua Fighter Crossroadsのトレーラーにはどのようなものがありますか？",
+      "whatIsDescription": "タイトル、Vilasapara、4人の主人公、そして新たに判明したキャラクターを紹介する公式ビデオサイクルです。",
+      "why": "なぜトレーラーを見るのか？",
+      "whySteps": {
+        "step1Title": "タイトルと発売",
+        "step1Description": "公式タイトルと2027年の発売時期を確認。",
+        "step2Title": "世界観とストーリー",
+        "step2Description": "ビラサパラ、シエロ、そして物語の方向性を確認。",
+        "step3Title": "新キャラクター",
+        "step3Description": "バクナワキラーなど、新たに公開されたファイターたちを紹介。"
+      },
+      "featured": "注目＆必須情報",
+      "all": "トレーラー記事一覧"
+    },
+    "story": {
+      "title": "Virtua Fighter Crossroads ストーリー",
+      "description": "格闘アドベンチャーのシステム、都市ビラサパラ、4人の主人公、分岐するストーリー、そしてサイドクエストを探る。",
+      "metaTitle": "Virtua Fighter Crossroads ストーリーモードとビラサパラ",
+      "metaDescription": "Virtua Fighter Crossroads ストーリーモード、舞台となるビラサパラ、4人の主人公、分岐するストーリー、そしてサイドクエスト。",
+      "categoryLabel": "ストーリーモード",
+      "whatIs": "Virtua Fighter Crossroads のストーリーとは？",
+      "whatIsDescription": "ビラサパラを舞台に、プレイヤーの選択や勝敗が4人の主人公の物語を変化させる、ストーリー主導の格闘アドベンチャー。",
+      "why": "ストーリーに注目すべき理由",
+      "whySteps": {
+        "step1Title": "4人の主人公",
+        "step1Description": "ビラサパラで交錯する4人の主人公たちの物語を追う。",
+        "step2Title": "分岐するルート",
+        "step2Description": "選択やバトルの結果によって物語がどのように変化するかを確認。",
+        "step3Title": "都市の歴史と設定",
+        "step3Description": "Vila Fight FestやArma Cartaの背景を解き明かす。"
+      },
+      "featured": "注目＆必須情報",
+      "all": "ストーリー関連記事一覧"
+    },
+    "characters": {
+      "title": "Virtua Fighter Crossroads キャラクター",
+      "description": "参戦が決定した新たな主人公、公開されたファイター、歴代キャラクターの登場、格闘スタイル、そして物語における役割をチェック。",
+      "metaTitle": "Virtua Fighter Crossroads キャラクター＆ロースター",
+      "metaDescription": "Virtua Fighter Crossroads のキャラクター：新たな主人公、歴代ファイター、決定した役割、そして格闘スタイル。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "Virtua Fighter Crossroads のキャラクターは？",
+      "whatIsDescription": "4人の新たな主人公に加え、パイ・チェン、ウルフ・ホークフィールド、結城晶などの歴代ファイター、そしてストーリーキャラクターのバクナワキラー。",
+      "why": "ロースター（参戦キャラクター）に注目すべき理由",
+      "whySteps": {
+        "step1Title": "新たな主人公たち",
+        "step1Description": "シエロ、ステラ・ブリッジス、そして新たな主人公たちを紹介。",
+        "step2Title": "歴代ファイター",
+        "step2Description": "再登場するキャラクターたちが新しい世界観にどのように溶け込んでいるかを確認。",
+        "step3Title": "格闘スタイル",
+        "step3Description": "各ファイターの決定した格闘スタイルを紹介。"
+      },
+      "featured": "注目＆必須情報",
+      "all": "キャラクター関連記事一覧"
+    },
+    "guide": {
+      "title": "Virtua Fighter Crossroads ガイド",
+      "description": "新規プレイヤー向けの基本、打撃・投げ・ガードの三すくみ、近距離の間合い管理、移動、そして練習の流れ。",
+      "metaTitle": "Virtua Fighter Crossroads 初心者向けガイド",
+      "metaDescription": "基本、間合い管理、移動、そして練習の流れを解説する Virtua Fighter Crossroads 初心者向けガイド。",
+      "categoryLabel": "初心者向けガイド",
+      "whatIs": "Virtua Fighter Crossroads ガイドの内容は？",
+      "whatIsDescription": "Virtua Fighter伝統の3ボタンの哲学に基づいた、リリース前に新規プレイヤーが押さえておくべき核心的な基本。",
+      "why": "なぜガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "基本を学ぶ",
+        "step1Description": "パンチ、キック、ガードの入力を理解する。",
+        "step2Title": "間合いを極める",
+        "step2Description": "勝負を決める近距離での攻防を制する。",
+        "step3Title": "効率よく練習する",
+        "step3Description": "オンラインに挑む前に、操作を体に覚え込ませる。"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのガイド記事"
+    }
   }
 }
